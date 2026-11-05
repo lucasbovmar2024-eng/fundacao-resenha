@@ -7,3 +7,5 @@
 .banquet-photo{margin:24px 0;border:1px solid var(--line);background:#efeee6;padding:8px}.banquet-photo img{display:block;width:100%;height:auto}.banquet-photo figcaption{padding:12px 7px;font-size:10px;line-height:1.8}
 
 #results .file-card{margin-bottom:20px}#results .file-card[hidden],.empty[hidden]{display:none}.manifestation{margin:24px 0;padding:10px;border:1px solid var(--line);background:#eeece4}.manifestation img{display:block;width:100%;height:auto}.manifestation figcaption{padding:10px;font-size:10px;line-height:1.7}
+
+.unit-comparison{overflow-x:auto;margin:20px 0}.unit-comparison table{width:100%;border-collapse:collapse;font-size:14px;text-align:left}.unit-comparison th,.unit-comparison td{padding:14px;border:1px solid var(--line);vertical-align:top}.unit-comparison th{background:#e9e6dc;font-weight:600}.unit-comparison tbody tr:nth-child(even){background:#efeee7}.banquet-photo a{display:block}.banquet-photo a:focus-visible{outline:2px solid var(--red)}

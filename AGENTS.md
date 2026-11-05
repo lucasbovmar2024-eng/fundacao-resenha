@@ -19,3 +19,5 @@ O usuário quer histórias conectadas. Ao adicionar SCPs, doutores, funcionário
 - O Goy, O Macaco e O Rebocron são lendas e possíveis fundadores, com nomes verdadeiros desconhecidos; não são SCPs. Resenhilson é a montaria lendária perdida, ainda não recuperada.
 - O 10º Batalhão da Resenha (MTF-10) é um dos mais fortes e importantes. Sua missão principal é capturar e transportar SCPs externos; apoia contenção interna quando necessário. Não é guarnição cotidiana.
 - Capacidades e equipamentos da MTF são ficcionais. Papéis e indicativos não identificam pessoas reais na imagem.
+
+- Os Resenhinhos (MTF-R) são a força-tarefa padrão: equipamento convencional e preparo um pouco acima da média, sem poderes sobrenaturais. Manter sua escala distinta da elite MTF-10.
