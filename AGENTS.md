@@ -21,3 +21,5 @@ O usuário quer histórias conectadas. Ao adicionar SCPs, doutores, funcionário
 - Capacidades e equipamentos da MTF são ficcionais. Papéis e indicativos não identificam pessoas reais na imagem.
 
 - Os Resenhinhos (MTF-R) são a força-tarefa padrão: equipamento convencional e preparo um pouco acima da média, sem poderes sobrenaturais. Manter sua escala distinta da elite MTF-10.
+
+- Os Resenhinhos usam cobertura facial total em imagens e pranchas: capacete fechado, viseira opaca, rosto e pescoço cobertos; sem olhos, cabelos ou traços faciais visíveis. Para o Décimo, preservar a imagem original como principal: a versão totalmente fechada é uma imagem adicional do traje contra anomalias de nível especial, não substitui o retrato original. Armamentos têm seções próprias com nome de arquivo, aparência, função e limites.
