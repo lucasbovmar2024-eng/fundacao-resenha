@@ -25,3 +25,5 @@ O usuário quer histórias conectadas. Ao adicionar SCPs, doutores, funcionário
 - Os Resenhinhos usam cobertura facial total em imagens e pranchas: capacete fechado, viseira opaca, rosto e pescoço cobertos; sem olhos, cabelos ou traços faciais visíveis. Para o Décimo, preservar a imagem original como principal: a versão totalmente fechada é uma imagem adicional do traje contra anomalias de nível especial, não substitui o retrato original. Armamentos têm seções próprias com nome de arquivo, aparência, função e limites.
 
 - O site tem modo claro/escuro no cabeçalho. Preservar a preferência local e as cores originais das imagens. Novos elementos precisam funcionar em ambos os temas.
+
+- Camera Man é funcionário de suporte técnico: câmeras, monitoramento, manutenção e preservação de registros. Não é SCP, pesquisador ou soldado. Não atribuir onisciência, visão através de paredes nem conclusão científica automática às imagens.
