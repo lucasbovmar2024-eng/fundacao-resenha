@@ -98,7 +98,8 @@ const incidentReports = [
     "outcome": "A operação foi reclassificada como “quase”. O protocolo passou a exigir distância entre Kanecomus e invocações com aparência de alimento ou bebida.",
     "scope": "interno",
     "location": "BR-67 / setor de pesquisa",
-    "conflict": "A invocação solicitada por Bovas não correspondeu à urgência do plantão, exigindo ajustar o apoio em vez de presumir obediência perfeita."
+    "conflict": "A invocação solicitada por Bovas não correspondeu à urgência do plantão, exigindo ajustar o apoio em vez de presumir obediência perfeita.",
+    "operation": "op-bov-001"
   },
   {
     "id": "INC-004",
@@ -137,7 +138,8 @@ const incidentReports = [
     "outcome": "O SCP recusou atravessar a barreira que parecia salada. Patapim tornou-se a barreira prioritária. O limite de três invocações simultâneas foi respeitado.",
     "scope": "interno",
     "location": "BR-67 / acesso ao refeitório",
-    "conflict": "A tentativa de Kanecomus alcançar o refeitório exigiu atraso e bloqueio de passagem, respeitando o limite de invocações de Bovas."
+    "conflict": "A tentativa de Kanecomus alcançar o refeitório exigiu atraso e bloqueio de passagem, respeitando o limite de invocações de Bovas.",
+    "operation": "op-bov-002"
   },
   {
     "id": "INC-005",
@@ -176,7 +178,8 @@ const incidentReports = [
     "outcome": "Os recibos permaneceram como evidência. O fenômeno segue em observação remota. Nenhum brainrot está autorizado a entrar à mesa; as duas entidades continuam sem identificação.",
     "scope": "interno",
     "location": "BR-67 / salão do Banquete",
-    "conflict": "O Banquete alterou objetos e registros locais, colocando a observação científica diante de versões incompatíveis da mesma ocorrência."
+    "conflict": "O Banquete alterou objetos e registros locais, colocando a observação científica diante de versões incompatíveis da mesma ocorrência.",
+    "operation": "op-bov-003"
   },
   {
     "id": "INC-006",
@@ -1130,7 +1133,8 @@ const incidentReports = [
       "Portas e registros permaneceram divergentes após o evento"
     ],
     "demonstration": "SCP-6767 demonstrou alteração da geometria local muito além da resistência de paredes ou módulos de transporte. O Décimo suportou o impacto de uma parede em deslocamento e sustentou uma extração sob instabilidade espacial por uma janela curta, com perdas de equipamento e operadores feridos. Não demonstrou imunidade, domínio sobre o Banquete nem capacidade de desfazer a morte.",
-    "outcome": "Uma pessoa morreu e sete ficaram feridas; quatorze pessoas foram retiradas. A manifestação terminou, mas a vitória foi de resgate, não de neutralização. Kanecomus foi transferido por procedimento autorizado para um módulo alimentar de reserva compatível com sua contenção. O salão original permanece interditado: portas não coincidem com a planta e a manutenção não foi liberada. Bovas passou a exigir conferência de rotas externas ao perímetro antes de serviços no setor. As identidades e a natureza dos convidados continuam desconhecidas."
+    "outcome": "Uma pessoa morreu e sete ficaram feridas; quatorze pessoas foram retiradas. A manifestação terminou, mas a vitória foi de resgate, não de neutralização. Kanecomus foi transferido por procedimento autorizado para um módulo alimentar de reserva compatível com sua contenção. O salão original permanece interditado: portas não coincidem com a planta e a manutenção não foi liberada. Bovas passou a exigir conferência de rotas externas ao perímetro antes de serviços no setor. As identidades e a natureza dos convidados continuam desconhecidas.",
+    "operation": "op-bov-004"
   },
   {
     "id": "INC-025",
@@ -1261,10 +1265,100 @@ const incidentReports = [
     ],
     "demonstration": "SCP-0404 demonstrou como o domínio de um circuito de observação pode comprometer a resposta de uma instalação inteira sem sair fisicamente de uma tela. O Décimo operou com sensores limitados e usou proteção física e uma ruptura de fase compatível para resgate, aceitando perdas. Armas e armaduras não corrigiram arquivos nem tornaram a equipe imune à falsificação.",
     "outcome": "Oito pessoas ficaram feridas e a ala técnica permanece interditada para reparos. SCP-0404 foi recontido no Q-404, sem cópia externa ou nova identidade clonada confirmada. A origem do vírus continua desconhecida. Os hospedeiros e registros do circuito afetado permanecem isolados para verificação; o arquivo limpo não foi sobrescrito. As portas dos outros SCPs foram mantidas por conferência presencial, sem fuga confirmada. Toda manutenção da quarentena passou a exigir verificação independente de que nenhum caminho de retorno foi criado."
+  },
+  {
+    "id": "INC-027",
+    "title": "Operação Subsolo de Tênis.",
+    "scope": "interno",
+    "location": "BR-67 / subsolo técnico alagado",
+    "period": "Posterior a INC-026",
+    "people": [
+      [
+        "Dr. Bovas",
+        "dr-bovas"
+      ],
+      [
+        "Soldado de Argatha",
+        "soldado-argatha"
+      ],
+      [
+        "Os Resenhinhos — MTF-R",
+        "resenhinhos"
+      ],
+      [
+        "Camera Man",
+        "camera-man"
+      ]
+    ],
+    "status": "QUATRO PESSOAS RESGATADAS",
+    "summary": "Uma falha hidráulica alagou o acesso de um subsolo e isolou quatro funcionários numa passarela. A liberação mecânica da passagem estava num ponto alto sem acesso seguro imediato.",
+    "conflict": "Bovas foi chamado porque as rotas convencionais de entrada estavam indisponíveis. Ele combinou deslocamento aquático, alcance acrobático e corte preciso, sem tratar as invocações como substitutas de verificar o ambiente.",
+    "sequence": "Argatha e os Resenhinhos limitaram o acesso e confirmaram a área de retirada; Bovas aguardou a liberação do ambiente pelos responsáveis técnicos. Bananini recuperou a chave fora do alcance imediato da equipe. Cappuccino Assassino liberou a portinhola, sem empregar duplicatas na área molhada. Tralalero realizou a retirada em sequência. Bovas encerrou as três invocações ao fim do resgate.",
+    "dialogue": [
+      [
+        "Bovas",
+        "Três invocações é o limite. Uma ideia de cada vez."
+      ],
+      [
+        "Argatha",
+        "Perímetro confirmado."
+      ],
+      [
+        "Bovas",
+        "O relatório fica comigo. A conta vai tentar vir também. Ronaldo."
+      ]
+    ],
+    "outcome": "Os quatro funcionários saíram; um sofreu uma contusão leve durante o deslocamento. Nenhum SCP escapou e o problema de origem foi uma falha hidráulica, não uma nova anomalia. Seis equipamentos do subsolo ficaram inutilizados pela água. Uma casca deixada por Bananini foi removida antes da circulação reabrir. Bovas apresentou exaustão e deixou novas invocações suspensas até se recuperar; os dispositivos danificados não foram restaurados por café ou magia.",
+    "operation": "op-bov-005"
+  },
+  {
+    "id": "INC-028",
+    "title": "Operação Última Vaga.",
+    "scope": "interno",
+    "location": "BR-67 / pátio externo de manutenção, previamente evacuado",
+    "period": "Posterior a INC-027",
+    "people": [
+      [
+        "Dr. Bovas",
+        "dr-bovas"
+      ],
+      [
+        "Soldado de Argatha",
+        "soldado-argatha"
+      ],
+      [
+        "Os Resenhinhos — MTF-R",
+        "resenhinhos"
+      ],
+      [
+        "Camera Man",
+        "camera-man"
+      ]
+    ],
+    "status": "ROTA LIBERADA / DANOS PATRIMONIAIS",
+    "summary": "Um módulo de manutenção cedeu no pátio e bloqueou uma rota de acesso. A equipe precisava liberar uma passagem externa enquanto a circulação interna permanecia restrita após os desastres anteriores.",
+    "conflict": "Bovas autorizou excepcionalmente Bombardiro no espaço externo e evacuado. A proibição de invocá-lo em corredores continuou valendo. Sahur foi usado no aviso inicial; Cappuccina apoiou o plantão, sem criar névoa sobre a rota de retirada.",
+    "sequence": "Sahur sinalizou o bloqueio; Argatha e os Resenhinhos confirmaram o afastamento e o perímetro. Bovas encerrou Sahur antes de invocar Bombardiro. Cappuccina permaneceu no suporte, mantendo o pico em duas entidades simultâneas. Bombardiro atuou somente no pátio evacuado e a passagem foi conferida novamente antes de uso. Bovas cancelou uma segunda intervenção ao avaliar os danos da primeira e encerrou as manifestações.",
+    "dialogue": [
+      [
+        "Bovas",
+        "Três invocações é o limite. Uma ideia de cada vez."
+      ],
+      [
+        "Argatha",
+        "Perímetro confirmado."
+      ],
+      [
+        "Bovas",
+        "O relatório fica comigo. A conta vai tentar vir também. Ronaldo."
+      ]
+    ],
+    "outcome": "A rota foi liberada sem feridos nesta operação. O evento não neutralizou nenhum SCP nem encerrou as interdições anteriores da instalação. A intervenção danificou dois veículos vazios e um painel do pátio. O alarme acordou funcionários fora de turno. A cafeína não substituiu o descanso: o plantão foi revezado, e a manutenção cobrou a liberação da vaga e a conta dos danos.",
+    "operation": "op-bov-006"
   }
 ];
 
 function incidentLabel(r){return r.scope==='externo'?'BRASIL / EXTERNO':'INSTALAÇÃO / INTERNO'}
 function incidentDirectory(){const ext=incidentReports.filter(r=>r.scope==='externo').length;const severe=incidentReports.filter(r=>r.severity==='desastroso').length;return `${crumb('INCIDENTES')}<div class="eyebrow">CENTRAL DE OCORRÊNCIAS / BR-67 E BRASIL</div><h1>A resenha saiu do controle.</h1><p class="intro">Fugas, conflitos, operações e falhas de plantão. Veja onde aconteceu, quem respondeu e como terminou.</p><div class="warning"><b>ARQUIVO DE FICÇÃO:</b> as cidades brasileiras são cenários da história. Os eventos, estabelecimentos e operações destes relatórios são inventados.</div><div class="incident-counts"><span><b>${incidentReports.length}</b> relatórios</span><span><b>${incidentReports.length-ext}</b> na instalação</span><span><b>${ext}</b> externos no Brasil</span><span><b>${severe}</b> desastrosos</span></div><div class="incident-tools"><div class="incident-tabs" role="group" aria-label="Local dos incidentes"><button type="button" data-incident-scope="todos" aria-pressed="true">Todos</button><button type="button" data-incident-scope="interno" aria-pressed="false">Na instalação</button><button type="button" data-incident-scope="externo" aria-pressed="false">No Brasil</button></div><label class="incident-disaster-toggle"><input type="checkbox" id="incident-disasters"> Apenas incidentes desastrosos</label><label for="incident-search">Buscar por SCP, personagem, cidade ou ocorrência</label><input id="incident-search" class="search" type="search" placeholder="Ex.: Campinas, Larper, 0404…"><p id="incident-result-count" class="mono" aria-live="polite">${incidentReports.length} RELATÓRIOS</p></div><div class="incident-grid">${[...incidentReports].reverse().map(r=>`<article class="incident-card" data-incident-card data-scope="${r.scope}"><div class="eyebrow">${r.id} · ${incidentLabel(r)}</div>${r.severity==='desastroso'?'<span class="tag red disaster-tag">DESASTROSO</span>':''}<h2><a href="#${r.id.toLowerCase()}">${r.title}</a></h2><p class="incident-place">${r.location}</p><span class="tag">${r.status}</span><p>${r.summary}</p>${r.impacts?`<p class="incident-impact-summary"><b>ESCALA DO DANO:</b> ${r.impacts[0]}</p>`:''}<div class="incident-ending"><b>COMO TERMINOU</b><p>${r.outcome.length>220?r.outcome.slice(0,220)+'…':r.outcome}</p></div><p><a class="file-link" href="#${r.id.toLowerCase()}">LER CONFLITO E RELATÓRIO COMPLETO ↗</a></p></article>`).join('')}</div><p class="empty" id="incident-empty" hidden>Nenhum incidente encontrado para esta busca.</p>`}
 function bindIncidentDirectory(){const input=document.querySelector('#incident-search');if(!input)return;const disasters=document.querySelector('#incident-disasters');let scope='todos';const norm=t=>t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');function update(){const query=norm(input.value.trim());let total=0;document.querySelectorAll('[data-incident-card]').forEach(card=>{card.hidden=!(scope==='todos'||card.dataset.scope===scope)||!norm(card.textContent).includes(query)||(disasters.checked&&!card.querySelector('.disaster-tag'));if(!card.hidden)total++});document.querySelector('#incident-result-count').textContent=total+(total===1?' RELATÓRIO ENCONTRADO':' RELATÓRIOS ENCONTRADOS');document.querySelector('#incident-empty').hidden=total!==0;}document.querySelectorAll('[data-incident-scope]').forEach(b=>b.addEventListener('click',()=>{scope=b.dataset.incidentScope;document.querySelectorAll('[data-incident-scope]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));update()}));input.addEventListener('input',update);disasters.addEventListener('change',update);}
-function incidentPage(route){const r=incidentReports.find(x=>x.id.toLowerCase()===route);if(!r)return crumb('INCIDENTE NÃO ENCONTRADO')+'<h1>Registro indisponível</h1><a href="#incidentes">Voltar aos incidentes</a>';return `${crumb('INCIDENTES / '+r.id)}<article><div class="eyebrow">RELATÓRIO DE OCORRÊNCIA / ${r.id}</div><h1>${r.title}</h1><span class="tag red">${r.status}</span> <span class="tag">${incidentLabel(r)}</span>${r.severity==='desastroso'?'<span class="tag red">INCIDENTE DESASTROSO</span>':''}<div class="incident-location"><b>LOCAL</b><p>${r.location}</p>${r.period?`<small>${r.period}</small>`:''}</div>${r.scope==='externo'?'<p class="mono">OCORRÊNCIA FICTÍCIA NO BRASIL / LOCAIS DE EVENTO INVENTADOS</p>':''}<h2>Envolvidos</h2><p>${r.people.map(p=>`<a class="file-link" href="#${p[1]}">${p[0]} ↗</a>`).join(' · ')}</p><h2>O que aconteceu</h2><p>${r.summary}</p>${r.conflict?`<h2>O conflito</h2><p>${r.conflict}</p>`:''}${r.failure?`<h2>O que falhou</h2><p>${r.failure}</p>`:''}<h2>Como a Fundação respondeu</h2><p>${r.sequence}</p>${r.impacts?`<h2>Escala e perdas</h2><ul class="incident-losses">${r.impacts.map(t=>`<li>${t}</li>`).join('')}</ul><h2>O poder que ficou demonstrado</h2><p>${r.demonstration}</p>`:''}<h2>Transcrição associada</h2><blockquote>${r.dialogue.map(l=>`<b>${l[0]}:</b> ${l[1]}`).join('<br>')}</blockquote><h2>Como terminou / resultado e consequências</h2><div class="incident-final"><p>${r.outcome}</p></div><div class="document-end">FIM DO RELATÓRIO / ${r.id} · <a href="#incidentes">VOLTAR AOS INCIDENTES ↑</a></div></article>`}
+function incidentPage(route){const r=incidentReports.find(x=>x.id.toLowerCase()===route);if(!r)return crumb('INCIDENTE NÃO ENCONTRADO')+'<h1>Registro indisponível</h1><a href="#incidentes">Voltar aos incidentes</a>';return `${crumb('INCIDENTES / '+r.id)}<article><div class="eyebrow">RELATÓRIO DE OCORRÊNCIA / ${r.id}</div><h1>${r.title}</h1><span class="tag red">${r.status}</span> <span class="tag">${incidentLabel(r)}</span>${r.severity==='desastroso'?'<span class="tag red">INCIDENTE DESASTROSO</span>':''}<div class="incident-location"><b>LOCAL</b><p>${r.location}</p>${r.period?`<small>${r.period}</small>`:''}</div>${r.scope==='externo'?'<p class="mono">OCORRÊNCIA FICTÍCIA NO BRASIL / LOCAIS DE EVENTO INVENTADOS</p>':''}${r.operation?`<p><a class="file-link" href="#${r.operation}">VER OPERAÇÃO BRAINROT / INVOCAÇÕES E CONSEQUÊNCIAS ↗</a></p>`:''}<h2>Envolvidos</h2><p>${r.people.map(p=>`<a class="file-link" href="#${p[1]}">${p[0]} ↗</a>`).join(' · ')}</p><h2>O que aconteceu</h2><p>${r.summary}</p>${r.conflict?`<h2>O conflito</h2><p>${r.conflict}</p>`:''}${r.failure?`<h2>O que falhou</h2><p>${r.failure}</p>`:''}<h2>Como a Fundação respondeu</h2><p>${r.sequence}</p>${r.impacts?`<h2>Escala e perdas</h2><ul class="incident-losses">${r.impacts.map(t=>`<li>${t}</li>`).join('')}</ul><h2>O poder que ficou demonstrado</h2><p>${r.demonstration}</p>`:''}<h2>Transcrição associada</h2><blockquote>${r.dialogue.map(l=>`<b>${l[0]}:</b> ${l[1]}`).join('<br>')}</blockquote><h2>Como terminou / resultado e consequências</h2><div class="incident-final"><p>${r.outcome}</p></div><div class="document-end">FIM DO RELATÓRIO / ${r.id} · <a href="#incidentes">VOLTAR AOS INCIDENTES ↑</a></div></article>`}
