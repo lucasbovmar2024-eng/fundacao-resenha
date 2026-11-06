@@ -1355,6 +1355,199 @@ const incidentReports = [
     ],
     "outcome": "A rota foi liberada sem feridos nesta operação. O evento não neutralizou nenhum SCP nem encerrou as interdições anteriores da instalação. A intervenção danificou dois veículos vazios e um painel do pátio. O alarme acordou funcionários fora de turno. A cafeína não substituiu o descanso: o plantão foi revezado, e a manutenção cobrou a liberação da vaga e a conta dos danos.",
     "operation": "op-bov-006"
+  },
+  {
+    "id": "INC-029",
+    "title": "Cinco assinaturas, um pacto.",
+    "scope": "interno",
+    "location": "BR-67 / área de avaliação e alojamentos cooperativos",
+    "period": "Posterior a INC-028",
+    "people": [
+      [
+        "MTF-13 — Pacto da Resenha",
+        "mtf-13"
+      ],
+      [
+        "SCP-666 — Nex",
+        "scp-666"
+      ],
+      [
+        "SCP-8080 — Ferro-Vivo",
+        "scp-8080"
+      ],
+      [
+        "Dr. Bovas",
+        "dr-bovas"
+      ],
+      [
+        "SCP-1999 — Senhor Larper",
+        "scp-1999"
+      ],
+      [
+        "Camera Man",
+        "camera-man"
+      ],
+      [
+        "Soldado de Argatha",
+        "soldado-argatha"
+      ]
+    ],
+    "status": "INTEGRAÇÃO CONCLUÍDA / LIMITES REGISTRADOS",
+    "summary": "Bovas supervisionou a integração dos dois SCPs cooperativos e dos três operadores humanos. A equipe precisava demonstrar suas capacidades sem transformá-las em autorização irrestrita.",
+    "conflict": "Larper alegou que já era o sexto integrante e tentou validar acesso pela conversa. O teste também verificou se o vínculo de Nex significava leitura mental ou se Ferro-Vivo poderia ser tratado como antivírus universal. As duas suposições foram rejeitadas.",
+    "sequence": "Os quatro aliados aceitaram um vínculo breve de Nex, que foi encerrado ao primeiro sinal de sobrecarga. Ferro-Vivo trabalhou apenas num terminal de teste isolado, sem conexão ao Q-404. Véspera, Sino e Mortalha apresentaram suas funções e limites. Argatha manteve a conferência externa e Camera Man registrou os resultados no arquivo limpo. A dupla checagem rejeitou a alegação de Larper; não houve manifestação 1999-S. O Décimo foi informado como unidade complementar, sem perder sua posição estratégica.",
+    "dialogue": [
+      [
+        "Larper",
+        "Eu sou o sexto. Fiquei fora da foto porque estava comandando."
+      ],
+      [
+        "Nex",
+        "O laço é voluntário. O crachá é com a recepção."
+      ],
+      [
+        "Ferro-Vivo",
+        "Terminal isolado. A impressora continua sendo problema de vocês."
+      ],
+      [
+        "Bovas",
+        "Integração aprovada. Contratação do sexto negada. Ronaldo."
+      ]
+    ],
+    "outcome": "Cinco integrantes foram registrados no MTF-13. Larper permaneceu na unidade e não recebeu novo cargo. Nex precisou de descanso após o laço; Ferro-Vivo consumiu parte da reserva de carga. Nenhum SCP anterior foi neutralizado ou declarado seguro por causa da nova equipe."
+  },
+  {
+    "id": "INC-030",
+    "title": "Operação Portão de Cinzas.",
+    "scope": "externo",
+    "location": "Recife, PE / complexo industrial fictício ocupado pelo Círculo do Apagão",
+    "period": "Posterior a INC-029",
+    "people": [
+      [
+        "MTF-13 — Pacto da Resenha",
+        "mtf-13"
+      ],
+      [
+        "SCP-666 — Nex",
+        "scp-666"
+      ],
+      [
+        "SCP-8080 — Ferro-Vivo",
+        "scp-8080"
+      ],
+      [
+        "Dr. Bovas",
+        "dr-bovas"
+      ],
+      [
+        "10º Batalhão da Resenha",
+        "mtf-10"
+      ],
+      [
+        "Os Resenhinhos — MTF-R",
+        "resenhinhos"
+      ],
+      [
+        "Camera Man",
+        "camera-man"
+      ]
+    ],
+    "status": "CONFRONTO ENCERRADO / ARTEFATOS SOB CUSTÓDIA",
+    "summary": "Uma organização fictícia poderosa, o Círculo do Apagão, manteve um complexo com defesas convencionais e artefatos de campo. O Pacto recebeu a missão de romper o impasse e recuperar o controle para a entrada das equipes de custódia.",
+    "conflict": "O alvo combinava resistência física, barreiras e imagens falsas locais. Era um confronto de alto impacto contra uma organização; não uma missão que dependesse de a ameaça ser espiritual. A unidade precisava agir antes de gastar a carga de seus cinco integrantes.",
+    "sequence": "Véspera identificou a assinatura observada de uma barreira, e Última Palavra fixou a marca para o restante da equipe. Ferro-Vivo usou Pulso Órfão numa defesa compatível e interrompeu a ação para resfriar o chassi. Sino abriu uma janela com Ponto Final e sofreu retorno no ombro. Mortalha sustentou por seis segundos a fixação do contorno conhecido, recebendo ferimento na perna durante a retirada. Nex manteve um vínculo aceito pelos quatro aliados, atenuando parte dos impactos, mas chegou ao limite de concentração. Após cerca de vinte e dois minutos de confronto, a resistência organizada cessou. O Décimo realizou a custódia e o transporte dos artefatos e dos detidos; os Resenhinhos apoiaram o perímetro e a retirada. Bovas avaliou os materiais depois, sem ligar Ferro-Vivo aos meios suspeitos. Camera Man preservou registros separados. Os sinais locais não foram atribuídos a SCP-0404.",
+    "dialogue": [
+      [
+        "Véspera",
+        "Marca confirmada. Não temos carga para fazer isso a tarde inteira."
+      ],
+      [
+        "Ferro-Vivo",
+        "Nem eu. Núcleo não é tomada de shopping."
+      ],
+      [
+        "Sino",
+        "Uma abertura. Depois eu preciso de manutenção."
+      ],
+      [
+        "Nex",
+        "Laço mantido. Ninguém finge que isso não está doendo."
+      ]
+    ],
+    "impacts": [
+      "MTF-13: 2 feridos, Sino e Mortalha; Nex exausto e Ferro-Vivo com aquecimento elevado",
+      "Organização fictícia: 7 integrantes detidos, dos quais 3 feridos; nenhuma morte confirmada",
+      "Uma armadura espiritual retirada de serviço e um selo de fixação consumido",
+      "Defesas do complexo desativadas; artefatos isolados para investigação"
+    ],
+    "demonstration": "A vitória veio da concentração de impacto e de habilidades complementares, não de uma função exclusiva contra espíritos. A curta duração e os ferimentos demonstraram a diferença para o Décimo: o Pacto rompeu a resistência, enquanto a força maior sustentou custódia, transporte e controle posterior.",
+    "outcome": "O complexo fictício foi retomado e os artefatos ficaram sob custódia. A equipe voltou com dois feridos e reservas baixas; não estava apta a uma segunda intervenção imediata. A organização perdeu o controle daquele complexo, mas o relatório não declara sua eliminação em todo o país. Não houve nova cópia de 0404 confirmada nem relação comprovada entre os artefatos e o Banquete."
+  },
+  {
+    "id": "INC-031",
+    "title": "Oito horas de “eu sou do comando”.",
+    "scope": "externo",
+    "location": "Interior de Minas Gerais / Vale do Capim Seco, localidade rural inteiramente fictícia",
+    "period": "Posterior a INC-030; nova fuga de SCP-1999",
+    "severity": "desastroso",
+    "people": [
+      [
+        "SCP-1999 — Senhor Larper",
+        "scp-1999"
+      ],
+      [
+        "Os Resenhinhos — MTF-R",
+        "resenhinhos"
+      ],
+      [
+        "Soldado de Argatha",
+        "soldado-argatha"
+      ],
+      [
+        "Dr. Bovas",
+        "dr-bovas"
+      ],
+      [
+        "Camera Man",
+        "camera-man"
+      ]
+    ],
+    "status": "BATALHA ENCERRADA APÓS 8 HORAS / LARPER CAPTURADO",
+    "summary": "Larper fugiu após uma falha de conferência numa transferência e convenceu um grupo fictício de ex-militares de que era seu líder legítimo. O grupo formou uma milícia numa área rural e resistiu à recuperação, desencadeando uma batalha de oito horas contra os Resenhinhos.",
+    "failure": "A autorização de transferência foi aceita a partir de informações que repetiam a própria alegação da entidade. Fora da instalação, Larper explorou a confiança, o vocabulário e a ideia de uma cadeia de comando para obter obediência de pessoas experientes. A Fundação subestimou o tamanho da resistência organizada antes do contato.",
+    "conflict": "O que começou como uma recuperação se tornou um confronto prolongado entre a força padrão e um grupo armado de ex-militares sob falsa liderança. O objetivo da Fundação era recuperar o SCP e interromper a resistência. A experiência dos adversários e o desgaste dos Resenhinhos fizeram da operação uma das mais difíceis da força regular.",
+    "sequence": "As primeiras tentativas de confirmar identidade e encerrar a resistência fracassaram: Larper insistiu que a equipe de recuperação era parte de um teste de lealdade. O confronto se espalhou pela área rural fictícia. Durante oito horas, os Resenhinhos sofreram perdas, retiraram feridos, reorganizaram o atendimento e mantiveram o esforço para chegar à entidade, enquanto os ex-militares continuavam tratando suas ordens como legítimas. Bovas confirmou a identidade e a fraude por fontes externas ao discurso de Larper, sem comandar uma invocação ou apagar a vontade dos adversários. Argatha participou da resposta em campo e, na fase final, alcançou Larper quando ele tentava se afastar da resistência já enfraquecida. Ferido levemente, o soldado confirmou a identidade e assumiu a custódia; não entrou numa disputa verbal sobre a patente que a entidade dizia ter. Após a captura e o colapso da falsa liderança, os sobreviventes restantes se renderam. Camera Man reuniu os registros depois da operação. O Décimo e o MTF-13 não foram creditados por uma batalha travada pelos Resenhinhos e encerrada pela captura de Argatha.",
+    "dialogue": [
+      [
+        "Larper, no registro final",
+        "Eu estava comandando uma avaliação de vocês."
+      ],
+      [
+        "Argatha",
+        "Sua identidade está confirmada. Você vai voltar."
+      ],
+      [
+        "Larper",
+        "Mas os homens me reconhecem."
+      ],
+      [
+        "Argatha",
+        "Reconheceram a pessoa errada como comandante. A batalha acabou."
+      ],
+      [
+        "Nota posterior de Bovas",
+        "Oito horas não cabem na palavra “quase”. O relatório precisa registrar cada perda."
+      ]
+    ],
+    "impacts": [
+      "Resenhinhos: 6 mortos e 17 feridos",
+      "Argatha: 1 ferimento leve, registrado à parte; Fundação totaliza 6 mortos e 18 feridos",
+      "Ex-militares fictícios: 11 mortos e 23 feridos",
+      "27 ex-militares capturados, incluindo os 23 feridos; Larper capturado separadamente por Argatha",
+      "Nenhuma vítima civil confirmada; área rural evacuada e danos estruturais sob levantamento"
+    ],
+    "demonstration": "Larper não ganhou conhecimento militar nem controle mental absoluto: sua persuasão colocou a experiência militar dos personagens a serviço de uma autoridade inventada. Os Resenhinhos demonstraram persistência, coordenação e capacidade de continuar sob perdas graves, sem ganhar poderes de elite. Argatha encerrou a fuga pela confirmação e custódia do alvo, não por uma imunidade mental recém-inventada.",
+    "outcome": "A batalha terminou após oito horas com Larper capturado por Argatha e devolvido à unidade de verificação. Os sobreviventes do grupo fictício ficaram sob custódia e atendimento; a milícia perdeu sua liderança e deixou de controlar aquela área. A forma 1999-S não se manifestou. Seis Resenhinhos e onze ex-militares morreram; os feridos dos dois lados foram contabilizados. A força padrão teve equipes retiradas de escala, equipamento perdido e revisão de comando e transferência. A captura não apagou as mortes nem converteu o desastre numa vitória sem custo. O local e a organização são inventados, sem referência a uma milícia real."
   }
 ];
 
