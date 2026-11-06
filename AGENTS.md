@@ -30,3 +30,5 @@ O usuário quer histórias conectadas. Ao adicionar SCPs, doutores, funcionário
 
 - SCP-0404 é um vírus audiovisual com um clone digital hostil do Camera Man, atualmente contido no terminal Q-404 por isolamento e Grade de Quadros fictícia. O original permanece livre e não infectado. INC-019 registra captura; INC-020, reconexão negada. Não atribuir incidentes antigos ao vírus nem confirmar outros clones/propagação externa sem nova lore.
 - Três unidades de contenção têm diagramas SVG e protocolos por SCP (#contencao e #cela-NNNN): fome de 6767, verificação social de 1999/1999-S e quarentena audiovisual de 0404. Materiais não anulam poderes; preservar limites. Daycaros segue sem contenção eficaz.
+
+- Cada cela preserva seu diagrama SVG e tem imagem ilustrativa do interior. Planos de contenção detalham gatilho, responsáveis, etapas, condição de encerramento e resposta à falha: 6767 A/B/C; 1999 A/B/C; 0404 A/B/C/D. São procedimentos/contingências, não novos incidentes realizados.
