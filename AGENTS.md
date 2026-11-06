@@ -27,3 +27,6 @@ O usuário quer histórias conectadas. Ao adicionar SCPs, doutores, funcionário
 - O site tem modo claro/escuro no cabeçalho. Preservar a preferência local e as cores originais das imagens. Novos elementos precisam funcionar em ambos os temas.
 
 - Camera Man é funcionário de suporte técnico: câmeras, monitoramento, manutenção e preservação de registros. Não é SCP, pesquisador ou soldado. Não atribuir onisciência, visão através de paredes nem conclusão científica automática às imagens.
+
+- SCP-0404 é um vírus audiovisual com um clone digital hostil do Camera Man, atualmente contido no terminal Q-404 por isolamento e Grade de Quadros fictícia. O original permanece livre e não infectado. INC-019 registra captura; INC-020, reconexão negada. Não atribuir incidentes antigos ao vírus nem confirmar outros clones/propagação externa sem nova lore.
+- Três unidades de contenção têm diagramas SVG e protocolos por SCP (#contencao e #cela-NNNN): fome de 6767, verificação social de 1999/1999-S e quarentena audiovisual de 0404. Materiais não anulam poderes; preservar limites. Daycaros segue sem contenção eficaz.
