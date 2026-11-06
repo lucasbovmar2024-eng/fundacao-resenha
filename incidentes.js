@@ -1394,8 +1394,8 @@ const incidentReports = [
     ],
     "status": "INTEGRAÇÃO CONCLUÍDA / LIMITES REGISTRADOS",
     "summary": "Bovas supervisionou a integração dos dois SCPs cooperativos e dos três operadores humanos. A equipe precisava demonstrar suas capacidades sem transformá-las em autorização irrestrita.",
-    "conflict": "Larper alegou que já era o sexto integrante e tentou validar acesso pela conversa. O teste também verificou se o vínculo de Nex significava leitura mental ou se Ferro-Vivo poderia ser tratado como antivírus universal. As duas suposições foram rejeitadas.",
-    "sequence": "Os quatro aliados aceitaram um vínculo breve de Nex, que foi encerrado ao primeiro sinal de sobrecarga. Ferro-Vivo trabalhou apenas num terminal de teste isolado, sem conexão ao Q-404. Véspera, Sino e Mortalha apresentaram suas funções e limites. Argatha manteve a conferência externa e Camera Man registrou os resultados no arquivo limpo. A dupla checagem rejeitou a alegação de Larper; não houve manifestação 1999-S. O Décimo foi informado como unidade complementar, sem perder sua posição estratégica.",
+    "conflict": "Larper alegou ser o sexto integrante e tentou validar acesso pela conversa. O treino verificou se uma provocação de Nex poderia virar autorização ou se Ferro-Vivo poderia ser tratado como antivírus universal. As duas suposições foram rejeitadas.",
+    "sequence": "Um operador voluntário participou de treino consentido da Cantada de Guerra. A reação ao desafio sustentou por poucos segundos a marca de afronta, encerrada ao primeiro sinal de sobrecarga. O exercício não produziu atração nem leitura mental. Ferro-Vivo trabalhou apenas num terminal de teste isolado, sem conexão ao Q-404. Véspera, Sino e Mortalha apresentaram funções e limites. Argatha manteve a conferência externa e Camera Man registrou o exercício no arquivo limpo. A dupla checagem rejeitou a alegação de Larper; não houve manifestação 1999-S. O Décimo foi informado como unidade complementar. Nex e Ferro-Vivo receberam credenciais de residentes aliados: acesso às áreas comuns, sem promoção a pesquisadores ou comandantes.",
     "dialogue": [
       [
         "Larper",
@@ -1403,7 +1403,7 @@ const incidentReports = [
       ],
       [
         "Nex",
-        "O laço é voluntário. O crachá é com a recepção."
+        "O bonitão aqui chama atenção. O crachá continua sendo com a recepção."
       ],
       [
         "Ferro-Vivo",
@@ -1414,7 +1414,7 @@ const incidentReports = [
         "Integração aprovada. Contratação do sexto negada. Ronaldo."
       ]
     ],
-    "outcome": "Cinco integrantes foram registrados no MTF-13. Larper permaneceu na unidade e não recebeu novo cargo. Nex precisou de descanso após o laço; Ferro-Vivo consumiu parte da reserva de carga. Nenhum SCP anterior foi neutralizado ou declarado seguro por causa da nova equipe."
+    "outcome": "Cinco integrantes foram registrados no MTF-13. Larper permaneceu na unidade e não recebeu novo cargo. Nex precisou de descanso após a provocação anômala; Ferro-Vivo consumiu parte da reserva de carga. Nenhum SCP anterior foi neutralizado ou declarado seguro por causa da nova equipe. Os dois SCPs aliados passaram à rotina de alojamento e circulação autorizada, sem confinamento cotidiano."
   },
   {
     "id": "INC-030",
@@ -1455,7 +1455,7 @@ const incidentReports = [
     "status": "CONFRONTO ENCERRADO / ARTEFATOS SOB CUSTÓDIA",
     "summary": "Uma organização fictícia poderosa, o Círculo do Apagão, manteve um complexo com defesas convencionais e artefatos de campo. O Pacto recebeu a missão de romper o impasse e recuperar o controle para a entrada das equipes de custódia.",
     "conflict": "O alvo combinava resistência física, barreiras e imagens falsas locais. Era um confronto de alto impacto contra uma organização; não uma missão que dependesse de a ameaça ser espiritual. A unidade precisava agir antes de gastar a carga de seus cinco integrantes.",
-    "sequence": "Véspera identificou a assinatura observada de uma barreira, e Última Palavra fixou a marca para o restante da equipe. Ferro-Vivo usou Pulso Órfão numa defesa compatível e interrompeu a ação para resfriar o chassi. Sino abriu uma janela com Ponto Final e sofreu retorno no ombro. Mortalha sustentou por seis segundos a fixação do contorno conhecido, recebendo ferimento na perna durante a retirada. Nex manteve um vínculo aceito pelos quatro aliados, atenuando parte dos impactos, mas chegou ao limite de concentração. Após cerca de vinte e dois minutos de confronto, a resistência organizada cessou. O Décimo realizou a custódia e o transporte dos artefatos e dos detidos; os Resenhinhos apoiaram o perímetro e a retirada. Bovas avaliou os materiais depois, sem ligar Ferro-Vivo aos meios suspeitos. Camera Man preservou registros separados. Os sinais locais não foram atribuídos a SCP-0404.",
+    "sequence": "Véspera identificou a assinatura observada de uma barreira, e Última Palavra fixou a marca para o restante da equipe. Ferro-Vivo usou Pulso Órfão numa defesa compatível e interrompeu a ação para resfriar o chassi. Sino abriu uma janela com Ponto Final e sofreu retorno no ombro. Mortalha sustentou por seis segundos a fixação do contorno conhecido, recebendo ferimento na perna durante a retirada. Nex marcou um adversário percebido e lançou a Cantada de Guerra. A resposta à afronta deslocou por instantes o foco para ele durante a retirada dos dois feridos. A couraça reduziu parte da pressão dirigida a Nex, mas saturou e ele encerrou a marca exausto. A provocação abriu uma janela; não tornou o inimigo apaixonado nem incapaz de escolher. Após cerca de vinte e dois minutos de confronto, a resistência organizada cessou. O Décimo realizou a custódia e o transporte dos artefatos e dos detidos; os Resenhinhos apoiaram o perímetro e a retirada. Bovas avaliou os materiais depois, sem ligar Ferro-Vivo aos meios suspeitos. Camera Man preservou registros separados. Os sinais locais não foram atribuídos a SCP-0404.",
     "dialogue": [
       [
         "Véspera",
@@ -1471,7 +1471,7 @@ const incidentReports = [
       ],
       [
         "Nex",
-        "Laço mantido. Ninguém finge que isso não está doendo."
+        "Vem me buscar, bonitão. O apocalipse chegou e você trouxe essa mira?"
       ]
     ],
     "impacts": [
