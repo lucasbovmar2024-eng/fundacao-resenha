@@ -32,3 +32,5 @@ O usuário quer histórias conectadas. Ao adicionar SCPs, doutores, funcionário
 - Três unidades de contenção têm diagramas SVG e protocolos por SCP (#contencao e #cela-NNNN): fome de 6767, verificação social de 1999/1999-S e quarentena audiovisual de 0404. Materiais não anulam poderes; preservar limites. Daycaros segue sem contenção eficaz.
 
 - Cada cela preserva seu diagrama SVG e tem imagem ilustrativa do interior. Planos de contenção detalham gatilho, responsáveis, etapas, condição de encerramento e resposta à falha: 6767 A/B/C; 1999 A/B/C; 0404 A/B/C/D. São procedimentos/contingências, não novos incidentes realizados.
+
+- As vistas das celas devem mostrar os próprios SCPs com aparência reconhecível a partir dos retratos. 0404 aparece apenas no monitor, usando a imagem de Camera Man Corrompido; nunca um avatar genérico. Os diagramas continuam preservados.
