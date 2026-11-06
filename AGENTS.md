@@ -34,3 +34,5 @@ O usuário quer histórias conectadas. Ao adicionar SCPs, doutores, funcionário
 - Cada cela preserva seu diagrama SVG e tem imagem ilustrativa do interior. Planos de contenção detalham gatilho, responsáveis, etapas, condição de encerramento e resposta à falha: 6767 A/B/C; 1999 A/B/C; 0404 A/B/C/D. São procedimentos/contingências, não novos incidentes realizados.
 
 - As vistas das celas devem mostrar os próprios SCPs com aparência reconhecível a partir dos retratos. 0404 aparece apenas no monitor, usando a imagem de Camera Man Corrompido; nunca um avatar genérico. Os diagramas continuam preservados.
+
+- Registro de incidentes tem filtros Todos/Na instalação/No Brasil e busca. Cidades são cenários fictícios. INC-021: fuga alimentar no transporte em Campinas e recuperação do 6767 pelo Décimo; INC-022: nova fuga social e recuperação de 1999 em congresso fictício em Curitiba; INC-023: falsa fuga de Larper exibida apenas no Q-404. Entidades retornaram; 0404 permanece contido e sem cópia externa confirmada; 1999-S e Banquete inativos nesses eventos. 23 relatórios.
