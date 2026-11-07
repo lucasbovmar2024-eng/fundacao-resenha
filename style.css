@@ -43,3 +43,5 @@
 .trio-full-name{font-size:.68em;line-height:1.2;display:inline-block}.trio-notices{margin:30px 0;padding:22px;border:1px dashed var(--red);background:var(--paper)}.trio-notices li{margin:12px 0}
 
 .entity-conduct{margin:25px 0;padding:22px;border:1px solid var(--line);border-left:3px solid var(--red);background:var(--paper)}.entity-conduct h3{margin:10px 0}.conduct-overview{margin:30px 0}
+
+.padre-risk{border:1px solid var(--line);padding:22px;margin:25px 0}.risk-scale{display:flex;gap:6px;flex-wrap:wrap;margin:20px 0;font:12px monospace}.risk-scale>*{padding:13px 10px;border:1px solid var(--line)}.risk-scale strong{background:var(--red);color:var(--paper);border-color:var(--red)}
