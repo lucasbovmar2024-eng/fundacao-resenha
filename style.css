@@ -37,3 +37,5 @@
 .allied-access{border:1px solid var(--line);border-left:3px solid var(--red);padding:22px;margin:25px 0;background:var(--paper)}.allied-access h3{margin-top:10px}.allied-access td:first-child{font-weight:700;min-width:150px}
 
 .incident-combat{margin:34px 0;padding-top:24px;border-top:2px solid var(--red)}.combat-sequence{margin:25px 0;border-left:2px solid var(--line);padding-left:24px}.combat-beat{position:relative;margin:0 0 32px}.combat-beat:before{content:"";position:absolute;left:-30px;top:5px;width:10px;height:10px;background:var(--red);border-radius:50%}.combat-beat h3{margin:8px 0 15px}.incident-combat h4{font-size:16px;margin:0 0 10px}.incident-combat .cell-notes{grid-template-columns:1fr}.incident-combat .mono{line-height:1.8}
+
+.trio-links{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0}.trio-instance{padding:24px 0;border-top:1px solid var(--line)}.trio-instance .dossier-top{align-items:start}.trio-instance .portrait img{width:100%;height:auto;object-fit:contain}.trio-riddles{margin:22px 0}.trio-riddles summary{gap:15px}.trio-riddles .plan-code{white-space:nowrap}

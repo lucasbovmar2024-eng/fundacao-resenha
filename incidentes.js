@@ -1617,6 +1617,138 @@ const incidentReports = [
       ],
       "assessment": "Larper quase conseguiu escapar porque alternou ameaças físicas, obstáculos e ordens falsas; a persuasão produziu hesitação real. Argatha venceu com equipamento comum de contenção, persistência, apoio da força padrão e verificação independente das ordens. Nenhum golpe concedeu imunidade mental ao soldado e nenhuma mentira deu treinamento de elite ao SCP. Não há morte atribuída ao duelo direto. Permanecem os seis Resenhinhos mortos, dezessete feridos, o ferimento leve de Argatha e as perdas adversárias já contabilizadas; Larper foi capturado separadamente dos vinte e sete ex-militares."
     }
+  },
+  {
+    "id": "INC-032",
+    "title": "Três passageiros, um documento.",
+    "scope": "externo",
+    "location": "Itu, SP / área de serviço privada inteiramente fictícia",
+    "period": "Posterior a INC-031",
+    "people": [
+      [
+        "SCP-199 / A, B e C",
+        "scp-199"
+      ],
+      [
+        "10º Batalhão da Resenha",
+        "mtf-10"
+      ],
+      [
+        "Soldado de Argatha",
+        "soldado-argatha"
+      ],
+      [
+        "Dr. Bovas",
+        "dr-bovas"
+      ],
+      [
+        "Camera Man",
+        "camera-man"
+      ]
+    ],
+    "status": "RECUPERAÇÃO DISCRETA / TRÊS INSTÂNCIAS NO R-199",
+    "summary": "Três indivíduos de aspecto equino, veicular e canino foram recuperados juntos numa área de serviço fictícia. O grupo era não hostil, mas sua aparência expunha a existência de anomalias. O Décimo realizou transporte e entrega ao recinto R-199.",
+    "conflict": "A prioridade era preservar o sigilo sem transformar uma recuperação pacífica em combate. A podia sair rapidamente do campo de observação; a forma híbrida de B não podia circular livremente diante do público; somente C era capaz de conversar.",
+    "sequence": "O Décimo conduziu a recuperação discretamente, mantendo o grupo separado do acesso público. A foi recebido em área apropriada para deslocamento; B permaneceu parado durante a preparação do transporte. A equipe conversou exclusivamente com C. O canídeo disse: “Três passageiros, mas só um tem assunto.” A e B não responderam por fala, escrita ou código. Argatha recebeu os três no R-199 e conferiu cada presença; Bovas abriu um dossiê com as designações A, B e C. Camera Man preservou os registros de chegada. A classificação Safe foi atribuída após observação de comportamento não hostil e rotina previsível, com revisão caso surjam novos dados.",
+    "dialogue": [
+      [
+        "C",
+        "Tenho dentes, nunca mastigo. Quando trabalho, uma parede aprende a abrir a boca."
+      ],
+      [
+        "Bovas",
+        "A chave do armário?"
+      ],
+      [
+        "C",
+        "Uma porta aberta não é uma autorização."
+      ],
+      [
+        "Argatha",
+        "Isso eu assino."
+      ],
+      [
+        "Registro",
+        "A e B permaneceram sem comunicação linguística."
+      ]
+    ],
+    "impacts": [
+      "Três instâncias recuperadas; nenhuma morte ou ferimento registrado",
+      "Recinto R-199 ocupado com pista, garagem e convivência",
+      "Nenhuma nova ocorrência pública confirmada após o recolhimento"
+    ],
+    "demonstration": "A recuperação mostrou capacidade de transporte e cuidado do Décimo, sem confronto. A classificação conjunta não transforma três corpos num único organismo nem relaciona SCP-199 ao Senhor Larper, cujo número é SCP-1999.",
+    "outcome": "A, B e C permaneceram no R-199 em rotina confortável. Saídas externas dependem de autorização e proteção de sigilo. O mistério da origem continua aberto. C não foi declarado profeta e não recebeu o cargo de intérprete dos outros dois."
+  },
+  {
+    "id": "INC-033",
+    "title": "A carona, a corrida e a parede sem casaco.",
+    "scope": "interno",
+    "location": "BR-67 / recinto R-199 e circuito logístico interno reservado",
+    "period": "Posterior a INC-032",
+    "people": [
+      [
+        "SCP-199 / A, B e C",
+        "scp-199"
+      ],
+      [
+        "Dr. Bovas",
+        "dr-bovas"
+      ],
+      [
+        "Soldado de Argatha",
+        "soldado-argatha"
+      ],
+      [
+        "Os Resenhinhos — MTF-R",
+        "resenhinhos"
+      ],
+      [
+        "Camera Man",
+        "camera-man"
+      ],
+      [
+        "SCP-1999 — Senhor Larper",
+        "scp-1999"
+      ]
+    ],
+    "status": "ATIVIDADES ENCERRADAS / REPARO NO ACABAMENTO",
+    "summary": "Uma avaliação supervisionada confirmou a corrida anormalmente rápida de A e o uso de B como veículo em logística interna. Durante a sessão de C, uma charada motivou a inspeção de uma placa solta e revelou uma cavidade no acabamento.",
+    "conflict": "A Fundação precisava separar capacidade útil, bem-estar e interpretação de enigmas. Um veículo disponível não autorizava passeio público; uma charada sugestiva não equivalia a diagnóstico ou previsão.",
+    "sequence": "Argatha reservou as passagens e manteve a pista de A separada dos pedestres. A completou corridas breves muito acima da velocidade esperada, seguidas de descanso; o máximo seguro permaneceu indefinido. Depois, B transformou-se parado, passou por conferência e foi conduzido por um motorista autorizado dos Resenhinhos com uma pequena carga logística no circuito interno reservado. Voltou à garagem antes de retornar ao estado híbrido, sem passageiros. Não houve fala, escrita ou comunicação codificada por A ou B. Na sala comum, C perguntou: “Quanto mais tiram de mim, maior eu fico. Hoje estou onde a parede perdeu o casaco.” A manutenção verificou o trecho de acabamento que o canídeo podia observar e encontrou a cavidade sob uma placa solta. A área foi isolada para reparo. Outra fala foi associada ao relógio parado e resolvida com a troca da bateria. Camera Man preservou a ordem dos testes e as frases originais. Ao receber o resumo fora do recinto, Larper alegou ter sido o consultor do projeto. A atribuição foi negada por falta de registro, sem conceder acesso ou visita.",
+    "dialogue": [
+      [
+        "Bovas",
+        "Hoje precisamos testar corrida e transporte."
+      ],
+      [
+        "C",
+        "Quem corre da pergunta costuma voltar de carona."
+      ],
+      [
+        "Motorista dos Resenhinhos",
+        "Posso levar no refeitório?"
+      ],
+      [
+        "Argatha",
+        "A carga tem destino. Sua fome tem horário."
+      ],
+      [
+        "Larper, após receber o resumo",
+        "Esse projeto começou comigo."
+      ],
+      [
+        "Bovas",
+        "O registro começou sem você. Ronaldo."
+      ]
+    ],
+    "impacts": [
+      "Nenhuma morte, ferimento ou exposição pública registrada",
+      "Uma placa de acabamento interditada para manutenção; relógio comum voltou a funcionar",
+      "Uso de B restrito à logística autorizada; A retornou ao descanso e C à sala comum"
+    ],
+    "demonstration": "A corre muito; B pode transportar a Fundação na forma veicular. C é o único que conversa, e duas correspondências foram verificadas sem demonstrar previsão do futuro. Larper não recebeu cargo, autoria científica ou visita por alegar participação.",
+    "outcome": "As três instâncias retornaram à rotina do R-199. A manutenção assumiu a placa e o relógio; B não foi incluído numa missão de combate. Os enigmas sem solução permaneceram no arquivo. Nenhuma relação com 1999-S, 0404, o Banquete ou Resenhilson foi confirmada."
   }
 ];
 
