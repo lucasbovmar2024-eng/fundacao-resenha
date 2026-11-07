@@ -1626,7 +1626,7 @@ const incidentReports = [
     "period": "Posterior a INC-031",
     "people": [
       [
-        "SCP-199 / A, B e C",
+        "SCP-199 / J.J.J. — Jeferson Jegue Jr.",
         "scp-199"
       ],
       [
@@ -1688,7 +1688,7 @@ const incidentReports = [
     "period": "Posterior a INC-032",
     "people": [
       [
-        "SCP-199 / A, B e C",
+        "SCP-199 / J.J.J. — Jeferson Jegue Jr.",
         "scp-199"
       ],
       [
