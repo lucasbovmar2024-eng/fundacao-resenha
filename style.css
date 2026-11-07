@@ -41,3 +41,5 @@
 .trio-links{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0}.trio-instance{padding:24px 0;border-top:1px solid var(--line)}.trio-instance .dossier-top{align-items:start}.trio-instance .portrait img{width:100%;height:auto;object-fit:contain}.trio-riddles{margin:22px 0}.trio-riddles summary{gap:15px}.trio-riddles .plan-code{white-space:nowrap}
 
 .trio-full-name{font-size:.68em;line-height:1.2;display:inline-block}.trio-notices{margin:30px 0;padding:22px;border:1px dashed var(--red);background:var(--paper)}.trio-notices li{margin:12px 0}
+
+.entity-conduct{margin:25px 0;padding:22px;border:1px solid var(--line);border-left:3px solid var(--red);background:var(--paper)}.entity-conduct h3{margin:10px 0}.conduct-overview{margin:30px 0}
