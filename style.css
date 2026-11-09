@@ -401,3 +401,44 @@ dialog#image-lightbox::backdrop{background:rgba(1,4,9,.88);backdrop-filter:blur(
 .sausage-science .unit-comparison{overflow-x:auto}
 .sausage-science blockquote{padding:16px}
 @media(max-width:760px){.sausage-afteraction,.sausage-science{padding:14px}}
+
+/* Manual institucional BR-67: hierarquia, autoridade e doutrina operacional */
+.foundation-structure h1{margin-bottom:17px}
+.foundation-structure h2{scroll-margin-top:20px}
+.org-chart{max-width:840px;display:flex;flex-direction:column;align-items:center;margin:28px auto 32px;gap:0}
+.org-node{width:100%;border:1px solid var(--line);background:var(--paper);text-align:center;padding:17px 22px;display:flex;flex-direction:column;gap:6px}
+.org-node small{font:10px/1.45 'IBM Plex Mono',monospace;letter-spacing:1px;color:var(--muted)}
+.org-node strong{font:700 clamp(23px,3.5vw,32px)/1.2 'Barlow Condensed',sans-serif}
+.org-node span{font-size:13px;line-height:1.65;color:var(--muted)}
+.org-node.org-high{border-top:5px solid var(--red)}
+.org-node.org-bottom{border-bottom:3px solid var(--red)}
+.org-chain{padding:7px 0;line-height:1;font-size:21px;font-weight:700;color:var(--red)}
+.org-duo{width:100%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.org-feature,.org-mtf-extension{margin:29px 0;padding:23px;border:1px solid var(--line);border-left:4px solid var(--red);background:var(--paper);scroll-margin-top:18px}
+.org-feature>h2,.org-mtf-extension>h2{margin-top:12px}
+.org-feature p,.org-mtf-extension p{font-size:14px;line-height:1.83}
+.org-feature blockquote,.org-mtf-extension blockquote{margin:22px 0;padding:15px}
+.org-feature-row{display:grid;grid-template-columns:160px minmax(0,1fr);gap:24px;align-items:start;margin:18px 0}
+.org-feature-row img{width:100%;max-height:215px;object-fit:cover;object-position:center top;border:1px solid var(--line);background:var(--paper)}
+.org-feature-row h3{font:700 29px/1.15 'Barlow Condensed',sans-serif;margin:11px 0}
+.org-department-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:22px 0}
+.org-department-grid section{min-width:0;border:1px solid var(--line);background:var(--paper);padding:17px 19px}
+.org-department-grid span{font:10px/1.6 'IBM Plex Mono',monospace;color:var(--red);letter-spacing:.075em}
+.org-department-grid h3{font:700 26px/1.1 'Barlow Condensed',sans-serif;margin:8px 0 9px}
+.org-department-grid p{font-size:14px;line-height:1.72;margin:0}
+.org-protocol-list{display:flex;flex-direction:column;gap:8px;margin:20px 0 26px}
+.org-protocol-list>div{display:flex;align-items:stretch;gap:14px;border:1px solid var(--line);background:var(--paper);padding:13px}
+.org-protocol-list>div:nth-child(4),.org-protocol-list>div:nth-child(5){border-left:4px solid var(--red)}
+.org-cr{width:62px;flex-shrink:0;display:grid;place-items:center;border:1px solid var(--line);font:700 16px 'IBM Plex Mono',monospace;letter-spacing:-.035em}
+.org-protocol-list h3{font:700 23px/1.15 'Barlow Condensed',sans-serif;margin:0 0 5px}
+.org-protocol-list p{font-size:13px;line-height:1.6;margin:0}
+#diretoria,#protocolos-cr,#doutrina-mtf,#bovas-diretoria,#resenhinhos-destacamentos,#mtf-10-companhias,#mtf-13-protocolo{scroll-margin-top:20px}
+@media(max-width:760px){
+.org-duo,.org-department-grid{grid-template-columns:1fr}
+.org-feature,.org-mtf-extension{padding:16px}
+.org-feature-row{grid-template-columns:1fr;gap:10px}
+.org-feature-row img{max-width:190px;max-height:225px}
+.org-protocol-list>div{gap:9px}
+.org-cr{width:55px}
+.org-node{padding:13px}
+}

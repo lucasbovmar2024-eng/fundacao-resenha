@@ -8,4 +8,20 @@ function resenhinhos(){return `${crumb('PESSOAL / FORÇAS-TAREFA / RESENHINHOS')
 <div><h3>R-V2 — Última Entrega</h3><p>Viatura logística de apoio com barreiras móveis, maca, equipamentos de perícia e caixas de amostras. Transportou feridos e materiais lacrados, mas sofreu danos na suspensão. Não tem sistema universal para neutralizar ou aprisionar Keter.</p></div>
 </div>
 <p><b>Saldo:</b> 3 Resenhinhos feridos, dois veículos avariados (um imobilizado temporariamente), evacuação de 26 civis e três amostras recuperadas <b>após a fuga</b>. O desastre também causou uma morte civil e ferimentos a outros civis. Argatha sofreu contusão adicional no ombro durante confronto breve e não capturou SCP-0842. Nenhuma força de elite foi mobilizada.</p>
-<p><a class="file-link" href="#inc-042">LER RECONSTRUÇÃO E LAUDO / INC-042 ↗</a></p><div class="document-end">FIM DO DOSSIÊ / MTF-R · <a href="#ftms">VOLTAR ÀS FORÇAS-TAREFA ↑</a></div></article>`}
+<p><a class="file-link" href="#inc-042">LER RECONSTRUÇÃO E LAUDO / INC-042 ↗</a></p><section class="org-mtf-extension" id="resenhinhos-destacamentos">
+  <div class="eyebrow">DOUTRINA INSTITUCIONAL / MTF-R / NOVA ORGANIZAÇÃO INTERNA</div>
+  <h2>Destacamentos funcionais dos Resenhinhos</h2>
+  <p>O efetivo da MTF-R é distribuído conforme a operação em <b>cinco frentes funcionais</b>, sem criar cinco novas MTFs nem atribuir poderes anômalos a soldados comuns. O integrante pode mudar de função conforme treinamento e escala.</p>
+  <div class="org-department-grid">
+    <section><span>MTF-R / RONDA</span><h3>Patrulha</h3><p>Reconhece ocorrências e mantém segurança cotidiana, comunicação e primeira resposta.</p></section>
+    <section><span>MTF-R / ESCUDO</span><h3>Proteção</h3><p>Isola perímetros e oferece cobertura para evacuação com barreiras e equipamento convencional.</p></section>
+    <section><span>MTF-R / RESGATE</span><h3>Socorro</h3><p>Prioriza civis e feridos, acessos seguros e retirada sob ameaça.</p></section>
+    <section><span>MTF-R / RECUPERAÇÃO</span><h3>Contenção regular</h3><p>Conduz abordagens e escoltas de anomalias compatíveis com os protocolos autorizados.</p></section>
+    <section><span>MTF-R / SUPORTE</span><h3>Logística</h3><p>Garante veículos, equipamentos, suprimentos, manutenção, comunicações e transporte de evidências.</p></section>
+  </div>
+  <h3>Frota e limites operacionais</h3>
+  <p>O <b>R-V1 Tatu de Plantão</b> e o <b>R-V2 Última Entrega</b> permanecem veículos convencionais de apoio, conforme o <a href="#inc-042">INC-042</a>. A unidade também pode empregar viaturas comuns de patrulha, transporte e reconhecimento já compatíveis com a dotação operacional, sem que isso conceda tecnologia anômala própria.</p>
+  <p><b>Estudos ainda sem incorporação:</b> central de comando móvel e drone de observação melhorado. São possibilidades logísticas, <b>não equipamentos concluídos nem vitórias retroativas</b>. O INC-031 e o INC-042 continuam registrando perdas e limitações reais da equipe.</p>
+  <blockquote><b>Resenhinho / Suporte:</b> Destacamento de Resgate solicita transporte. Quem conferiu o combustível?<br><b>Resenhinho / Ronda:</b> O Suporte.<br><b>Resenhinho / Suporte:</b> Era uma pergunta para o relatório, não uma acusação.<br><b>Comando:</b> Ótimo. Agora alguém confira.</blockquote>
+  <p><a class="file-link" href="#fundacao">MANUAL INSTITUCIONAL / QUANDO ACIONAR A MTF-R ↗</a></p>
+</section><div class="document-end">FIM DO DOSSIÊ / MTF-R · <a href="#ftms">VOLTAR ÀS FORÇAS-TAREFA ↑</a></div></article>`}
