@@ -214,3 +214,16 @@
 .equip-unknown-grid h3{font-size:24px;margin:10px 0}
 .equip-unknown-grid p{font-size:14px;line-height:1.75}
 @media(max-width:800px){.equip-list,.equip-unknown-grid{grid-template-columns:1fr}.equip-hero{grid-template-columns:1fr 105px;gap:10px}.equip-summary>div{padding:11px}.equip-summary strong{font-size:23px}.equip-summary span{font-size:9px}}
+
+/* Inventário unificado de recursos: militares, tecnológicos e devocionais */
+.equip-highlight-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px;margin:23px 0}
+.equip-highlight{border:1px solid var(--line);background:var(--paper);padding:15px;display:flex;flex-direction:column;gap:13px}
+.equip-highlight[hidden]{display:none}
+.equip-highlight img{display:block;width:100%;height:112px;object-fit:contain;background:#0c0d0f}
+.equip-highlight h3{font-size:23px;margin:10px 0}
+.equip-highlight p{font-size:13px;line-height:1.7;color:var(--muted)}
+.equip-highlight .file-link{display:inline-block;margin-top:5px}
+.equip-organization-filters{margin-top:10px}
+.equip-organization-filters button{font-weight:700}
+@media(max-width:900px){.equip-highlight-list{grid-template-columns:1fr}.equip-highlight{flex-direction:row}.equip-highlight img{width:112px;min-width:112px;height:112px}.equip-highlight h3{font-size:22px}}
+@media(max-width:560px){.equip-highlight{flex-direction:column}.equip-highlight img{width:100%;height:90px}}
