@@ -101,3 +101,14 @@
 .chronicle-chapter{padding-top:22px}
 .chronicle-toc{padding:15px}
 }
+
+/* Diretório de antagonistas – crônica Portão de Cinzas */
+.chronicle-opponents{border:1px solid var(--line);padding:25px;margin:30px 0;background:var(--paper)}
+.chronicle-opponents h2{font-size:28px;margin:10px 0 14px}
+.chronicle-opponents>p{line-height:1.7;margin-bottom:18px}
+.chronicle-opponents-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.chronicle-opponents-grid>div{border:1px solid var(--line);padding:17px;background:var(--paper)}
+.chronicle-opponents-grid h3{margin:0 0 9px;font-size:21px}
+.chronicle-opponents-grid .eyebrow{line-height:1.6}
+.chronicle-opponents-grid p{margin:13px 0 0;font-size:14px;line-height:1.7}
+@media(max-width:800px){.chronicle-opponents-grid{grid-template-columns:1fr}.chronicle-opponents{padding:18px}}
