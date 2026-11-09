@@ -313,3 +313,23 @@ dialog#image-lightbox::backdrop{background:rgba(1,4,9,.88);backdrop-filter:blur(
 .goi-people-empty strong{font:700 12px/1.5 'IBM Plex Mono',monospace;color:var(--muted)}
 .goi-people-empty p{margin:9px 0 0;font-size:14px;line-height:1.7}
 @media(max-width:740px){.goi-element-grid{grid-template-columns:1fr}.goi-element-card{padding:17px}}
+
+/* Perfil Dra. Joana — mesmas classes de dossiê existentes, detalhes lilás */
+.joana-dossier .dossier-top{margin-bottom:20px}
+.joana-dossier .portrait img{object-fit:cover;object-position:center 20%}
+.joana-dossier .detail-list{line-height:1.85}
+.joana-traits{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:19px 0 32px}
+.joana-traits section{background:var(--paper);border:1px solid var(--line);border-left:3px solid #a772a8;padding:17px}
+.joana-traits h3{font-size:22px;margin:9px 0 10px}
+.joana-traits p{font-size:14px;line-height:1.8;margin:0}
+.joana-abilities{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:22px 0 28px}
+.joana-ability{border:1px solid var(--line);background:var(--paper);padding:19px;min-width:0}
+.joana-ability-header{border-bottom:1px solid var(--line);padding-bottom:13px;margin-bottom:13px}
+.joana-ability-header span,.joana-ability-header small{font:11px/1.5 'IBM Plex Mono',monospace;color:var(--muted)}
+.joana-ability-header h3{font:700 27px/1.12 'Barlow Condensed',sans-serif;margin:8px 0}
+.joana-ability p{font-size:14px;line-height:1.8}
+.joana-ability-limit{border-left:3px solid #a772a8;padding:10px 13px;background:var(--bg);font-size:13px;line-height:1.7;margin-top:13px}
+.joana-ultimate{border:1px solid #b485ba;border-top:4px solid #ad72b3;background:var(--paper);padding:23px;margin:19px 0 28px}
+.joana-ultimate h3{font:700 clamp(25px,4vw,39px)/1.15 'Barlow Condensed',sans-serif;letter-spacing:.015em;margin:12px 0 18px}
+.joana-ultimate p{line-height:1.8}
+@media(max-width:760px){.joana-traits,.joana-abilities{grid-template-columns:1fr}.joana-ability,.joana-traits section{padding:16px}.joana-ultimate{padding:17px}}

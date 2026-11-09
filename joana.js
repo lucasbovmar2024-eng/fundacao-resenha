@@ -1,0 +1,65 @@
+/* Dra. Joana / personagem fictícia e pesquisadora com capacidades anômalas.
+   Não classificar como SCP. Não criar incidentes retroativos por sua chegada. */
+const joanaAbilities=[{"number":"01","name":"Chilique Real","type":"ONDA DE CHOQUE / GRITO","effect":"Um grito agudo cria uma onda de choque capaz de derrubar paredes de concreto e arremessar carros.","reach":"Até 20 metros.","limit":"Após mais de três usos consecutivos, Joana fica rouca e perde precisão e potência."},{"number":"02","name":"Tapão de Princesa","type":"IMPACTO / ENERGIA ROSA","effect":"Um tapa de mão aberta libera energia rosa concentrada que pode atravessar até três paredes de concreto. O constrangimento da vítima parece intensificar o golpe.","reach":"Curta distância; exige contato ou aproximação imediata.","limit":"É necessário alcançar o alvo: combatentes mais rápidos conseguem esquivar ou neutralizar a aproximação."},{"number":"03","name":"Vestido Blindado","type":"DEFESA / ENDURECIMENTO TEMPORÁRIO","effect":"O vestido lilás endurece por um curto intervalo, alcançando resistência comparável à de blindagem pesada; suporta disparos leves e uma explosão pequena.","reach":"Proteção sobre a área coberta pelo vestido.","limit":"Aumenta o peso e reduz mobilidade. Armas pesadas, explosões maiores e ataques em áreas desprotegidas continuam perigosos."},{"number":"04","name":"Coroa Teleguiada","type":"PROJÉTIL / RETORNO","effect":"A coroa é lançada como disco cortante, atravessa portas e chapa metálica fina, podendo atingir até três adversários antes de retornar.","reach":"Distância operacional não especificada; depende de trajetória livre.","limit":"Se a coroa for capturada ou presa, a habilidade fica indisponível até que seja recuperada."},{"number":"05","name":"Olhar de Pobreza","type":"PRESSÃO PSICOLÓGICA","effect":"O olhar de desprezo da doutora pode induzir hesitação e desorientação breve em alvos inseguros.","reach":"Exige que o adversário perceba seu olhar.","limit":"Disciplinados, emocionalmente estáveis ou resistentes à intimidação podem ignorar o efeito. Não é controle mental absoluto."},{"number":"06","name":"Laço Estrangulador","type":"FITAS ANIMADAS / IMOBILIZAÇÃO","effect":"Fitas rosas saem das mangas, levantam cargas de até 500 kg, prendem alvos e pressionam estruturas de tijolo.","reach":"Alcance exato ainda não documentado.","limit":"Fitas podem ser cortadas, incendiadas ou rompidas por força superior; Joana precisa administrar vários laços com atenção."},{"number":"07","name":"Pisadinha da Realeza","type":"ONDA SÍSMICA LOCAL","effect":"Um pisão libera abalo localizado que derruba pessoas em até 10 metros e pode rachar asfalto ou danificar pequenas estruturas.","reach":"Raio máximo de 10 metros.","limit":"Precisa tocar uma superfície sólida. Em estruturas instáveis, pode colocar aliados e a própria doutora em risco."}];
+const joanaTraits=[["Arrogância aristocrática","Chama os guardas de “meus cavaleiros”, os pesquisadores novatos de “plebeus” e o diretor da instalação de “gerente do meu castelo”. Os três doutorados da personagem não ajudam a humildade."],["Inteligência extraordinária, paciência infantil","Destaca-se em biologia anômala, psicologia e protocolos de contenção. Pode resolver uma análise complexa e logo depois provocar uma reunião de crise porque alguém pegou sua caneca."],["Gentil com anomalias, impiedosa com a burocracia","Prefere entrevistar entidades inteligentes com cuidado, leva presentes e combate experimentos gratuitamente cruéis. Autorizações de orçamento indeferidas são seu inimigo natural."],["Teatralidade de plantão","Uma falha de contenção vira uma tragédia da realeza, com discursos dramáticos mesmo durante alarmes. O setor de comunicação recomenda que ela não faça pronunciamentos perto do microfone de emergência."],["Seriedade que assusta","Se alguém ameaça um funcionário ou uma anomalia sob sua responsabilidade, ela tira a coroa, prende o cabelo e abandona o deboche. A equipe veterana reconhece isso como sinal de perigo real."]];
+const joanaEsc=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+function joanaPersonnelCard(){return `<a class="file-card" href="#dr-joana"><div class="file-photo"><img src="dr-joana-portrait.webp" alt="Retrato ilustrativo da Dra. Joana, com vestido lilás e coroa" loading="lazy"></div><div class="card-body"><div class="card-id">FUNCIONÁRIA BR-67 / DIREÇÃO CIENTÍFICA</div><h2>Dra. Joana</h2><span class="tag red">DIRETORA DE PESQUISA</span> <span class="tag">CAPACIDADES ANÔMALAS / NÍVEL PRÉDIO</span><p>Três doutorados, uma coroa e um chilique capaz de derrubar um prédio. Apesar do tratamento dispensado ao RH, é uma das pesquisadoras mais competentes da Fundação.</p><span class="file-link">ABRIR DOSSIÊ DA DOUTORA ↗</span></div></a>`}
+function joanaDossier(){
+return `${crumb('PESSOAL / DIREÇÃO CIENTÍFICA / DRA. JOANA')}
+<article class="joana-dossier">
+<div class="dossier-top">
+ <div><div class="eyebrow">FICHA DE FUNCIONÁRIA / PESQUISA HUMANOIDE E COMPORTAMENTAL</div>
+ <h1>Dra. Joana</h1>
+ <span class="tag red">DIRETORA DE PESQUISA</span> <span class="tag">ANOMALIA HUMANA COOPERANTE / NÍVEL PRÉDIO</span>
+ <div class="detail-list"><b>Departamento:</b> Anomalias Humanoides e Comportamentais<br>
+ <b>Instalação:</b> BR-67 / setor científico<br>
+ <b>Capacidades pessoais:</b> energia lilás, impacto, contenção e proteção<br>
+ <b>Formação da personagem:</b> três doutorados / biologia, psicologia e ciências da contenção<br>
+ <b>Apelidos internos:</b> Sua Majestade, Doutora Purpurina, Princesa do RH e Desgraça Lilás<br>
+ <b>Condição:</b> funcionária com poderes anômalos; <b>não é SCP</b><br>
+ <b>Autorização de combate:</b> apenas mediante emergência e autorização de comando</div></div>
+ <figure class="portrait"><img src="dr-joana-portrait.webp" alt="Representação fictícia da Dra. Joana em vestido lilás, coroa e efeitos de energia rosa"><figcaption>FIG. PJ-01 — Retrato artístico da doutora. O crachá foi aprovado. A sala do trono, não.</figcaption></figure>
+</div>
+<div class="warning"><b>NOTA DE SEGURANÇA:</b> alta competência científica não equivale a licença irrestrita para empregar força. A potência máxima pode comprometer um prédio de 5 a 10 andares; a doutora continua vulnerável a armamento pesado, explosões fortes e oponentes mais rápidos. Os eventos e capacidades deste arquivo são ficcionais.</div>
+<h2>01 / Identidade e função</h2>
+<p>A Dra. Joana dirige as pesquisas de anomalias humanoides e comportamentais. É brilhante, arrogante, teatral e surpreendentemente atenta ao bem-estar de entidades conscientes. O setor de pessoal recebeu o pedido para tratá-la por “Sua Majestade” e o arquivou como <i>não vinculante</i>.</p>
+<p>Trata funcionários como membros de uma corte imaginária, mas protege os pesquisadores que trabalham sob sua responsabilidade. Defende entrevistas, observação e cooperação antes de procedimentos invasivos. Não é uma SCP contida: trabalha para a Fundação e seus poderes são uma característica pessoal sob controle operacional.</p>
+<h2>02 / Avaliação de personalidade</h2>
+<div class="joana-traits">${joanaTraits.map(([title,detail],i)=>`<section><div class="eyebrow">PERFIL ${String(i+1).padStart(2,'0')}</div><h3>${joanaEsc(title)}</h3><p>${joanaEsc(detail)}</p></section>`).join('')}</div>
+<h2>03 / Capacidades registradas</h2>
+<p>Escala de referência: <b>nível prédio</b>. As habilidades a seguir foram definidas para o universo fictício da Fundação. Poder destrutivo alto não substitui tática, resistência física ou supervisão científica.</p>
+<div class="joana-abilities">${joanaAbilities.map(a=>`<section class="joana-ability"><div class="joana-ability-header"><span>HABILIDADE ${a.number}</span><h3>${joanaEsc(a.name)}</h3><small>${joanaEsc(a.type)}</small></div><p><b>Efeito:</b> ${joanaEsc(a.effect)}</p><p><b>Alcance:</b> ${joanaEsc(a.reach)}</p><div class="joana-ability-limit"><b>FRAQUEZA:</b> ${joanaEsc(a.limit)}</div></section>`).join('')}</div>
+<h2>04 / Técnica suprema — Chilique de Quinze Anos</h2>
+<section class="joana-ultimate"><div class="eyebrow">RECURSO EXTREMO / LIBERAÇÃO EXCEPCIONAL</div>
+<h3>“EU QUERO, EU POSSO, EU MEREÇO!”</h3>
+<p>Ao gritar a frase, o vestido e a coroa entram em ressonância visual lilás. Uma explosão se espalha até <b>25 metros de raio</b>, com força potencial para derrubar um prédio residencial médio de <b>5 a 10 andares</b>, conforme a estrutura. O resultado inclui uma chuva indecorosa de glitter. Não é um ataque planetário, nem proteção absoluta.</p>
+<p><b>Custo:</b> consome quase toda a energia da doutora. Após o uso, Joana fica praticamente indefesa por vários minutos, incapaz de repetir a técnica imediatamente. O colapso estrutural pode atingir colegas, civis e outras áreas da instalação.</p>
+</section>
+<h2>05 / Protocolo LILÁS-01 — emprego de poderes</h2>
+<ul>
+<li><b>Atuação padrão:</b> pesquisa, análise, negociação e formulação de contenção. Nenhum poder destrutivo é necessário para entrevistar uma entidade cooperativa.</li>
+<li><b>Dentro da BR-67:</b> técnicas de dano estrutural são proibidas em rotinas e testes comuns. Autorização de emergência depende do comando e de evacuação, sempre que possível.</li>
+<li><b>Prioridade de proteção:</b> empregados e anomalias não hostis devem ser afastados antes de um confronto. Vestido Blindado e Laço Estrangulador podem ser utilizados defensivamente dentro de seus limites.</li>
+<li><b>Contramedidas conhecidas:</b> armamento pesado, explosões mais fortes, velocidade superior, perda da coroa e sobrecarga física podem neutralizá-la. O vestido não a torna imortal.</li>
+<li><b>Após o golpe supremo:</b> retirar Joana do contato com ameaças; nunca contar com a técnica como solução de uso repetível.</li>
+</ul>
+<h2>06 / Método de pesquisa e ética</h2>
+<p>Joana prefere entrevistas com entidades capazes de compreender perguntas, análise comportamental e experimentos não destrutivos. Seu comportamento teatral não deve obscurecer a qualidade do trabalho científico. Não trata uma entidade inteligente como propriedade simplesmente por possuir classificação de contenção.</p>
+<p>Essa postura pode aproximá-la de anomalias cooperativas como <a href="#scp-666">Nex</a> e <a href="#scp-8080">Ferro-Vivo</a>, mas não concede a Joana comando sobre a MTF-13. Se discordar de um procedimento de contenção, deverá justificar a objeção cientificamente; ordens de segurança continuam em vigor enquanto forem legalmente válidas dentro da Fundação.</p>
+<p><b>Advertência SCP-005:</b> não há comprovação de que Joana seja imune ao efeito de pixelização do <a href="#scp-005">Error</a>. A equipe deve manter as salvaguardas visuais existentes; entrevistar um SCP inteligente não exige contemplá-lo diretamente.</p>
+<h2>07 / Diálogo de orientação — transcrição ilustrativa</h2>
+<blockquote><b>Dr. Bovas:</b> Você realmente montou um laboratório com um trono?<br>
+<b>Dra. Joana:</b> Não. Montei uma sala de reuniões com assento hierarquicamente correto.<br>
+<b>Dr. Bovas:</b> E o lustre?<br>
+<b>Dra. Joana:</b> Revisão por pares exige iluminação adequada.<br>
+<b>Dr. Bovas:</b> Qq ele disse? Ronaldo.<br>
+<b>Dra. Joana:</b> Mais um “Ronaldo” no meu parecer e você perde o direito ao café da realeza.<br>
+<b>[REGISTRO]:</b> Troca cômica de apresentação. Não é incidente operacional nem teste de poder.</blockquote>
+<h2>08 / Escritório e informações em aberto</h2>
+<p>O gabinete de pesquisa foi decorado como um quarto de princesa, com lustre, trono acolchoado e cafeteira profissional. Os pedidos de remoção da decoração seguem sem assinatura; o RH prefere discutir o assunto quando a doutora não está presente.</p>
+<p>Há especulação entre funcionários de que a coroa e o vestido tenham relação com alguma anomalia de seu passado. <b>Isso permanece teoria narrativa e não é origem comprovada de seus poderes.</b> Seus limites, histórico pessoal e motivação íntima podem ser estudados em relatos futuros, sem reescrever incidentes existentes.</p>
+<h2>09 / Arquivos relacionados</h2>
+<p><a class="file-link" href="#pessoal">DIRETÓRIO DE PESSOAL ↗</a> · <a class="file-link" href="#dr-bovas">DR. BOVAS / PESQUISA ↗</a> · <a class="file-link" href="#scp-005">SCP-005 / CUIDADO VISUAL ↗</a> · <a class="file-link" href="#gois">GRUPOS DE INTERESSE ↗</a></p>
+<div class="document-end">FIM DO DOSSIÊ / DRA. JOANA · BR-67 / FICHA DE PERSONAGEM</div>
+</article>`;
+}
