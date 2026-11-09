@@ -128,3 +128,11 @@ O usuário quer histórias conectadas. Ao adicionar SCPs, doutores, funcionário
 - GOI-003 utiliza objetos devocionais descritos em relatos (raspagem, recipientes de rapa, iconografia). São relatos investigativos, sem efeitos anômalos, armas ou existência do Deus Recobo confirmados. Tarjas de imagem devem continuar sinalizando a ausência de comprovação.
 - Os cinco registros do GOI-001 mantêm a mesma proveniência e limites. Nenhum integrante conhecido possui poderes anômalos próprios ou SCP sob posse confirmados.
 - Fotografias estilizadas são ilustrações de personagens e ambientes, não provas de fabricante, modelo, função ou capacidades militares específicas.
+
+
+## Pranchas técnicas do arsenal GOI-001 / atualização visual
+- GOI-001: somente 5 registros canônicos — Matriz de Cinzas, Mosaico Falso, armamento convencional, escudos/proteção tática e circuito local de vigilância/comunicação. São os mesmos itens do INC-030 e da crônica Portão de Cinzas, sem invenção de modelos ou poderes.
+- Imagem coletiva: `goi-001-arsenal-visao-geral.webp`, que reúne exatamente os cinco itens e declara a ausência de poderes próprios conhecidos ou SCPs sob posse confirmada. Aparece na aba #equipamentos-001 e como prévia na ficha #goi-001.
+- Artes separadas: `goi-001-matriz-ficha.webp`, `goi-001-mosaico-ficha.webp`, `goi-001-armas-ficha.webp`, `goi-001-protecao-ficha.webp`, `goi-001-vigilancia-ficha.webp`. São PRANCHAS CONCEITUAIS ilustrativas e NÃO especificações de engenharia. Dar destaque narrativo a Matriz e Mosaico, as duas interfaces com artefatos anômalos documentadas.
+- Qualquer drone, satélite, novo modelo de arma, núcleo, fenda dimensional, anel, bloqueador, veículo ou nome de arma que apareça acidentalmente numa imagem gerada não é equipamento canônico do Círculo, a menos que seja desenvolvido e confirmado num incidente posterior. Não incorporar dossiês conceituais que enumerem esse material automaticamente.
+- Cada entrada do inventário descreve funcionamento, operação, vulnerabilidades e aplicação na missão, sem atribuir magia a Mara, Replay ou Dário. Os retratos originais dos integrantes continuam preservados em #goi-001 e a ficha de equipamento agora mostra o OBJETO em vez de repetir o rosto do operador.

@@ -227,3 +227,24 @@
 .equip-organization-filters button{font-weight:700}
 @media(max-width:900px){.equip-highlight-list{grid-template-columns:1fr}.equip-highlight{flex-direction:row}.equip-highlight img{width:112px;min-width:112px;height:112px}.equip-highlight h3{font-size:22px}}
 @media(max-width:560px){.equip-highlight{flex-direction:column}.equip-highlight img{width:100%;height:90px}}
+
+/* GOI-001 — novo catálogo ilustrado em pranchas técnicas */
+.equip-showcase{margin:28px 0 34px;border:1px solid var(--line);border-top:3px solid var(--red);background:var(--paper);padding:18px}
+.equip-showcase[hidden]{display:none}
+.equip-showcase-heading{display:flex;justify-content:space-between;gap:20px;align-items:center;margin-bottom:15px}
+.equip-showcase-heading h2{font-size:34px;margin:6px 0 8px}
+.equip-showcase-heading p{margin:0;line-height:1.65;font-size:14px}
+.equip-showcase-heading>span{font:10px/1.5 'IBM Plex Mono',monospace;color:var(--muted);min-width:132px;text-align:right}
+.equip-showcase>a{display:block;background:#090c10;overflow:hidden;border:1px solid #4d2d32}
+.equip-showcase>a img{display:block;width:100%;height:auto;max-height:700px;object-fit:contain;transition:transform .2s}
+.equip-showcase>a:hover img{transform:scale(1.01)}
+.equip-showcase>.equip-caption{font-size:12px;line-height:1.7;color:var(--muted);margin:14px 3px 0}
+.equip-card-image{height:310px}
+.equip-card-image>a{display:block;width:100%;height:100%}
+.equip-card-image>a img{width:100%;height:100%;object-fit:cover;object-position:center}
+.equip-tech-explain{border-top:1px solid var(--line);margin-top:20px;padding-top:15px}
+.equip-tech-explain p{line-height:1.78;font-size:14px;margin:10px 0}
+.equip-tech-explain p:first-of-type{color:var(--ink)}
+.goi-armory-preview{display:block;background:#080b0f;margin-bottom:15px}
+.goi-armory-preview img{display:block;width:100%;height:auto;max-height:415px;object-fit:contain}
+@media(max-width:730px){.equip-showcase-heading{display:block}.equip-showcase-heading>span{display:block;text-align:left;margin-top:12px}.equip-showcase-heading h2{font-size:29px}.equip-card-image{height:235px}.equip-showcase{padding:12px}}
