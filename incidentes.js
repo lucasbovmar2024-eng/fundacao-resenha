@@ -1636,16 +1636,16 @@ const incidentReports = [
         "scp-199"
       ],
       [
-        "10º Batalhão da Resenha",
-        "mtf-10"
-      ],
-      [
-        "Soldado de Argatha",
-        "soldado-argatha"
+        "Resenhinhos — MTF-R",
+        "resenhinhos"
       ],
       [
         "Dr. Bovas",
         "dr-bovas"
+      ],
+      [
+        "Soldado de Argatha",
+        "soldado-argatha"
       ],
       [
         "Camera Man",
@@ -1653,38 +1653,46 @@ const incidentReports = [
       ]
     ],
     "status": "RECUPERAÇÃO DISCRETA / TRÊS INSTÂNCIAS NO R-199",
-    "summary": "Três indivíduos de aspecto equino, veicular e canino foram recuperados juntos numa área de serviço fictícia. O grupo era não hostil, mas sua aparência expunha a existência de anomalias. O Décimo realizou transporte e entrega ao recinto R-199.",
-    "conflict": "A prioridade era preservar o sigilo sem transformar uma recuperação pacífica em combate. A podia sair rapidamente do campo de observação; a forma híbrida de B não podia circular livremente diante do público; somente C era capaz de conversar.",
-    "sequence": "O Décimo conduziu a recuperação discretamente, mantendo o grupo separado do acesso público. A foi recebido em área apropriada para deslocamento; B permaneceu parado durante a preparação do transporte. A equipe conversou exclusivamente com C. O canídeo disse: “Três passageiros, mas só um tem assunto.” A e B não responderam por fala, escrita ou código. Argatha recebeu os três no R-199 e conferiu cada presença; Bovas abriu um dossiê com as designações A, B e C. Camera Man preservou os registros de chegada. A classificação Safe foi atribuída após observação de comportamento não hostil e rotina previsível, com revisão caso surjam novos dados.",
+    "summary": "Três indivíduos de aspecto equino, veicular e canino foram localizados juntos numa área de serviço fictícia. Como eram cooperativos e não demonstravam agressividade, a equipe padrão de Resenhinhos conduziu uma recuperação discreta com orientação científica de Bovas, sem mobilização da MTF-10.",
+    "conflict": "A Fundação precisava preservar o sigilo sem tratar três indivíduos pacíficos como ameaças de combate. A podia percorrer rapidamente o terreno, exigindo uma área livre e calma; B precisava de espaço seguro para permanecer imóvel e viajar sem exposição; C era o único capaz de conversar. A equipe deveria lidar com as três necessidades sem separá-los à força.",
+    "sequence": "Após contato inicial e avaliação de risco, Bovas orientou a abordagem por comunicação interna. Os Resenhinhos delimitaram discretamente a área de serviço e pediram apoio de transporte convencional reservado e adequado às três formas. Não houve pedido de armamento pesado ou de reforço do Décimo: nenhum comportamento observado justificava uma força de elite. A aceitou seguir até a área de embarque após tempo para se acalmar; B permaneceu parado enquanto a equipe conferiu espaço, estabilidade e condições de traslado; C conversou com o grupo e disse: “Três passageiros, mas só um tem assunto.” A e B não falaram, escreveram ou emitiram códigos. Com os três em segurança, o transporte seguiu para BR-67. Argatha conferiu a chegada ao recinto R-199; Bovas catalogou A, B e C num único dossiê com três instâncias distintas; Camera Man preservou os registros. A classificação Safe foi atribuída à estabilidade dos cuidados e do sigilo, não à ausência de habilidades anômalas.",
     "dialogue": [
       [
-        "C",
-        "Tenho dentes, nunca mastigo. Quando trabalho, uma parede aprende a abrir a boca."
+        "Resenhinho encarregado",
+        "Central, nenhum dos três demonstrou hostilidade. Podemos fazer uma abordagem calma."
       ],
       [
-        "Bovas",
-        "A chave do armário?"
+        "Dr. Bovas, pelo rádio",
+        "Confirmado. Sem Décimo, sem espetáculo e sem correr atrás do que corre mais que vocês."
       ],
       [
-        "C",
-        "Uma porta aberta não é uma autorização."
+        "SCP-199-C",
+        "Três passageiros, mas só um tem assunto. Quem assina por quem não fala?"
       ],
       [
-        "Argatha",
-        "Isso eu assino."
+        "Dr. Bovas",
+        "Ninguém assina por você nem pelos outros. Cada um vai ter registro próprio."
+      ],
+      [
+        "Resenhinho encarregado",
+        "Transporte pronto. Passagem reservada, sem curiosos."
+      ],
+      [
+        "Soldado de Argatha, na BR-67",
+        "Recebidos os três. Acesso ao R-199 conferido."
       ],
       [
         "Registro",
-        "A e B permaneceram sem comunicação linguística."
+        "A e B não emitiram comunicação linguística; C foi a única instância que falou."
       ]
     ],
     "impacts": [
-      "Três instâncias recuperadas; nenhuma morte ou ferimento registrado",
-      "Recinto R-199 ocupado com pista, garagem e convivência",
-      "Nenhuma nova ocorrência pública confirmada após o recolhimento"
+      "Três instâncias recuperadas pela equipe padrão; nenhuma morte, ferimento ou confronto registrado",
+      "Transporte reservado convencional e alojamento confortável no R-199, com pista, garagem e área de convivência",
+      "MTF-10 não mobilizada; nenhuma exposição pública adicional confirmada após o recolhimento"
     ],
-    "demonstration": "A recuperação mostrou capacidade de transporte e cuidado do Décimo, sem confronto. A classificação conjunta não transforma três corpos num único organismo nem relaciona SCP-199 ao Senhor Larper, cujo número é SCP-1999.",
-    "outcome": "A, B e C permaneceram no R-199 em rotina confortável. Saídas externas dependem de autorização e proteção de sigilo. O mistério da origem continua aberto. C não foi declarado profeta e não recebeu o cargo de intérprete dos outros dois."
+    "demonstration": "A recuperação mostrou que avaliação de risco, cuidado, sigilo e comunicação bastaram para recolher um trio cooperativo. Os Resenhinhos executaram a escolta proporcional; o Décimo permaneceu reservado a ameaças extraordinárias. A classificação conjunta não transforma os três corpos num organismo só nem relaciona SCP-199 a SCP-1999.",
+    "outcome": "A, B e C passaram a viver no recinto confortável R-199, com descanso, pista e garagem adequados. A equipe padrão cumpriu a recuperação sem combate, e Argatha registrou a recepção. Saídas externas dependem de autorização e proteção de sigilo. A origem dos três continua desconhecida; C não foi declarado profeta nem autorizado a falar pelos outros."
   },
   {
     "id": "INC-033",
