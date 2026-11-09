@@ -136,3 +136,12 @@ O usuário quer histórias conectadas. Ao adicionar SCPs, doutores, funcionário
 - Artes separadas: `goi-001-matriz-ficha.webp`, `goi-001-mosaico-ficha.webp`, `goi-001-armas-ficha.webp`, `goi-001-protecao-ficha.webp`, `goi-001-vigilancia-ficha.webp`. São PRANCHAS CONCEITUAIS ilustrativas e NÃO especificações de engenharia. Dar destaque narrativo a Matriz e Mosaico, as duas interfaces com artefatos anômalos documentadas.
 - Qualquer drone, satélite, novo modelo de arma, núcleo, fenda dimensional, anel, bloqueador, veículo ou nome de arma que apareça acidentalmente numa imagem gerada não é equipamento canônico do Círculo, a menos que seja desenvolvido e confirmado num incidente posterior. Não incorporar dossiês conceituais que enumerem esse material automaticamente.
 - Cada entrada do inventário descreve funcionamento, operação, vulnerabilidades e aplicação na missão, sem atribuir magia a Mara, Replay ou Dário. Os retratos originais dos integrantes continuam preservados em #goi-001 e a ficha de equipamento agora mostra o OBJETO em vez de repetir o rosto do operador.
+
+
+## Navegação de grupos / equipamento integrado (revisão)
+- NÃO manter aba separada Equipamentos no topo ou na barra lateral. Cada organização GOI-001, GOI-002 e GOI-003 tem a seção 04 / Recursos e Equipamentos em seu próprio dossiê, abaixo dos perfis e retratos dos membros, antes dos registros de atividade.
+- A seção GOI-001 preserva panorama `goi-001-arsenal-visao-geral.webp` e cinco pranchas técnicas individuais, explicando os limites dos dois artefatos anômalos, armamento convencional, proteção e vigilância. Nenhum membro com poderes próprios ou SCP em posse confirmados.
+- A seção GOI-002 preserva três fichas: armamento pesado, drones e acesso a alguns satélites. Tecnologia militar menor que GOI-001; tipos e marcas não catalogados; não inventar participação em incidentes passados.
+- A seção GOI-003 contém três itens devocionais ainda em estudo: instrumentos de raspagem, recipientes/rapa de parede e iconografia do Recobo; sem efeito anômalo comprovado nem existência de Recobo confirmada.
+- O inventário permanece em `equipamentos.js` como dados e função `goiEquipmentSection(groupId)`, usada diretamente na ficha construída por `gois.js`. Links legados #equipamentos e #equipamentos-001/002/003 são rotas de compatibilidade e devem abrir o diretório ou a seção da organização respectiva, sem voltar a criar aba separada.
+- A foto de equipamento é ilustrativa e pode ser ampliada. Os retratos dos membros e os históricos ficam preservados.

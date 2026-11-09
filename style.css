@@ -248,3 +248,24 @@
 .goi-armory-preview{display:block;background:#080b0f;margin-bottom:15px}
 .goi-armory-preview img{display:block;width:100%;height:auto;max-height:415px;object-fit:contain}
 @media(max-width:730px){.equip-showcase-heading{display:block}.equip-showcase-heading>span{display:block;text-align:left;margin-top:12px}.equip-showcase-heading h2{font-size:29px}.equip-card-image{height:235px}.equip-showcase{padding:12px}}
+
+/* Recursos e equipamentos apresentados dentro dos próprios dossiês GOI */
+.goi-dossier-shortcut{margin:21px 0 23px}
+.goi-dossier-shortcut button,.goi-resource-button{cursor:pointer;text-align:left;color:var(--red);border:1px solid var(--line);background:var(--paper);font:700 11px/1.6 'IBM Plex Mono',monospace;padding:10px 13px;letter-spacing:.01em}
+.goi-dossier-shortcut button:hover,.goi-resource-button:hover{border-color:var(--red)}
+.goi-dossier-shortcut button{width:100%}
+.goi-resource-button{display:block;margin-top:12px;width:100%}
+.goi-resource-section{border-top:3px solid var(--red);margin:33px 0;padding-top:21px;scroll-margin-top:18px}
+.goi-resource-section>h2{font-size:clamp(29px,4vw,38px);margin:9px 0 18px}
+.goi-resource-summary{font-size:16px;line-height:1.85;max-width:84ch}
+.goi-resource-meta{border:1px solid var(--line);background:var(--paper);padding:12px 17px;display:flex;align-items:center;gap:13px;margin:19px 0}
+.goi-resource-meta strong{font:700 30px/1 'Barlow Condensed',sans-serif}
+.goi-resource-meta span{font:10px/1.5 'IBM Plex Mono',monospace;color:var(--muted)}
+.goi-resource-showcase{margin:22px 0;max-width:100%}
+.goi-resource-showcase .equip-showcase-heading h3{font-size:29px;margin:8px 0 9px}
+.goi-embedded-equipment{margin:17px 0;align-items:stretch}
+.goi-embedded-equipment .equip-card{min-width:0}
+.goi-embedded-equipment .equip-card-content h2{font-size:25px}
+.goi-embedded-equipment .equip-card-image{height:265px}
+.goi-resource-note{border:1px solid var(--line);background:var(--paper);padding:16px 18px;font:12px/1.9 'IBM Plex Mono',monospace;margin-top:20px}
+@media(max-width:870px){.goi-embedded-equipment{grid-template-columns:1fr}.goi-embedded-equipment .equip-card-image{height:auto;aspect-ratio:16/9}.goi-resource-showcase .equip-showcase-heading h3{font-size:26px}}
