@@ -169,3 +169,48 @@
 .goi-capability-grid strong{font:700 11px/1.5 'IBM Plex Mono',monospace;color:var(--ink)}
 .goi-capability-grid p{font-size:14px;line-height:1.65;margin:7px 0 0}
 @media(max-width:740px){.goi-capability-grid{grid-template-columns:1fr}.goi-person-info{padding:15px}}
+
+/* Em cada imagem de operador, atribuir a tecnologia — nunca poder pessoal */
+.goi-person-portrait{position:relative}
+.goi-photo-warning{display:flex;flex-direction:column;gap:4px;position:absolute;left:0;right:0;bottom:0;padding:18px 12px 12px;color:#fff;background:linear-gradient(transparent,rgba(4,6,9,.92) 22%,#101419 100%);pointer-events:none;text-shadow:0 1px 4px #000}
+.goi-photo-warning strong{font:700 10px/1.5 'IBM Plex Mono',monospace;letter-spacing:.02em;color:#f6cbcb}
+.goi-photo-warning small{font:10px/1.4 'IBM Plex Mono',monospace;color:#e9e4da}
+.goi-identity-note{font:700 10px/1.6 'IBM Plex Mono',monospace;color:var(--red);border-top:1px solid var(--line);padding:12px 0;margin-bottom:10px}
+.goi-armory-link{border:1px solid var(--line);border-left:4px solid var(--red);padding:17px 23px;margin:22px 0;background:var(--paper)}
+.goi-armory-link p{line-height:1.75;margin:10px 0}
+.equip-hero{display:grid;grid-template-columns:minmax(0,1fr) 190px;align-items:center;gap:25px;border:1px solid var(--line);border-top:3px solid var(--red);padding:24px;margin:22px 0;background:var(--paper)}
+.equip-hero h2{font-size:clamp(25px,4vw,38px);margin:10px 0 12px}
+.equip-hero p{line-height:1.7}
+.equip-hero img{display:block;width:100%;max-height:200px;object-fit:contain;background:#0b0d10}
+.equip-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:1px solid var(--line);margin:22px 0}
+.equip-summary>div{padding:17px;border-right:1px solid var(--line)}
+.equip-summary>div:last-child{border:0}
+.equip-summary strong{display:block;font:700 29px/1.1 'Barlow Condensed',sans-serif}
+.equip-summary span{display:block;margin-top:7px;font:10px/1.45 'IBM Plex Mono',monospace;color:var(--muted)}
+.equip-warning{border:1px solid var(--line);padding:17px 19px;margin:21px 0;line-height:1.7}
+.equip-filters{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0}
+.equip-filters button{padding:10px 14px;border:1px solid var(--line);color:var(--ink);background:var(--paper);font:11px 'IBM Plex Mono',monospace;cursor:pointer}
+.equip-filters button[aria-pressed="true"]{background:var(--red);color:#fff;border-color:var(--red)}
+.equip-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:19px}
+.equip-card{border:1px solid var(--line);background:var(--paper);min-width:0;overflow:hidden}
+.equip-card[hidden]{display:none}
+.equip-card-image{position:relative;background:#111820;height:225px;overflow:hidden}
+.equip-card-image img{width:100%;height:100%;object-fit:cover;object-position:center 32%;display:block}
+.equip-photo-overlay{position:absolute;left:0;bottom:0;right:0;padding:26px 13px 11px;background:linear-gradient(transparent,rgba(0,0,0,.92))}
+.equip-photo-overlay span,.equip-photo-overlay strong{display:block;color:#fff;font:10px/1.5 'IBM Plex Mono',monospace}
+.equip-photo-overlay strong{font-weight:700;color:#ffd0cd}
+.equip-card-content{padding:20px}
+.equip-card-content h2{font-size:28px;margin:10px 0 9px}
+.equip-card-content p{font-size:14px;line-height:1.75}
+.equip-kind{font:11px/1.55 'IBM Plex Mono',monospace;color:var(--muted);margin-bottom:15px}
+.equip-limitation{border-left:3px solid var(--red);background:var(--paper);padding:12px 14px;margin:17px 0;line-height:1.7;font-size:14px}
+.equip-card details{border-top:1px solid var(--line);padding-top:11px}
+.equip-card details summary{cursor:pointer;font:700 11px/1.7 'IBM Plex Mono',monospace}
+.equip-card details p{font-size:13px}
+.equip-caption{color:var(--muted);font-style:italic}
+.equip-unknown{border-top:2px solid var(--line);margin-top:36px;padding-top:22px}
+.equip-unknown-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.equip-unknown-grid article{border:1px solid var(--line);background:var(--paper);padding:20px}
+.equip-unknown-grid h3{font-size:24px;margin:10px 0}
+.equip-unknown-grid p{font-size:14px;line-height:1.75}
+@media(max-width:800px){.equip-list,.equip-unknown-grid{grid-template-columns:1fr}.equip-hero{grid-template-columns:1fr 105px;gap:10px}.equip-summary>div{padding:11px}.equip-summary strong{font-size:23px}.equip-summary span{font-size:9px}}
