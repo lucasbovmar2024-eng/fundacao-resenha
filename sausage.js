@@ -44,5 +44,44 @@ ${conductNote('0842')}
 <blockquote><b>Direção:</b> Doutor Bovas, conseguiríamos contê-lo?<br><b>Dr. Bovas:</b> Provavelmente. Com planejamento, Joana e recursos de elite, nossas chances seriam boas. Não é garantia.<br><b>Direção:</b> Então por que ele continua solto?<br><b>Dr. Bovas:</b> Porque ele está explicando salsicha num supermercado, não atacando a BR-67.<br><b>Dra. Joana:</b> Não vou mobilizar um batalhão e uma unidade de choque para interromper uma aula de embutidos.<br><b>Direção:</b> E se ele resistir?<br><b>Dr. Bovas:</b> Aí a conta aumenta, e nós provocamos o problema.<br><b>Dra. Joana:</b> Podemos usar o orçamento da operação para finalmente consertar a cafeteira da pesquisa.<br><b>Dr. Bovas:</b> Deixa o homem explicar a salsicha. Ronaldo.<br><b>[CAPTURA INDEFERIDA POR DESPROPORCIONALIDADE OPERACIONAL.]</b></blockquote>
 <h2>07 / Pontos ainda não resolvidos</h2>
 <p>Qual é a composição dos materiais produzidos? Para onde SCP-0842 vai durante o ciclo 08:42? Seu conhecimento é inteiramente convencional ou possui informações inéditas? Seria possível obter contenção voluntária sem uso de força? Não há evidência de relação com o Banquete 6767, com Kanecomus ou com a origem de outros SCPs.</p>
-<p><b>Restrição de contato cruzado:</b> não promover encontro com <a href="#scp-6767">Kanecomus</a> antes de avaliação de riscos alimentares. A semelhança temática não é ligação anômala. O objetivo continua sendo estudo e sigilo, sem transformar uma entidade defensiva em inimigo da Fundação.</p>
-<div class="document-end">FIM DO DOSSIÊ / SCP-0842 · <a href="#arquivo">VOLTAR AO ARQUIVO ↑</a></div></article>`}
+<p><b>Restrição de contato cruzado:</b> o primeiro <a href="#reg-0842-03">contato remoto com Kanecomus</a> não envolveu encontro físico, troca de amostras ou manifestação conjunta. Encontros presenciais e testes de consumo continuam proibidos até avaliação dos riscos alimentares. A semelhança temática não é ligação anômala.</p>
+
+<section class="sausage-interview" id="reg-0842-03">
+<div class="eyebrow">REG-0842-03 / ENTREVISTA CRUZADA / CONTATO SUPERVISIONADO</div>
+<h2>08 / O consumidor e o fabricante</h2>
+<span class="tag">ENTREVISTA REMOTA</span> <span class="tag">SEM AMOSTRAS / SEM ENCONTRO FÍSICO</span>
+<p><b>Objetivo:</b> a Fundação autorizou uma conversa voluntária entre <a href="#scp-0842">SCP-0842</a> e <a href="#scp-6767">SCP-6767 — Kanecomus</a> para observar a reação de um especialista em fabricação de salsichas diante de uma entidade cujo maior interesse é consumir alimentos. O procedimento foi coordenado pelo <a href="#dr-bovas">Dr. Bovas</a> e revisado pela <a href="#dr-joana">Dra. Joana</a>.</p>
+<p><b>Procedimento:</b> Kanecomus permaneceu no módulo alimentar de reserva, com refeição regular e supervisão de Argatha. SCP-0842 aceitou conversar voluntariamente a partir de um ponto externo, sem escolta ou tentativa de captura. A ligação foi feita apenas por áudio, intermediada por funcionários dos dois locais. Não houve transmissão de vídeo, encontro presencial ou transporte de salsichas entre as entidades. Nenhum teste de alimentação anômala foi autorizado.</p>
+<h3>Transcrição autorizada</h3>
+<blockquote>
+<b>Dr. Bovas:</b> Senhores, bom dia. Esta é uma entrevista científica. Perguntas objetivas, nada de experimentos alimentares.<br>
+<b>Kanecomus:</b> Tem salsicha?<br>
+<b>Dr. Bovas:</b> Ainda não comecei.<br>
+<b>SCP-0842:</b> Excelente pergunta! Para compreender a salsicha, precisamos examinar sua composição, a emulsificação e o processamento térmico.<br>
+<b>Kanecomus:</b> Então tem.<br>
+<b>SCP-0842:</b> Estou explicando como é feita, não dizendo que trouxe uma.<br>
+<b>Kanecomus:</b> Quanto tempo leva para fazer mil?<br>
+<b>SCP-0842:</b> Depende da linha de produção, do equipamento e das condições sanitárias.<br>
+<b>Kanecomus:</b> E quanto tempo leva para comer mil?<br>
+<b>Dr. Bovas:</b> Não responda essa.<br>
+<b>SCP-0842:</b> Tecnicamente, precisaríamos considerar o tamanho de cada unidade e...<br>
+<b>Kanecomus:</b> Zero minuto. Se tiver molho, menos ainda.<br>
+<b>[O Dr. Bovas interrompe a anotação por cinco segundos.]</b><br>
+<b>Dr. Bovas:</b> Professor, o material que o senhor manifesta tem a mesma composição das salsichas convencionais?<br>
+<b>SCP-0842:</b> Não foi submetido a análise alimentar apropriada. Eu não recomendo consumo sem testes.<br>
+<b>Kanecomus:</b> Eu me voluntario.<br>
+<b>Dr. Bovas:</b> Indeferido.<br>
+<b>Kanecomus:</b> Eu me voluntario de novo.<br>
+<b>Dr. Bovas:</b> Ronaldo. Indeferido em dobro.<br>
+<b>SCP-0842:</b> O senhor parece gostar muito de salsichas.<br>
+<b>Kanecomus:</b> Eu gosto de tudo. Mas o senhor tem cara de quem sabe fazer umas boas.<br>
+<b>SCP-0842:</b> Agradeço. O controle de qualidade começa pelos ingredientes...<br>
+<b>Kanecomus:</b> E termina no meu prato.<br>
+<b>Dra. Joana, no canal de supervisão:</b> Doutor Bovas, seu experimento está virando uma negociação de buffet.<br>
+<b>Dr. Bovas:</b> E ainda não temos uma salsicha aprovada pela vigilância sanitária.<br>
+<b>[Entrevista encerrada por limite de tempo. Ambas as entidades permanecem calmas.]</b>
+</blockquote>
+<h3>Avaliação e resultado</h3>
+<p><b>Resultado:</b> contato verbal concluído sem agressão, fuga, distorção espacial ou ativação do Banquete 6767. SCP-0842 manteve a conduta educada e didática. SCP-6767 demonstrou interesse alimentar; não recebeu produto anômalo e permaneceu no módulo com alimentação programada. O conteúdo <b>não confirma</b> que materiais produzidos por 0842 sejam comestíveis nem que os poderes dos dois interajam.</p>
+<div class="incident-final"><p><b>Determinação:</b> contatos futuros exigem nova autorização e análise de risco alimentar. Não ocorreu encontro presencial e <b>nenhuma ligação anômala entre SCP-0842 e SCP-6767 foi demonstrada</b>. A decisão de manter SCP-0842 não contido, sob monitoramento externo, permanece inalterada.</p></div>
+</section><div class="document-end">FIM DO DOSSIÊ / SCP-0842 · <a href="#arquivo">VOLTAR AO ARQUIVO ↑</a></div></article>`}

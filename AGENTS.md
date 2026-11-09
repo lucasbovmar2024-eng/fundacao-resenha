@@ -257,3 +257,9 @@ O usuário quer histórias conectadas. Ao adicionar SCPs, doutores, funcionário
 - Dossiê e cartão usam a miniatura pública do vídeo "Como é feita a salsicha e por que ela custa tão pouco?" (ID _uana_JeTII), substituindo o cartaz CSS.
 - A pessoa real na foto é apenas referência visual para personagem fictício. Não sugerir que o apresentador real seja um SCP.
 - URL de miniatura padrão do YouTube com fallback hqdefault. Não alterar habilidades, cronologia ou resultados existentes em atualizações de arte.
+
+
+## REG-0842-03 — entrevista remota de Kanecomus e Homem da Salsicha
+- Nova entrevista voluntária e posterior à ficha original, sem retroagir incidentes: Bovas e Joana supervisionam conversa por áudio entre SCP-6767 alimentado e contido na unidade reserva e SCP-0842 livre em ponto externo, com Argatha acompanhando o 6767.
+- Nenhum encontro presencial, envio ou consumo de amostra, fuga, contenção de SCP-0842 ou ativação de Banquete. Sem ligação anômala comprovada. Resultado apenas comportamental e divertido, sem novas habilidades.
+- Transcrição completa em sausage.js / REG-0842-03 e referência cruzada em app.js / Kanecomus. Os 41 incidentes originais e crônicas ficam inalterados.
