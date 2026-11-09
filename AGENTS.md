@@ -251,3 +251,9 @@ O usuário quer histórias conectadas. Ao adicionar SCPs, doutores, funcionário
 - Keter porque seu mecanismo de evasão não está compreendido e não existe método duradouro demonstrado; NÃO CONTIDO por escolha de monitoramento estratégico. Nenhuma cela da BR-67 foi construída para ele. Em caso de perigo concreto, contenção pode ser reavaliada.
 - Nenhuma ligação anômala com SCP-6767; não ocorreu encontro com Kanecomus.
 - `sausage.js` contém o dossiê e o cartão. index.html carrega antes de app.js. O arquivo central tem 9 dossiês, 11 indivíduos, 7 unidades e 41 incidentes existentes intactos.
+
+
+## SCP-0842 — fotografia de referência (revisão visual)
+- Dossiê e cartão usam a miniatura pública do vídeo "Como é feita a salsicha e por que ela custa tão pouco?" (ID _uana_JeTII), substituindo o cartaz CSS.
+- A pessoa real na foto é apenas referência visual para personagem fictício. Não sugerir que o apresentador real seja um SCP.
+- URL de miniatura padrão do YouTube com fallback hqdefault. Não alterar habilidades, cronologia ou resultados existentes em atualizações de arte.

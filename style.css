@@ -386,3 +386,9 @@ dialog#image-lightbox::backdrop{background:rgba(1,4,9,.88);backdrop-filter:blur(
 .sausage-decision h3{font:700 32px/1.1 'Barlow Condensed',sans-serif;margin:10px 0}
 .sausage-decision p,.sausage-decision li{font-size:14px;line-height:1.75}
 @media(max-width:760px){.sausage-dossier .sausage-capabilities{grid-template-columns:1fr}.sausage-portrait .sausage-poster{min-height:300px}.sausage-decision{padding:15px}}
+
+/* SCP-0842 — miniatura do vídeo de referência, sem recortes. */
+.sausage-file-photo{display:flex;align-items:center;justify-content:center;background:#111}
+.file-photo.sausage-file-photo .sausage-reference-image{display:block;width:100%;height:100%;max-height:305px;object-fit:contain;object-position:center center;background:#111}
+.sausage-portrait{max-width:420px;width:100%}
+.sausage-portrait .sausage-reference-image{display:block;width:100%;height:auto;max-height:none;object-fit:contain;background:#111}

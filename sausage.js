@@ -1,13 +1,12 @@
-/* SCP-0842 — O Homem da Salsicha. Dossiê ficcional, não contém retrato de pessoa real.
-   Entidade neutra e defensiva, ainda não contida. Não cria INC retroativos.
-*/
-function sausagePoster(){return `<div class="sausage-poster" role="img" aria-label="Arte de arquivo: salsichas alaranjadas e a pergunta O que tem na salsicha?"><span class="sausage-poster-kicker">BR-67 / 08:42 / REGISTRO CONCEITUAL</span><strong class="sausage-poster-title">O QUE TEM<br>NA SALSICHA?</strong><div class="sausage-stack" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div><span class="sausage-poster-time">08:42</span></div>`}
+/* SCP-0842 — O Homem da Salsicha, inspirado numa miniatura de vídeo.
+   O apresentador real não é apresentado como uma anomalia verdadeira. */
+function sausagePoster(){return `<img class="sausage-reference-image" src="https://i.ytimg.com/vi/_uana_JeTII/maxresdefault.jpg" alt="Miniatura do vídeo de referência: homem de óculos cercado por salsichas alaranjadas e a frase O QUE TEM NA SALSICHA?" loading="lazy" onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/_uana_JeTII/hqdefault.jpg'">`}
 function sausageCard(){return `<a class="file-card" href="#scp-0842"><div class="file-photo sausage-file-photo">${sausagePoster()}</div><div class="card-body"><div class="card-id">OBJETO Nº SCP-0842 / REGISTRO EXTERNO</div><h2>O Homem da Salsicha</h2><span class="tag red">KETER</span> <span class="tag">NÃO CONTIDO</span> <span class="tag">NEUTRO / DEFENSIVO</span><p>Não está fugindo da lei. Está explicando os ingredientes. A Fundação decidiu não mandar dois batalhões atrás de um professor de embutidos.</p><span class="file-link">ABRIR DOSSIÊ COMPLETO ↗</span></div></a>`}
 function sausageDossier(){return `${crumb('ANOMALIAS / SCP-0842 / NÃO CONTIDO')}<article class="sausage-dossier">
 <div class="dossier-top"><div><div class="eyebrow">DOCUMENTO DE MONITORAMENTO / REVISÃO 01 / EXTERNO</div><h1>SCP-0842<br>O Homem da Salsicha</h1>
 <span class="tag red">CLASSE: KETER</span> <span class="tag">ESTADO: NÃO CONTIDO</span> <span class="tag">POSTURA: NEUTRO / DEFENSIVO</span>
 <div class="detail-list"><b>Designação informal:</b> O Professor da Salsicha<br><b>Localização:</b> variável / estabelecimentos alimentícios<br><b>Postura:</b> colaborativo sem coação; reage a ataque físico<br><b>Manifestação audiovisual:</b> ciclo de 08:42<br><b>Responsáveis pelo parecer:</b> <a href="#dr-bovas">Dr. Bovas</a> e <a href="#dr-joana">Dra. Joana</a><br><b>Ordem atual:</b> acompanhamento sem captura coercitiva</div></div>
-<figure class="portrait sausage-portrait">${sausagePoster()}<figcaption>FIG. 0842 — Arte documental inspirada na imagem de referência. Entidade e ocorrência fictícias; a pessoa real da miniatura original não é identificada como SCP.</figcaption></figure></div>
+<figure class="portrait sausage-portrait">${sausagePoster()}<figcaption>FIG. 0842 — Miniatura do vídeo de referência enviado, utilizada como representação do SCP-0842 fictício. O apresentador real não é um SCP.</figcaption></figure></div>
 <div class="warning"><b>ORDEM DIRETA 0842:</b> NÃO INICIAR CONTENÇÃO FORÇADA SEM REAVALIAÇÃO. A entidade não possui histórico confirmado de agressão espontânea. Obrigar uma aula a terminar em batalha não é contenção proporcional.</div>
 ${conductNote('0842')}
 <h2>01 / Procedimentos especiais — monitoramento externo</h2>
