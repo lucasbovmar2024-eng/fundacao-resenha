@@ -364,3 +364,25 @@ dialog#image-lightbox::backdrop{background:rgba(1,4,9,.88);backdrop-filter:blur(
 .bovas-record .incident-final{margin-top:14px}
 .corrupted-addendum{border-left-color:#a84646}
 @media(max-width:760px){.bovas-record-index{grid-template-columns:1fr}.bovas-record,.bovas-archive-note,.corrupted-addendum{padding:15px}}
+
+/* SCP-0842 — arte documental original em CSS, sem imagem de pessoa real. */
+.sausage-file-photo{background:#302c28;}
+.sausage-poster{position:relative;isolation:isolate;min-height:265px;height:100%;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;padding:25px 22px;background:radial-gradient(ellipse at 75% 75%,#77513b 0%,transparent 47%),linear-gradient(142deg,#292a24 3%,#3d342c 66%,#241f1b);color:#f4e6c9}
+.sausage-poster::before{content:'';position:absolute;z-index:-1;inset:0;background:repeating-linear-gradient(0deg,transparent,transparent 5px,#0001 6px);pointer-events:none}
+.sausage-poster-kicker,.sausage-poster-time{font:600 10px/1.5 'IBM Plex Mono',monospace;letter-spacing:.14em;color:#e2bf91}
+.sausage-poster-title{font:800 clamp(23px,3.7vw,51px)/1 'Barlow Condensed',sans-serif;letter-spacing:.015em;text-shadow:2px 2px 1px #20170e;z-index:2;max-width:440px}
+.sausage-stack{height:122px;position:relative;flex:none;max-width:360px}
+.sausage-stack i{position:absolute;display:block;left:10%;bottom:15%;width:53%;height:31px;border-radius:80px;background:linear-gradient(#dfa15e 0%,#bf7847 52%,#8c4a32 100%);border:2px solid #e3a36b;box-shadow:0 4px 10px #0005;transform:rotate(-12deg)}
+.sausage-stack i:nth-child(2){bottom:46%;left:30%;transform:rotate(13deg)}.sausage-stack i:nth-child(3){bottom:20%;left:45%;transform:rotate(35deg)}.sausage-stack i:nth-child(4){bottom:60%;left:4%;transform:rotate(24deg)}.sausage-stack i:nth-child(5){bottom:6%;left:23%;transform:rotate(-26deg)}.sausage-stack i:nth-child(6){bottom:75%;left:48%;transform:rotate(-8deg)}
+.sausage-poster-time{font-size:18px;font-weight:700;z-index:2}
+.sausage-portrait{max-width:320px;width:100%}.sausage-portrait .sausage-poster{min-height:345px}
+.sausage-portrait figcaption{font-size:11px;line-height:1.5}
+.sausage-dossier .sausage-capabilities{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:20px 0 24px}
+.sausage-capabilities section{border:1px solid var(--line);background:var(--paper);padding:18px}
+.sausage-capabilities section span{font:10px 'IBM Plex Mono',monospace;letter-spacing:.08em;color:var(--muted)}
+.sausage-capabilities section h3{font:700 26px/1.2 'Barlow Condensed',sans-serif;margin:9px 0}
+.sausage-capabilities section p{font-size:14px;line-height:1.75}
+.sausage-decision{padding:20px;border:1px solid var(--line);border-left:4px solid var(--red);background:var(--paper)}
+.sausage-decision h3{font:700 32px/1.1 'Barlow Condensed',sans-serif;margin:10px 0}
+.sausage-decision p,.sausage-decision li{font-size:14px;line-height:1.75}
+@media(max-width:760px){.sausage-dossier .sausage-capabilities{grid-template-columns:1fr}.sausage-portrait .sausage-poster{min-height:300px}.sausage-decision{padding:15px}}

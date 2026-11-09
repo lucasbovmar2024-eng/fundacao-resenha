@@ -240,3 +240,14 @@ O usuário quer histórias conectadas. Ao adicionar SCPs, doutores, funcionário
 - Efeitos secundários de imagem, memórias divergentes e reflexo antecipado já documentados permanecem, mas não demonstram viagem no tempo. Não inventar episódios antigos ou retcon de INC-001..INC-041. As tentativas de entrevista curta e o diálogo de Shalom constam do dossiê, não são um novo incidente retroativo.
 - REGRA DE AUTOR: Manifestação 1999-S Shalom e Banquete 6767 são totalmente INDEPENDENTES, sem origem, mecanismo, ligação causal, participantes ou conexão secreta compartilhados. Mesmo ambos contendo referências judaicas e vestimentas semelhantes, nunca revelá-los conectados. Os 6767-A/B continuam não identificados até o usuário criá-los.
 - Atualizar somente dossiê de Larper, protocolo do 1999 e uma nota de independência em Kanecomus. Não alterar crônicas ou resultados antigos.
+
+
+## SCP-0842 — O Homem da Salsicha / novo Keter não contido
+- SCP-0842 é um humanoide formal e educado, interessado em explicar o processamento de salsichas. É neutro/defensivo, sem agressão espontânea confirmada. O site usa arte conceitual CSS em vez de atribuir natureza anômala a uma pessoa real da foto de referência.
+- Efeito 0842-1: transforma matéria inanimada próxima em substância semelhante a embutido, alcance local ~um prédio, bloqueios e imobilização de objetos; não transforma pessoas. Pode sofrer ferimentos e ser brevemente imobilizado.
+- Efeito 0842-2: quando alvo de captura, câmeras podem repetir 8 minutos e 42 segundos e a entidade some da área; teletransporte não está comprovado. Pequenas quantidades de salsicha podem surgir durante aulas; não estabelecer produção literalmente infinita.
+- REG-0842-01 é observação fictícia de captura precipitada por Resenhinhos em supermercado, com reação defensiva e desaparecimento. Não é INC numerado retroativo nem altera INC-001..041.
+- Parecer 0842-02: Dr. Bovas, Dra. Joana e MTF-10/MTF-13 dispõem de recursos que poderiam, em tese, tornar viável a captura. Não há vitória ou sucesso comprovado nem operação conjunta realizada. O comando negou captura por custo, risco de escalada e ausência de agressão espontânea. Cada grupo conserva seus papéis existentes.
+- Keter porque seu mecanismo de evasão não está compreendido e não existe método duradouro demonstrado; NÃO CONTIDO por escolha de monitoramento estratégico. Nenhuma cela da BR-67 foi construída para ele. Em caso de perigo concreto, contenção pode ser reavaliada.
+- Nenhuma ligação anômala com SCP-6767; não ocorreu encontro com Kanecomus.
+- `sausage.js` contém o dossiê e o cartão. index.html carrega antes de app.js. O arquivo central tem 9 dossiês, 11 indivíduos, 7 unidades e 41 incidentes existentes intactos.
