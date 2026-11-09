@@ -190,3 +190,16 @@ O usuário quer histórias conectadas. Ao adicionar SCPs, doutores, funcionário
 - Dra. Joana é arrogante com quase todo o pessoal, mas Dr. Bovas e os integrantes da MTF-10 estão entre as raras exceções. Ela trata Bovas com amizade genuína como igual — e admite sua superioridade técnica em invocações e áreas que ele conhece melhor — sem rebaixá-lo a plebeu. Os dois trocam hipóteses, discutem com respeito e compartilham humor e café.
 - Joana respeita os membros da MTF-10 por competência tática, disciplina e experiência de campo. Pode considerá-los superiores nas suas especialidades operacionais, mas continua sem assumir nem modificar a cadeia de comando do Décimo.
 - Registrar esta relação em ambos os dossiês Joana/Bovas e como nota no da MTF-10. O diálogo de Joana com Bovas é EXEMPLO ILUSTRATIVO, não um incidente ocorrido; não atribuir a relação retroativamente a crônicas/ocorrências anteriores sem desenvolver novo registro.
+
+
+## Novos relatórios da Dra. Joana / pós-INC-034
+- O novo script `joana-registros.js` carrega depois de `error.js` (que adiciona INC-034), e ANTES de `app.js`. Ele APENAS faz append de INC-035 até INC-041 ao array de relatórios; não deve editar, recontar ou substituir nenhum INC-001 a INC-034 e NÃO criar crônicas/contos para os novos casos sem pedido específico.
+- INC-035: Joana+Bovas+Kanecomus, intermediação alimentar e carrinho retido por fita dentro de 500kg, sem fuga.
+- INC-036: Larper tenta falsificar autoridade e obter acesso; Joana confere via Bovas/Argatha e não usa força.
+- INC-037: treino com MTF-10, Joana respeita o comando do Décimo, vestido blindado impõe lentidão, sem feridos.
+- INC-038: Error recebe tentativa de entrevista não verbal; Joana NÃO olha para a imagem ativa e sua imunidade NÃO é demonstrada; Bovas supervisiona, Ferro-Vivo monitora por telemetria e Camera Man não recebe vídeo ativo. Não inventar cura, fuga ou ligação com SCP-0404.
+- INC-039: J.J.J. no recinto R-199; SOMENTE C fala; A e B permanecem não verbais e confortáveis. Não reinterpretar as ações de A/B como fala ou telepatia.
+- INC-040: falha estrutural comum; fitas de Joana sustentam por breve período estrutura abaixo de 500kg enquanto guarnição evacua; sem ataque de SCP, sem técnica suprema.
+- INC-041: Joana defende autonomia de Nex/Ferro-Vivo como SCPs aliados Thaumiel da MTF-13, mantém alojamento confortável e controle de risco real; não inventar prisão ou mudar comando.
+- Novos documentos PJ-001 a PJ-003 são transcrições de pesquisa na seção 11 de `#dr-joana`, com links aos sete incidentes na seção 10. Não alteram incidentes anteriores. As crônicas existentes continuam exatamente como estão.
+- O índice inicial e sidebar indicam agora 41 incidentes; o novo script deve ter os sete IDs únicos. O INC-034 já existia em error.js mas anteriormente faltava no índice resumido inicial, agora foi incluído sem editar seu relato.
