@@ -196,7 +196,7 @@ const incidentReports = [
     ],
     "status": "ENCERRADO / NOMEAÇÃO ANULADA",
     "summary": "Senhor Larper entrou numa reunião do Departamento Brainrot afirmando trabalhar com o assunto desde antes do algoritmo.",
-    "sequence": "Bovas o nomeou consultor por onze minutos. Ao ser questionado sobre a diferença entre Tralalero e Bombardiro, Larper respondeu “depende da build”. A situação ficou insustentável quando chamou Patapim de “aquele Pokémon de raiz”.",
+    "sequence": "Larper chegou ao Departamento Brainrot com um discurso sobre tendências e experiência 'desde antes do algoritmo'. Bovas autorizou uma nomeação estritamente provisória e limitada à reunião; por onze minutos considerou a possibilidade de ajuda externa, sem lhe entregar credenciais ou comando de contenção. Na checagem prática, pediu que Larper explicasse diferenças observáveis entre as invocações Tralalero e Bombardiro e justificasse o uso de Patapim numa barreira. Larper respondeu com frases de efeito ('depende da build') e chamou Patapim de 'aquele Pokémon de raiz'. Bovas então pediu uma demonstração verificável, conferiu a ausência de qualquer competência demonstrada e revogou pessoalmente a nomeação. O registro conserva o fato de que Bovas foi enganado no primeiro contato; reconhecer a falha fez parte da resposta científica, não de uma imunidade inexistente à persuasão.",
     "dialogue": [
       [
         "Dr. Bovas",
@@ -213,12 +213,44 @@ const incidentReports = [
       [
         "Senhor Larper",
         "Exatamente. Você entendeu."
+      ],
+      [
+        "Dr. Bovas",
+        "Não. Entendi que você fala bonito. Qual é a diferença operacional entre Tralalero e Bombardiro?"
+      ],
+      [
+        "Senhor Larper",
+        "Depende da build. Ambos escalam com a visão estratégica do líder."
+      ],
+      [
+        "Dr. Bovas",
+        "E o Patapim? O que ele faz numa contenção de corredor?"
+      ],
+      [
+        "Senhor Larper",
+        "Aquele Pokémon de raiz? É o suporte da sinergia."
+      ],
+      [
+        "Dr. Bovas",
+        "Onze minutos de consultoria e nenhuma resposta verificável. Eu errei ao aceitar sua palavra como credencial."
+      ],
+      [
+        "Senhor Larper",
+        "Isso é resistência à inovação."
+      ],
+      [
+        "Dr. Bovas",
+        "É revisão por pares. O parecer dos meus pares é: você não passa da recepção. Nomeação anulada."
+      ],
+      [
+        "Registro",
+        "Nenhum poder de invocação foi demonstrado por Larper. Os bordões de Bovas não constituíram concordância nem autorização."
       ]
     ],
     "outcome": "A nomeação foi anulada. Especialistas recém-chegados devem realizar uma demonstração verificável; eloquência deixou de contar como credencial.",
     "scope": "interno",
     "location": "BR-67 / Departamento Brainrot",
-    "conflict": "Larper obteve aceitação provisória como consultor sem demonstrar competência; Bovas precisou verificar a alegação na prática."
+    "conflict": "Larper obteve aceitação provisória como consultor com uma apresentação convincente, mas sem demonstrar competência. Bovas precisou verificar a alegação na prática, reconhecer o próprio erro de julgamento e impedir que a falsa autoridade virasse acesso efetivo ou ordem operacional."
   },
   {
     "id": "INC-007",
@@ -278,7 +310,7 @@ const incidentReports = [
     ],
     "status": "OBSERVAÇÃO INCONCLUSIVA / SEM HOSTILIDADE",
     "summary": "Bovas tentou estabelecer uma observação controlada do visitante Daycaros. Nenhuma contenção eficaz foi obtida.",
-    "sequence": "Daycaros aceitou conversar numa sala monitorada. Enquanto Bovas conferia o formulário do lado de fora, foi encontrado no corredor avaliando o reboco. Os registros não permitiram reconstruir a passagem; teletransporte não foi confirmado.",
+    "sequence": "Daycaros aceitou conversar numa sala monitorada. Enquanto Bovas conferia um formulário do lado de fora, o visitante foi encontrado no corredor analisando a textura do reboco. As gravações não mostraram a passagem completa e a Fundação não dispunha de meios para afirmar como ele saíra. Bovas interrompeu a tentativa de manter o visitante na sala, optando por acompanhá-lo cordialmente. Em anotação posterior, comparou a experiência com sua visão gnóstica de uma realidade material possivelmente limitada: uma pergunta filosófica sobre portas e fronteiras, não um indício de que Daycaros conheça o Demiurgo ou possua poder divino. A análise manteve hipóteses alternativas abertas e não recomendou nova contenção coercitiva sem fundamento.",
     "dialogue": [
       [
         "Dr. Bovas",
@@ -295,12 +327,36 @@ const incidentReports = [
       [
         "Daycaros",
         "Essa quina tem uma textura muito honesta."
+      ],
+      [
+        "Dr. Bovas",
+        "O corredor não explicou sua saída. O senhor consegue dizer por onde andou?"
+      ],
+      [
+        "Daycaros",
+        "Passei onde a parede precisava de carinho. O reboco anda muito desprezado."
+      ],
+      [
+        "Dr. Bovas",
+        "Na minha filosofia, até uma parede pode lembrar os limites do mundo material. Mas filosofia não substitui gravação."
+      ],
+      [
+        "Daycaros",
+        "Gravação não tem gosto. Essa parede tem."
+      ],
+      [
+        "Dr. Bovas",
+        "Certo. Então anotem apenas o que sabemos: ele está aqui, está calmo, e ninguém demonstrou como saiu."
+      ],
+      [
+        "Registro",
+        "Não há prova de teletransporte, ligação com o Demiurgo ou contenção bem-sucedida."
       ]
     ],
     "outcome": "A tentativa terminou sem confronto ou feridos. A Fundação adotou acompanhamento cordial em vez de novas tentativas de força. Daycaros segue com natureza desconhecida e sem número SCP definitivo.",
     "scope": "interno",
     "location": "BR-67 / área de contenção e circulação",
-    "conflict": "Daycaros entrou e saiu apesar da tentativa de contenção. Não houve confronto ou hostilidade; o problema foi a incapacidade de restringir sua circulação.",
+    "conflict": "Daycaros entrou e saiu apesar da tentativa de contenção. Não houve confronto ou hostilidade; a equipe não sabia como ele cruzara a área e precisava evitar confundir ausência de registro com prova de teletransporte ou ligação com alguma figura religiosa.",
     "classificationNote": "Registro histórico anterior à catalogação do padre como SCP-7777. O estado observado naquela ocorrência foi preservado; consulte a ficha atual para classificação e acompanhamento."
   },
   {
@@ -734,7 +790,7 @@ const incidentReports = [
     ],
     "status": "REGISTRO PRESERVADO / TRAJETO INCONCLUSIVO",
     "summary": "Daycaros foi registrado num corredor e saiu do enquadramento. A câmera seguinte estava indisponível.",
-    "sequence": "Camera Man preservou o trecho e registrou a falha de cobertura. Argatha verificou o corredor sem confronto. Bovas separou o que foi observado das hipóteses sobre a natureza do visitante.",
+    "sequence": "Camera Man preservou o trecho original e registrou a câmera seguinte como indisponível. Argatha verificou o corredor sem confronto e sem encontrar evidência física que reconstituísse o percurso. Bovas, em vez de tratar a própria impressão inicial de 'desaparecimento' como conclusão, pediu horário, continuidade dos quadros e confirmação independente da falha de cobertura. O vídeo mostrou Daycaros deixando um enquadramento, não a realidade. A equipe distinguiu 'foi visto', 'não aparece na câmera seguinte' e 'não sabemos por onde passou'. O registro científico permaneceu inconclusivo. Não foi inferida causa sobrenatural nem explicação psiquiátrica para a ausência de imagem.",
     "dialogue": [
       [
         "Bovas",
@@ -751,12 +807,40 @@ const incidentReports = [
       [
         "Camera Man",
         "Da câmera. Vamos começar pelo cabo."
+      ],
+      [
+        "Bovas",
+        "Boa correção. Eu fiz uma pergunta, não dei um diagnóstico do universo."
+      ],
+      [
+        "Camera Man",
+        "Último quadro preservado. A próxima câmera estava fora. Falta o meio do trajeto."
+      ],
+      [
+        "Bovas",
+        "Então escrevam 'trajeto não reconstruído'. Se eu disser que desapareceu, vão me pedir uma demonstração."
+      ],
+      [
+        "Argatha",
+        "Corredor verificado. Sem confronto e sem confirmação do percurso."
+      ],
+      [
+        "Bovas",
+        "Ótimo. O Demiurgo pode esperar; primeiro consertem o cabo."
+      ],
+      [
+        "Camera Man",
+        "Essa frase vai para o orçamento da manutenção?"
+      ],
+      [
+        "Bovas",
+        "Só se a manutenção souber cobrar o criador."
       ]
     ],
     "outcome": "O percurso completo não foi reconstruído. Não houve comprovação de teletransporte, contenção eficaz ou hostilidade de Daycaros. A manutenção da câmera foi encaminhada, e a natureza do visitante permanece desconhecida.",
     "scope": "interno",
     "location": "BR-67 / corredor monitorado",
-    "conflict": "A falha de cobertura de uma câmera impediu reconstruir o trajeto de Daycaros; a equipe precisou separar ausência de imagem de desaparecimento anômalo.",
+    "conflict": "A perda de cobertura de uma câmera impediu reconstruir o trajeto de Daycaros. A equipe precisava distinguir a observação direta de um vídeo incompleto, a interpretação do observador e as possíveis explicações técnicas, sem presumir teletransporte ou atribuir o fenômeno a experiências perceptivas individuais.",
     "classificationNote": "Registro histórico anterior à catalogação do padre como SCP-7777. O estado observado naquela ocorrência foi preservado; consulte a ficha atual para classificação e acompanhamento."
   },
   {
