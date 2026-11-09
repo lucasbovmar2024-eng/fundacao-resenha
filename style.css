@@ -112,3 +112,34 @@
 .chronicle-opponents-grid .eyebrow{line-height:1.6}
 .chronicle-opponents-grid p{margin:13px 0 0;font-size:14px;line-height:1.7}
 @media(max-width:800px){.chronicle-opponents-grid{grid-template-columns:1fr}.chronicle-opponents{padding:18px}}
+
+/* GOI / Grupos de Interesse */
+.goi-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:1px solid var(--line);margin:26px 0}
+.goi-stats>div{padding:18px;border-right:1px solid var(--line);font:10px/1.5 'IBM Plex Mono',monospace;color:var(--muted)}
+.goi-stats>div:last-child{border:0}
+.goi-stats strong{display:block;font:700 30px 'Barlow Condensed',sans-serif;color:var(--ink)}
+.goi-list{display:grid;gap:17px}
+.goi-card{display:grid;grid-template-columns:125px minmax(0,1fr);background:var(--paper);border:1px solid var(--line);overflow:hidden;transition:border-color .15s}
+.goi-card:hover{border-color:var(--red)}
+.goi-symbol{display:grid;place-items:center;font:700 74px/1 'Barlow Condensed',sans-serif;background:#20292d;color:#ddd1bb;min-height:128px}
+.goi-card-body{padding:22px 25px}
+.goi-card-body h2{margin:9px 0 14px;font-size:32px}
+.goi-card-body p{font-size:15px;line-height:1.7}
+.goi-state{display:inline-block;font:700 11px/1.5 'IBM Plex Mono',monospace;letter-spacing:.03em;border:1px solid var(--red);padding:5px 8px;margin:4px 0 10px;color:var(--red)}
+.goi-under-study{border-color:var(--line);color:var(--muted)}
+.goi-foot{border-top:2px solid var(--line);padding-top:19px;margin-top:32px;line-height:1.8}
+.goi-dossier>h1{font-size:clamp(34px,5vw,66px);line-height:1.12}
+.goi-dossier>p{max-width:76ch;line-height:1.8}
+.goi-lead{display:flex;align-items:center;gap:21px;background:var(--paper);border:1px solid var(--line);padding:15px;margin:22px 0}
+.goi-lead .goi-symbol{flex:0 0 104px;font-size:65px;min-height:106px}
+.goi-lead p{font-size:18px;line-height:1.5;margin:8px 0}
+.goi-people{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin:23px 0}
+.goi-people section{border:1px solid var(--line);padding:18px;background:var(--paper)}
+.goi-people h3{font-size:22px;margin:0 0 12px}
+.goi-people p{line-height:1.7;font-size:14px}
+.goi-people .eyebrow{font-size:10px}
+.goi-facts{line-height:1.8;padding-left:23px}
+.goi-facts li{margin:10px 0}
+.goi-uncertain{border-left:3px solid var(--line);padding-left:30px}
+.goi-related{display:flex;gap:11px 17px;flex-wrap:wrap;margin:20px 0 32px}
+@media(max-width:730px){.goi-people{grid-template-columns:1fr}.goi-stats>div{padding:10px;font-size:9px}.goi-stats strong{font-size:23px}.goi-card{grid-template-columns:83px minmax(0,1fr)}.goi-symbol{font-size:49px}.goi-card-body{padding:15px}.goi-card-body h2{font-size:26px}.goi-lead .goi-symbol{flex-basis:66px;font-size:44px;min-height:82px}.goi-lead p{font-size:16px}}
