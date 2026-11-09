@@ -349,3 +349,18 @@ dialog#image-lightbox::backdrop{background:rgba(1,4,9,.88);backdrop-filter:blur(
 .joana-research-note blockquote{margin:20px 0;padding:16px;border-color:#b884bc}
 .joana-research-note .incident-final{margin-top:17px}
 @media(max-width:780px){.joana-incident-links{grid-template-columns:1fr}.joana-incident-link,.joana-research-note{padding:15px}}
+
+/* Registros do Dr. Bovas: complementos, sem editar o conteúdo original dos INC. */
+.bovas-new-records{margin:30px 0;border-top:3px solid var(--red);padding-top:19px}
+.bovas-record-index{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:23px 0}
+.bovas-record-index a{display:flex;flex-direction:column;gap:8px;padding:17px;border:1px solid var(--line);background:var(--paper);color:var(--ink);text-decoration:none}
+.bovas-record-index a:hover{border-color:var(--red)}
+.bovas-record-index strong{font:700 23px/1.2 'Barlow Condensed',sans-serif}
+.bovas-record-index small{font:11px/1.55 'IBM Plex Mono',monospace;color:var(--muted)}
+.bovas-record,.bovas-archive-note,.corrupted-addendum{border:1px solid var(--line);border-left:4px solid var(--red);background:var(--paper);padding:20px;margin:23px 0;scroll-margin-top:15px}
+.bovas-record h3{font:700 28px/1.2 'Barlow Condensed',sans-serif;margin:9px 0 13px}
+.bovas-record p,.bovas-archive-note p,.corrupted-addendum p{font-size:14px;line-height:1.82}
+.bovas-record blockquote,.corrupted-addendum blockquote{margin:14px 0 20px;padding:15px}
+.bovas-record .incident-final{margin-top:14px}
+.corrupted-addendum{border-left-color:#a84646}
+@media(max-width:760px){.bovas-record-index{grid-template-columns:1fr}.bovas-record,.bovas-archive-note,.corrupted-addendum{padding:15px}}
