@@ -167,3 +167,11 @@ O usuário quer histórias conectadas. Ao adicionar SCPs, doutores, funcionário
 - Deputado Augusto Naves Ferraz: personagem político inteiramente fictício, jovem, sem bigode e de terno, com imagem `goi-002-deputado-augusto.webp`; associação política não comprovada. Não confundir com pessoa real ou fazer alegações factuais de crimes.
 - Vestuário base visual: Apagão `goi-001-traje-base.webp` (máscara/capuz, proteção modular e tecnologia, sem poder próprio), Frente `goi-002-traje-base.webp` (camuflagem militar brasileira e colete, menos avançado que Apagão), Culto do Recobo `goi-003-traje-base.webp` (somente panos e tecido no rosto, nenhuma armadura).
 - Kits ilustrativos associados aos dois personagens `goi-002-kit-comando.webp` e `goi-002-kit-politico.webp`. Não há confirmação de posse, modelos, filiação ou funções específicas. Os kits não se tornam armas canônicas automaticamente.
+
+
+## Dossiês GOI / distinção entre pessoas e elementos
+- A seção 03 de cada GOI mantém o mesmo lugar e agora possui dois subseções internas: 03-A Pessoas conhecidas ou associadas (retrato apenas de indivíduo específico) e 03-B Setores, grupos e elementos associados (cartões exclusivamente textuais, sem retratos humanos).
+- GOI-001: os três operadores humanos conhecidos Mara, Ícaro e Dário em 03-A; célula industrial de Recife e equipe de segurança em 03-B. A derrota/custódia do INC-030 permanece inalterada.
+- GOI-002: general Renato Vilar e deputado Augusto Naves como indivíduos fictícios sob investigação em 03-A, filiação não comprovada. A Voz Aberta (assinatura de comunicado, identidade desconhecida), Células de Libertação (ala militar) e Rede de Acolhimento (setor civil) em 03-B, SEM retratos de pessoas ou falsa atribuição de identidade.
+- GOI-003: nenhum integrante individual identificado com segurança, logo 03-A apenas informa isso. Oficiante do Reboco e Devota da Rapa Sagrada são arquétipos de relatos, não membros nomeados; Deus Recobo é crença/iconografia de divindade não comprovada. Os três em 03-B SEM retratos humanos. As ilustrações dos trajes e objetos permanecem na seção 04.
+- Os recursos/armamentos seguem na seção 04 e todas as demais seções, rotas, menus e navegação permanecem inalterados. Não interpretar objetos associados como pessoas ou fornecer fotos identificadoras sem nome e evidência.

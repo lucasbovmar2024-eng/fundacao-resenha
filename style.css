@@ -295,3 +295,21 @@ dialog#image-lightbox::backdrop{background:rgba(1,4,9,.88);backdrop-filter:blur(
 #content img[role="button"]:focus-visible{outline:3px solid var(--red);outline-offset:3px}
 @media(max-width:680px){dialog#image-lightbox{width:100vw;height:100dvh;max-height:100dvh;border-radius:0;border:0}.image-lightbox-bar{padding:10px 12px}.image-lightbox-bottom{gap:6px;padding:9px 8px;grid-template-columns:38px minmax(0,1fr) auto 38px}.image-lightbox-bottom p{font-size:10px}.image-lightbox-bottom button{width:36px;height:36px}.image-lightbox-media{padding:5px}.image-lightbox-composite>img:first-child{max-height:calc(100dvh - 135px)}}
 @media(prefers-reduced-motion:reduce){#image-lightbox *{scroll-behavior:auto!important}}
+
+/* Dossiês GOI: diferenciar pessoas identificadas de setores, perfis e crenças */
+.goi-figures-area,.goi-elements-area{margin:22px 0 30px}
+.goi-subsection-title{border-left:3px solid var(--red);padding:3px 0 3px 16px;margin:12px 0 18px}
+.goi-subsection-title h3{font-size:26px;line-height:1.2;margin:8px 0}
+.goi-subsection-title>p{color:var(--muted);font-size:14px;line-height:1.7;margin:6px 0}
+.goi-elements-area{border-top:1px solid var(--line);padding-top:22px}
+.goi-element-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.goi-element-card{border:1px solid var(--line);background:var(--paper);padding:21px;min-width:0}
+.goi-element-top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 14px;margin-bottom:14px}
+.goi-element-index{font:700 11px/1.5 'IBM Plex Mono',monospace;color:var(--red)}
+.goi-element-status{font:10px/1.4 'IBM Plex Mono',monospace;color:var(--muted);border:1px solid var(--line);padding:5px 8px}
+.goi-element-card h4{font:700 24px/1.2 'Barlow Condensed',sans-serif;margin:4px 0 10px}
+.goi-element-card p{font-size:14px;line-height:1.75;margin:12px 0 0}
+.goi-people-empty{border:1px dashed var(--line);padding:23px;background:var(--paper)}
+.goi-people-empty strong{font:700 12px/1.5 'IBM Plex Mono',monospace;color:var(--muted)}
+.goi-people-empty p{margin:9px 0 0;font-size:14px;line-height:1.7}
+@media(max-width:740px){.goi-element-grid{grid-template-columns:1fr}.goi-element-card{padding:17px}}
