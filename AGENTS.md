@@ -159,3 +159,11 @@ O usuário quer histórias conectadas. Ao adicionar SCPs, doutores, funcionário
 - Além do GOI-001, GOI-002 Frente da Ruptura possui três imagens de OBJETOS no seu dossiê, não retratos dos membros: `goi-002-armamento-pesado.webp`, `goi-002-drones.webp`, `goi-002-acesso-satelites.webp`. As imagens são reconstruções visuais; não canonizam modelos, fabricantes, armamento embarcado, propriedade dos satélites ou ataques já ocorridos.
 - GOI-003 Culto do Deus Recobo possui três imagens de OBJETOS: `goi-003-instrumentos-raspagem.webp`, `goi-003-rapa-parede.webp`, `goi-003-iconografia.webp`. Os relatos continuam EM ESTUDO, sem comprovação de poderes, de material apreendido ou da existência de Recobo. Não confundir iconografia com fotografia real do deus.
 - O visualizador global em `lightbox.js` deve ampliar essas imagens por clique dentro do próprio site, sem nova guia. As fotos dos membros continuam em sua seção de personagens; a seção Recursos mostra equipamentos, não retratos repetidos.
+
+
+## GOI: retratos e trajes visuais adicionados, sem mudar a estrutura
+- Não criar novos menus, abas, rotas ou seções. Os dois novos personagens fictícios ficam na seção 03 já existente em #goi-002, e as novas imagens nas fichas de recursos 04 já existentes dos três GOIs.
+- General Renato Vilar de Albuquerque: personagem militar brasileiro inteiramente fictício, bigode grande, com imagem `goi-002-general-renato.webp`; elo militar com a Frente sob investigação, comando e situação ativa/reserva não confirmados.
+- Deputado Augusto Naves Ferraz: personagem político inteiramente fictício, jovem, sem bigode e de terno, com imagem `goi-002-deputado-augusto.webp`; associação política não comprovada. Não confundir com pessoa real ou fazer alegações factuais de crimes.
+- Vestuário base visual: Apagão `goi-001-traje-base.webp` (máscara/capuz, proteção modular e tecnologia, sem poder próprio), Frente `goi-002-traje-base.webp` (camuflagem militar brasileira e colete, menos avançado que Apagão), Culto do Recobo `goi-003-traje-base.webp` (somente panos e tecido no rosto, nenhuma armadura).
+- Kits ilustrativos associados aos dois personagens `goi-002-kit-comando.webp` e `goi-002-kit-politico.webp`. Não há confirmação de posse, modelos, filiação ou funções específicas. Os kits não se tornam armas canônicas automaticamente.
