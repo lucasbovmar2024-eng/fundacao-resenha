@@ -145,3 +145,17 @@ O usuário quer histórias conectadas. Ao adicionar SCPs, doutores, funcionário
 - A seção GOI-003 contém três itens devocionais ainda em estudo: instrumentos de raspagem, recipientes/rapa de parede e iconografia do Recobo; sem efeito anômalo comprovado nem existência de Recobo confirmada.
 - O inventário permanece em `equipamentos.js` como dados e função `goiEquipmentSection(groupId)`, usada diretamente na ficha construída por `gois.js`. Links legados #equipamentos e #equipamentos-001/002/003 são rotas de compatibilidade e devem abrir o diretório ou a seção da organização respectiva, sem voltar a criar aba separada.
 - A foto de equipamento é ilustrativa e pode ser ampliada. Os retratos dos membros e os históricos ficam preservados.
+
+
+## Visualizador de imagens interno / lightbox global
+- `lightbox.js` adiciona ampliação na mesma página, usando `#image-lightbox` em `index.html`. Vale para imagens de dossiês SCP, cartões, crônicas, MTFs, unidades, figuras e recursos GOI, inclusive imagens em links que antes tinham `target="_blank"`.
+- Ao clicar na imagem, um modal abre sem navegar para nova guia. O texto do cartão e links não fotográficos continuam navegando normalmente. Setas à direita/esquerda permitem percorrer imagens da página; tecla Esc e botão × fecham; miniaturas soltas recebem Tab/Enter.
+- Uma imagem composta por SVG da unidade E-005 mais retrato de Error sobreposto deve ser ampliada mantendo ambas as camadas.
+- Não capturar cliques em controles de invocação `data-summon` ou botões. Para impedir a ampliação automática em alguma imagem funcional futura, usar `data-no-lightbox`.
+- Preservar os arquivos originais e seus caminhos; não alterar lore nem substituir imagens. `lightbox.js` deve carregar antes de `app.js` para receber cliques das páginas dinâmicas.
+
+
+## Imagens específicas do equipamento GOI-002 e GOI-003
+- Além do GOI-001, GOI-002 Frente da Ruptura possui três imagens de OBJETOS no seu dossiê, não retratos dos membros: `goi-002-armamento-pesado.webp`, `goi-002-drones.webp`, `goi-002-acesso-satelites.webp`. As imagens são reconstruções visuais; não canonizam modelos, fabricantes, armamento embarcado, propriedade dos satélites ou ataques já ocorridos.
+- GOI-003 Culto do Deus Recobo possui três imagens de OBJETOS: `goi-003-instrumentos-raspagem.webp`, `goi-003-rapa-parede.webp`, `goi-003-iconografia.webp`. Os relatos continuam EM ESTUDO, sem comprovação de poderes, de material apreendido ou da existência de Recobo. Não confundir iconografia com fotografia real do deus.
+- O visualizador global em `lightbox.js` deve ampliar essas imagens por clique dentro do próprio site, sem nova guia. As fotos dos membros continuam em sua seção de personagens; a seção Recursos mostra equipamentos, não retratos repetidos.
