@@ -132,14 +132,14 @@ const containmentUnits = {
       ],
       [
         "04 / Registros independentes para 1999-S",
-        "A sala dispõe de dois dispositivos independentes, mantidos fora da rede geral, e referências físicas preservadas. Se a manifestação surgir, suspender debates de identidade e arquivar versões sem sobrescrever o original. A variante continua sob estudo."
+        "A sala dispõe de dois dispositivos independentes, mantidos fora da rede geral, e referências físicas preservadas. Se a manifestação surgir, suspender debates de identidade e arquivar versões sem sobrescrever o original. Durante a forma Shalom, cessam os comportamentos habituais de falsa autoridade; observar e preservar o curto episódio sem assumir que a identidade antiga seja real. A variante continua sob estudo."
       ],
       [
         "05 / Olhar uma gravação não é ficar imune",
         "Os observadores comparam os registros e conferem ordens fora do circuito de vídeo. Após INC-019, qualquer aparição de Larper numa imagem é investigada antes de ser atribuída a 1999-S ou ao vírus."
       ]
     ],
-    "limit": "Nenhuma pessoa ou câmera foi declarada imune à persuasão ou às alterações de imagem de 1999-S. Discordância entre registros suspende a autorização; não justifica provocar a manifestação.",
+    "limit": "Nenhuma pessoa ou câmera foi declarada imune à persuasão da forma comum ou às alterações de imagem de 1999-S. A forma Shalom não exibiu o comportamento manipulador habitual, mas isso não comprova sua origem. Discordância entre registros suspende a autorização; não justifica provocar a manifestação.",
     "plans": [
       {
         "code": "A",
@@ -195,21 +195,21 @@ const containmentUnits = {
       },
       {
         "code": "C",
-        "name": "Duas versões da mesma sala",
+        "name": "Shalom: poucos segundos de depoimento",
         "trigger": "Manifestação 1999-S observada ou divergência inexplicada entre imagens e testemunhos.",
         "lead": "Bovas conduz a análise; observadores preservam registros independentes.",
         "steps": [
           [
-            "Suspender a disputa de identidade",
-            "Parar debates e perguntas que tentem provocar a variante. Não repetir o episódio da fotografia como teste improvisado."
+            "Evitar provocar a manifestação",
+            "Não discutir com a variante nem reproduzir o episódio da fotografia como teste improvisado. Se Shalom surgir espontaneamente, confirmar a mudança de conduta e iniciar perguntas curtas previamente preparadas, sem pressão."
           ],
           [
-            "Preservar as versões",
-            "Guardar registros dos dois dispositivos independentes e referências físicas, sem substituir um arquivo pelo outro. Os meios permanecem isolados da rede geral."
+            "Preservar palavras e registros",
+            "Registrar as frases exatas de Shalom e guardar imagens dos dois dispositivos independentes. Marcar trechos incompletos e interpretações como hipóteses, sem tratar vocabulário antigo como prova de origem histórica."
           ],
           [
-            "Conferir a sala e os acessos",
-            "Manter o acompanhamento presencial e as autorizações suspensas. Uma imagem diferente não prova fuga, viagem no tempo ou infecção por SCP-0404."
+            "Separar Shalom de Larper comum",
+            "Documentar o fim do episódio e a volta da personalidade manipuladora; não presumir que Larper se lembra ou sabe algo sobre a transformação. Uma imagem diferente não prova fuga, viagem no tempo ou infecção por SCP-0404."
           ],
           [
             "Aguardar avaliação",
