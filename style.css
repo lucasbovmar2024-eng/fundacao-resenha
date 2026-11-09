@@ -152,3 +152,20 @@
 .goi-lead .goi-symbol{border-right:0;align-self:center}
 .goi-lead .goi-symbol img{height:106px;max-height:106px;width:100%;padding:0}
 @media(max-width:730px){.goi-card .goi-symbol img{padding:2px}.goi-lead .goi-symbol img{height:82px;max-height:82px}}
+
+/* Dossiês visuais dos integrantes dos GOIs */
+.goi-people .goi-person{padding:0;overflow:hidden;display:flex;flex-direction:column}
+.goi-person-portrait{display:block;background:#101317;aspect-ratio:4/5;overflow:hidden;border-bottom:1px solid var(--line)}
+.goi-person-portrait img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .2s ease}
+.goi-person-portrait:hover img{transform:scale(1.025)}
+.goi-person-info{padding:18px;flex:1}
+.goi-person-info h3{margin:0 0 9px;font-size:22px}
+.goi-person-info p{margin-bottom:0}
+.goi-image-disclaimer{font:11px/1.8 'IBM Plex Mono',monospace;color:var(--muted);max-width:92ch;margin:10px 0 23px}
+.goi-capabilities{margin:23px 0 32px;border:1px solid var(--line);border-top:3px solid var(--red);background:var(--paper);padding:22px}
+.goi-capabilities h3{font-size:26px;margin:8px 0 18px}
+.goi-capability-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.goi-capability-grid>div{border:1px solid var(--line);padding:14px 16px}
+.goi-capability-grid strong{font:700 11px/1.5 'IBM Plex Mono',monospace;color:var(--ink)}
+.goi-capability-grid p{font-size:14px;line-height:1.65;margin:7px 0 0}
+@media(max-width:740px){.goi-capability-grid{grid-template-columns:1fr}.goi-person-info{padding:15px}}

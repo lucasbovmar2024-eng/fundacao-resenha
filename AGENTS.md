@@ -102,3 +102,11 @@ O usuário quer histórias conectadas. Ao adicionar SCPs, doutores, funcionário
 ## Identidade visual dos GOIs
 - Usar os emblemas gerados especificamente para cada grupo, sem substituir por símbolos unicode genéricos: GOI-001 `goi-001-emblema.webp` (eclipse industrial vermelho e transmissão), GOI-002 `goi-002-emblema.webp` (corrente quebrada e figura atrás de grades), GOI-003 `goi-003-emblema.webp` (reboco sagrado, colher de pedreiro e tigelas de rapa de parede).
 - Cada imagem aparece na listagem #gois e no dossiê individual #goi-00N; não muda a cronologia, os poderes, as classes ou os níveis de certeza dos dossiês.
+
+
+## Dossiês visuais e capacidade do Círculo do Apagão
+- GOI-001 Círculo do Apagão utiliza somente alta tecnologia, armamentos e artefatos anômalos operados por humanos; nenhum membro conhecido possui poderes anômalos próprios como Dr. Bovas. Nenhum SCP em sua posse ou custódia foi confirmado. A frase "até onde sabemos" indica avaliação provisória, não evidência de membros ocultos com poderes ou de SCP mantido em segredo.
+- Retratos individuais dos três operadores locais do GOI-001: `goi-001-mara.webp`, `goi-001-icaro.webp`, `goi-001-dario.webp`. Mara, Ícaro e Dário continuam entre os sete detidos após INC-030, sem poderes pessoais.
+- GOI-002 Frente da Ruptura possui três retratos de arquivo interpretativos: `goi-002-voz.webp`, `goi-002-libertacao.webp`, `goi-002-acolhimento.webp`. Identidades reais de Voz Aberta e de líderes de células não são confirmadas; as imagens ilustram possíveis funções, não provas fotográficas. Ainda não há ataque ao BR-67 registrado.
+- GOI-003 Culto do Deus Recobo tem duas representações de perfis devocionais (`goi-003-oficiante.webp` e `goi-003-devota.webp`) e a iconografia religiosa `goi-003-recobo.webp`. Deus Recobo segue NÃO COMPROVADO, não é SCP confirmado, sem poderes demonstrados; sua imagem é representação devocional, não foto real da divindade. Nenhuma relação com Daycaros foi confirmada. Não encorajar comer rapa de parede na vida real.
+- Os retratos estão na seção 03 de cada dossiê GOI e podem ser ampliados clicando. Não adicionar nomes ou poderes aos perfis anônimos sem novos registros de história e sem autorização.
