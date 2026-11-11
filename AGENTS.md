@@ -316,3 +316,10 @@ O usuário quer histórias conectadas. Ao adicionar SCPs, doutores, funcionário
 - Referências nas fichas de Bovas, Joana e Camera Man. Incidentes, crônicas anteriores, vítimas, capacidades e classificações preservados.
 
 - Arte de Portão de Cinzas recriada com referência na composição original e detalhes mais nítidos: cronica-portao-cinzas-hd.webp, 1448x1086, WebP qualidade 95. Usa o mesmo campo cover no índice e na crônica. Imagem antiga 720x540 preservada. Cinco integrantes do Pacto em primeiro plano; cena continua reconstrução ilustrativa do INC-030.
+
+
+## Crônicas de cotidiano e recuperação de Camera Man
+- Usuário aprovou categorias Operações / Cotidiano da instalação / Mistérios e conto completo do retorno de Camera Man. cronicas.js aplica categorias aos três relatos anteriores e filtros combinados de tema/local. cotidiano.js adiciona cron-cot-001, O homem que voltou ao monitor, seis capítulos, ligado ao INC-034 como histórico associado. Total 4 crônicas e 42 INCs.
+- Nova informação canônica posterior: efeito do Error foi reversível no episódio de Camera Man. Pixelização corporal cedeu primeiro, lentidão persistiu por mais tempo, seguiu trabalho reduzido em áudio/arquivo e retorno gradual até recuperação funcional completa e plantão habitual. Sem prazo clínico universal ou imunidade adquirida. E-005 continua experimental; outros casos e exposição prolongada em estudo.
+- O conto tem uma falha convencional numa cópia de vídeo conferida em equipe, sem manifestação de Error, nova vítima, fuga ou novo INC. Cadeira da central é reparada como encerramento cotidiano. Retrato de cadastro existente serve de capa.
+- Fichas de Camera Man/Error e links do INC-034 remetem ao acompanhamento. Crônica 034 recebe nota de época e link para o retorno, com capítulos e resultado do primeiro contato preservados. A reconstrução original continua sendo o vínculo principal do INC-034.
