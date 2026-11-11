@@ -304,3 +304,5 @@ O usuário quer histórias conectadas. Ao adicionar SCPs, doutores, funcionário
 - Nome da espada do Décimo padronizado como Rosa Corte, conforme arsenal e INC-026. A fase final de cron-030 dura minutos 16..22, com a marca de Nex limitada a até 15 segundos dentro dela.
 
 - Retratos GOI-001 atualizados para goi-001-mara-v2.webp, goi-001-icaro-v2.webp e goi-001-dario-v2.webp. Composições 4:3 distintas, Mara no console, Ícaro sentado ajustando projetor e Dário no rádio com escudo. Reconstruções da atuação anterior à captura, sem novo evento nem alteração da custódia no INC-030. Originais preservados.
+
+- Recursos GOI: panorama goi-002-recursos-panorama.webp reúne as seis categorias da Frente. Pranchas adicionais nas entradas ec-006/er-004/eculto-004 detalham trajes com funções convencionais e texto acessível. Culto mantém veste de tecido, sem proteção anômala comprovada. Inventário e incidentes preservados.

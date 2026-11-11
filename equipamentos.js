@@ -8,7 +8,52 @@ const equipHighlights=[
 {id:'002',name:'Frente da Ruptura',title:'Militarização, drones e satélites',description:'Dispõe de armamento pesado, drones e acesso a alguns satélites. Tem recursos militares robustos, mas tecnologia menos sofisticada que a do Círculo do Apagão.',img:'goi-002-emblema.webp'},
 {id:'003',name:'Culto do Deus Recobo',title:'Relatos e objetos devocionais',description:'Relatos de colheres de pedreiro, rapa de parede, recipientes e iconografia. Não há armas anômalas comprovadas nem confirmação de que Recobo exista.',img:'goi-003-emblema.webp'}
 ];
-function equipmentCard(item){return `<article class="equip-card" data-equipment-category="${equipmentEscape(item.category)}" data-equipment-goi="${item.goi}"><div class="equip-card-image"><a href="${equipmentEscape(item.image)}" target="_blank" rel="noopener noreferrer" aria-label="Ampliar prancha técnica de ${equipmentEscape(item.name)}"><img src="${equipmentEscape(item.image)}" alt="Imagem ilustrativa de ${equipmentEscape(item.name)}" loading="lazy"></a><div class="equip-photo-overlay"><span>GOI-${item.goi} / ${equipmentEscape(item.groupName)}</span><strong>${equipmentEscape(item.imageTag||'REGISTRO ILUSTRATIVO')}</strong></div></div><div class="equip-card-content"><div class="eyebrow">${equipmentEscape(item.id.toUpperCase())} / ${equipmentEscape(item.evidence)}</div><h2>${equipmentEscape(item.name)}</h2><div class="equip-kind">${equipmentEscape(item.type)}</div><p><b>Setor ou operador:</b> ${equipmentEscape(item.operator)}</p><p><b>O que se sabe:</b> ${equipmentEscape(item.function)}</p><div class="equip-limitation"><b>LIMITES / DADOS INCOMPLETOS:</b> ${equipmentEscape(item.limits)}</div>${item.techExplain?`<div class="equip-tech-explain"><div class="eyebrow">FUNCIONAMENTO E APLICAÇÃO / ${item.id.toUpperCase()}</div>${item.techExplain.map(p=>`<p>${equipmentEscape(p)}</p>`).join("")}</div>`:""}<details><summary>Registro, contexto e nota visual</summary><p>${equipmentEscape(item.outcome)}</p><p class="equip-caption">${equipmentEscape(item.caption)}</p></details></div></article>`;}
+
+const goiArmorPlates={
+  "ec-006": {
+    "image": "goi-001-traje-detalhado.webp",
+    "title": "Peças do traje do Apagão",
+    "parts": [
+      "Capuz e manto cobrem a silhueta do operador.",
+      "Máscara e óculos cobrem o rosto, com eficácia específica em estudo.",
+      "O colete sustenta os módulos de equipamento.",
+      "As cintas distribuem a carga.",
+      "Bolsos acomodam ferramentas e rádio.",
+      "Luvas e botas auxiliam aderência e mobilidade."
+    ]
+  },
+  "er-004": {
+    "image": "goi-002-traje-detalhado.webp",
+    "title": "Peças do uniforme da Frente",
+    "parts": [
+      "O capacete oferece proteção convencional, sem resistência específica catalogada.",
+      "O comunicador apoia a coordenação por rádio.",
+      "O pano facial cobre boca e nariz.",
+      "O colete modular reúne proteção e transporte de carga.",
+      "A camuflagem reduz o contraste visual conforme o terreno.",
+      "Luvas e botas apoiam aderência e deslocamento."
+    ]
+  },
+  "eculto-004": {
+    "image": "goi-003-veste-detalhada.webp",
+    "title": "Peças da veste do Culto",
+    "parts": [
+      "O capuz cobre a cabeça.",
+      "O pano facial cobre boca e nariz.",
+      "A túnica é uma peça de tecido gasto.",
+      "O símbolo de tijolos identifica a devoção descrita nos relatos.",
+      "Alça e bolsa transportam fragmentos e pequenos objetos.",
+      "As botas de trabalho servem ao deslocamento."
+    ]
+  }
+};
+function equipmentArmorPlate(item){
+ const plate=goiArmorPlates[item.id];
+ if(!plate)return '';
+ return `<section class="equipment-armor-details"><h3>${equipmentEscape(plate.title)}</h3><figure><a href="${plate.image}" aria-label="Ampliar ${equipmentEscape(plate.title)}"><img src="${plate.image}" alt="${equipmentEscape(plate.title)} com vistas frontal e traseira e anotações das funções" loading="lazy"></a><figcaption>Prancha ilustrativa das peças e funções descritas no arquivo.</figcaption></figure><ul>${plate.parts.map(part=>`<li>${equipmentEscape(part)}</li>`).join('')}</ul></section>`;
+}
+
+function equipmentCard(item){return `<article class="equip-card" data-equipment-category="${equipmentEscape(item.category)}" data-equipment-goi="${item.goi}"><div class="equip-card-image"><a href="${equipmentEscape(item.image)}" target="_blank" rel="noopener noreferrer" aria-label="Ampliar prancha técnica de ${equipmentEscape(item.name)}"><img src="${equipmentEscape(item.image)}" alt="Imagem ilustrativa de ${equipmentEscape(item.name)}" loading="lazy"></a><div class="equip-photo-overlay"><span>GOI-${item.goi} / ${equipmentEscape(item.groupName)}</span><strong>${equipmentEscape(item.imageTag||'REGISTRO ILUSTRATIVO')}</strong></div></div><div class="equip-card-content"><div class="eyebrow">${equipmentEscape(item.id.toUpperCase())} / ${equipmentEscape(item.evidence)}</div><h2>${equipmentEscape(item.name)}</h2><div class="equip-kind">${equipmentEscape(item.type)}</div><p><b>Setor ou operador:</b> ${equipmentEscape(item.operator)}</p><p><b>O que se sabe:</b> ${equipmentEscape(item.function)}</p><div class="equip-limitation"><b>LIMITES / DADOS INCOMPLETOS:</b> ${equipmentEscape(item.limits)}</div>${item.techExplain?`<div class="equip-tech-explain"><div class="eyebrow">FUNCIONAMENTO E APLICAÇÃO / ${item.id.toUpperCase()}</div>${item.techExplain.map(p=>`<p>${equipmentEscape(p)}</p>`).join("")}</div>`:""}${equipmentArmorPlate(item)}<details><summary>Registro, contexto e nota visual</summary><p>${equipmentEscape(item.outcome)}</p><p class="equip-caption">${equipmentEscape(item.caption)}</p></details></div></article>`;}
 function equipmentHighlight(group){return `<div class="equip-highlight" data-equip-highlight="${group.id}"><img src="${group.img}" loading="lazy" alt="Insígnia da organização GOI-${group.id}"><div><div class="eyebrow">GOI-${group.id} / ${group.name.toUpperCase()}</div><h3>${group.title}</h3><p>${group.description}</p><a class="file-link" href="#goi-${group.id}">CONSULTAR DOSSIÊ ↗</a></div></div>`;}
 
 /* Recursos operacionais apresentados DENTRO do dossiê de cada GOI. */
@@ -17,7 +62,7 @@ function goiEquipmentSection(groupId){
  const meta={
   '001':{
    title:'Armamentos e Artefatos Conhecidos',
-   summary:'O Círculo do Apagão usa tecnologia avançada e artefatos anômalos operados por humanos. Nenhum membro conhecido possui poderes anômalos próprios, e nenhum SCP em posse foi confirmado. Os cinco recursos abaixo pertencem aos registros do INC-030 e à sua reconstrução literária.',
+   summary:'O Círculo do Apagão usa tecnologia avançada e artefatos anômalos operados por humanos. Nenhum membro conhecido possui poderes anômalos próprios, e nenhum SCP em posse foi confirmado. Os recursos operacionais remetem aos registros do INC-030 e à sua reconstrução literária; o traje básico aparece como referência de vestuário adicional.',
    note:'Duas interfaces anômalas documentadas — Matriz de Cinzas e Mosaico Falso — e três categorias de equipamentos humanos. As pranchas são representações conceituais, não novas armas com poderes.',
    tag:'REGISTROS DO INC-030 / ARQUIVO DE RECIFE'
   },
@@ -45,6 +90,7 @@ function goiEquipmentSection(groupId){
   <a href="goi-001-arsenal-visao-geral.webp" target="_blank" rel="noopener noreferrer" aria-label="Ampliar panorama dos cinco equipamentos do Círculo"><img src="goi-001-arsenal-visao-geral.webp" alt="Visão conjunta dos cinco equipamentos catalogados do Círculo do Apagão" loading="lazy"></a>
   <figcaption class="equip-caption">Peças adicionais que apareçam apenas na arte não são equipamentos canonizados. Não há SCPs sob posse nem poderes pessoais confirmados.</figcaption>
  </figure>`:''}
+ ${groupId==='002'?`<figure class="equip-showcase goi-resource-showcase"><div class="equip-showcase-heading"><div><h3>Recursos da Frente reunidos</h3><p>Armamento, drones, uniforme, comando de campo, articulação civil e acesso a satélites.</p></div></div><a href="goi-002-recursos-panorama.webp" aria-label="Ampliar panorama dos recursos da Frente da Ruptura"><img src="goi-002-recursos-panorama.webp" alt="Panorama ilustrativo das seis categorias de recursos da Frente da Ruptura" loading="lazy"></a><figcaption class="equip-caption">O quadro orbital ilustra acesso a recursos de satélite. Origem, titularidade e capacidades específicas seguem em estudo. Os kits de comando e articulação civil são reconstruções dos perfis associados.</figcaption></figure>`:''}
  <div class="goi-resource-meta"><strong>${String(entries.length).padStart(2,'0')}</strong><span>${groupId==='003'?'OBJETOS RELATADOS':'RECURSOS CATALOGADOS'}</span></div>
  <div class="equip-list goi-embedded-equipment">${entries.map(equipmentCard).join('')}</div>
  <p class="goi-resource-note"><b>NOTA DE CONFIABILIDADE:</b> ${info.note}</p>
