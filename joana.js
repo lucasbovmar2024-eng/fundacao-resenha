@@ -61,7 +61,7 @@ return `${crumb('PESSOAL / DIREÇÃO CIENTÍFICA / DRA. JOANA')}
 <p>Há especulação entre funcionários de que a coroa e o vestido tenham relação com alguma anomalia de seu passado. <b>Isso permanece teoria narrativa e não é origem comprovada de seus poderes.</b> Seus limites, histórico pessoal e motivação íntima podem ser estudados em relatos futuros, sem reescrever incidentes existentes.</p>
 <h2>09 / Arquivos relacionados</h2>
 <p><a class="file-link" href="#pessoal">DIRETÓRIO DE PESSOAL ↗</a> · <a class="file-link" href="#dr-bovas">DR. BOVAS / PESQUISA ↗</a> · <a class="file-link" href="#scp-005">SCP-005 / CUIDADO VISUAL ↗</a> · <a class="file-link" href="#gois">GRUPOS DE INTERESSE ↗</a></p>
-${joanaRecordsSupplement()}
+${joanaRecordsSupplement()}<h2>INV-REC-01 / Perguntar sem completar a resposta</h2><p>Na entrevista voluntária ENT-7777-B, Joana comparou as respostas de Daycaros com as perguntas que a própria equipe havia formulado. Ela recomendou buscar documentos de procedência verificável e depoimentos independentes antes de concluir que o padre conhece o culto ou que paredes preservam memórias.</p><p><a class="file-link" href="#goi-003">Consultar a entrevista e as pistas ↗</a></p>
 <div class="document-end">FIM DO DOSSIÊ / DRA. JOANA · BR-67 / FICHA DE PERSONAGEM</div>
 </article>`;
 }

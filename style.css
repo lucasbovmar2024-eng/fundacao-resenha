@@ -446,3 +446,5 @@ dialog#image-lightbox::backdrop{background:rgba(1,4,9,.88);backdrop-filter:blur(
 .goi-people-scenes .goi-person-portrait{aspect-ratio:4/3;height:auto}.goi-people-scenes .goi-person-portrait img{width:100%;height:auto;aspect-ratio:4/3;object-fit:contain}
 
 .equipment-armor-details{margin:24px 0;padding-top:20px;border-top:1px solid var(--line)}.equipment-armor-details figure{margin:16px 0}.equipment-armor-details img{display:block;width:100%;height:auto;object-fit:contain}.equipment-armor-details figcaption{font-size:12px;margin-top:10px}.equipment-armor-details li{margin:9px 0}
+
+.cult-research{margin:32px 0;padding-top:24px;border-top:1px solid var(--line)}.cult-clue{padding:20px;margin:16px 0;border:1px solid var(--line);background:var(--paper)}.cult-clue h4{font-size:19px;margin-top:0}.cult-traditions>div{padding:14px 0;border-bottom:1px solid var(--line)}.cult-traditions dt{font-weight:bold}.cult-traditions dd{margin:8px 0;line-height:1.7}.cult-interview p{margin:0 0 22px;line-height:1.65}.cult-interview p:last-child{margin-bottom:0}

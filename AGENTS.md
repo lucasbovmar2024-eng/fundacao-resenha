@@ -306,3 +306,11 @@ O usuário quer histórias conectadas. Ao adicionar SCPs, doutores, funcionário
 - Retratos GOI-001 atualizados para goi-001-mara-v2.webp, goi-001-icaro-v2.webp e goi-001-dario-v2.webp. Composições 4:3 distintas, Mara no console, Ícaro sentado ajustando projetor e Dário no rádio com escudo. Reconstruções da atuação anterior à captura, sem novo evento nem alteração da custódia no INC-030. Originais preservados.
 
 - Recursos GOI: panorama goi-002-recursos-panorama.webp reúne as seis categorias da Frente. Pranchas adicionais nas entradas ec-006/er-004/eculto-004 detalham trajes com funções convencionais e texto acessível. Culto mantém veste de tecido, sem proteção anômala comprovada. Inventário e incidentes preservados.
+
+
+## INV-REC-01 e ENT-7777-B / Culto e Daycaros
+- Usuário aprovou desenvolver crença nas paredes que guardam resenhas, três pistas ambíguas e entrevista do padre. culto-registros.js mantém uma fonte compartilhada entre GOI-003 e SCP-7777. Sem novo INC numerado; total 42.
+- Recobo também chamado Deus Reboco nos relatos. Resenha assentada, primeira demão, roda de parede e piadas sobre massa corrida são crenças/vocabulário atribuído a devotos de identidade ainda não verificada. Nenhuma memória extraída, voz de parede ou divindade confirmada.
+- Pistas: reprodução de desenho de aparência semelhante a Daycaros sem original/data confiáveis; depoente não identificado diz que ele ainda está na primeira demão; visita pós-042 registra padre preferindo acabamento antigo e dizendo que tem assunto. Pistas não estabelecem filiação, origem compartilhada nem poderes novos.
+- ENT-7777-B é entrevista voluntária com Bovas/Joana, gravação de Camera Man e acompanhamento externo de Argatha. Padre cordial e não contido, Ticonderoga, risco 4/5. Respostas evasivas sobre nomes, cadeiras, idade da tinta e entrada na resenha. Bovas recomenda comparar relatos; Joana considera associação, humor e perguntas sugestivas. Sem ligação confirmada ao Demiurgo, Banquete, fundadores ou outros GOIs.
+- Referências nas fichas de Bovas, Joana e Camera Man. Incidentes, crônicas anteriores, vítimas, capacidades e classificações preservados.
