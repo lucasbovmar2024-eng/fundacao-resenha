@@ -302,3 +302,5 @@ O usuário quer histórias conectadas. Ao adicionar SCPs, doutores, funcionário
 - Perfil de Larper delimita hostilidade à forma comum; mudança de conduta em Shalom segue inconclusiva quanto à origem e independente do Banquete.
 - Referências cruzadas acrescentadas nas fichas de Bovas, Camera Man, Error, J.J.J., MTF-10 e MTF-13 aos INC-035..042 já existentes. Nenhum novo evento criado. No diretório, Ticonderoga/Severo pertence ao padre; 0842 permanece Keter/neutro-defensivo.
 - Nome da espada do Décimo padronizado como Rosa Corte, conforme arsenal e INC-026. A fase final de cron-030 dura minutos 16..22, com a marca de Nex limitada a até 15 segundos dentro dela.
+
+- Retratos GOI-001 atualizados para goi-001-mara-v2.webp, goi-001-icaro-v2.webp e goi-001-dario-v2.webp. Composições 4:3 distintas, Mara no console, Ícaro sentado ajustando projetor e Dário no rádio com escudo. Reconstruções da atuação anterior à captura, sem novo evento nem alteração da custódia no INC-030. Originais preservados.

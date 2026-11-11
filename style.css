@@ -442,3 +442,5 @@ dialog#image-lightbox::backdrop{background:rgba(1,4,9,.88);backdrop-filter:blur(
 .org-cr{width:55px}
 .org-node{padding:13px}
 }
+
+.goi-people-scenes .goi-person-portrait{aspect-ratio:4/3;height:auto}.goi-people-scenes .goi-person-portrait img{width:100%;height:auto;aspect-ratio:4/3;object-fit:contain}
