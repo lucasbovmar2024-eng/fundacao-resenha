@@ -79,6 +79,8 @@ function daycarosCultInterview(){
     <p>O trecho sobre a caneca não identifica um objeto desaparecido específico. A gravação não contém voz vinda da parede. A preferência pelo acabamento antigo foi observada, mas o significado atribuído a ela continua em discussão.</p>
     <p><b>Questões pendentes</b> — Daycaros reconheceu o vocabulário do culto ou apenas acompanhou a conversa? “Primeira demão” fala de idade, iniciação ou de alguém tentando encobrir algo? Ele entende as perguntas literalmente? Os depoentes o conheceram ou copiaram sua figura?</p>
     <p>O padre continua Ticonderoga, não contido e cordial. O encontro foi arquivado como entrevista de pesquisa. Sua origem, seu percurso e sua relação com Recobo permanecem desconhecidos.</p>
+    <p><b>Adendo ao INV-REC-01</b> — Uma fotografia de manutenção e o inventário da reforma apontam para um trecho junto à copa da BR-67. A comparação sustenta a localização provável da parede desenhada. A data e a autoria do desenho, assim como a identidade da figura, seguem em aberto.</p>
+    <p><a class="file-link" href="#cron-mis-001">Ler a crônica Por baixo da última demão ↗</a></p>
     <p><a class="file-link" href="#goi-003">Consultar investigação do Culto ↗</a> · <a class="file-link" href="#scp-7777">Consultar ficha de Daycaros ↗</a></p>
   </section>`;
 }

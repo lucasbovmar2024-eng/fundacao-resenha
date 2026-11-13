@@ -13,7 +13,7 @@ function chronicleLinkForIncident(incident){
 }
 
 function chronicleCard(story){
- const reference=story.incident||story.relatedIncident;
+ const reference=story.incident||story.relatedIncident||story.archiveReference;
  return `<a href="#cron-${story.id}" class="chronicle-card" data-chronicle data-group="${story.group}" data-topic="${story.topic}">
   <div class="chronicle-cover"><img src="${story.cover}" loading="lazy" alt="${chronicleEscape(story.coverAlt)}" ${story.id==='034'?'style="image-rendering:pixelated"':''}></div>
   <div class="chronicle-card-body"><div class="eyebrow">${chronicleEscape(story.category)} · ${story.kind==='cotidiano'?'APÓS ':''}${reference}</div><h2>${chronicleEscape(story.title)}</h2><p class="chronicle-subtitle">${chronicleEscape(story.subtitle)}</p><p>${chronicleEscape(story.summary)}</p><div class="chronicle-card-foot"><span>${story.reading}</span><span class="file-link">LER HISTÓRIA COMPLETA ↗</span></div></div>
@@ -53,6 +53,11 @@ function chroniclePage(route){
  if(!story)return `${crumb('CRÔNICAS / INDISPONÍVEL')}<h1>Crônica não encontrada</h1><a href="#cronicas">Voltar ao arquivo narrativo</a>`;
  const reference=story.incident||story.relatedIncident;
  const everyday=story.kind==='cotidiano';
+ const investigation=story.kind==='misterio';
+ const referenceLabel=investigation?'INVESTIGAÇÃO ASSOCIADA':everyday?'HISTÓRICO ASSOCIADO':'RELATO BASE';
+ const storyLabel=investigation?'CONTO DE MISTÉRIO':everyday?'CONTO DE COTIDIANO':'RECONSTRUÇÃO NARRATIVA';
+ const dossierLinks=story.relatedLinks?.map(([id,label])=>`<a class="file-link" href="#${id}">${chronicleEscape(label)} ↗</a>`).join(' · ');
+ const reportLink=reference?`<a class="file-link" href="#${reference.toLowerCase()}">CONSULTAR ${reference} ↗</a>`:'';
  const chapterList=story.chapters.map((chapter,index)=>`<section class="chronicle-chapter" id="cap-${story.id}-${index+1}"><div class="eyebrow">CAPÍTULO ${String(index+1).padStart(2,'0')} / ${story.chapters.length}</div><h2>${chronicleEscape(chapter.title)}</h2>${chapter.paras.map(paragraph=>`<p>${chronicleEscape(paragraph)}</p>`).join('')}</section>`).join('');
  const other=chronicleRecords.filter(item=>item.id!==story.id).map(item=>`<a class="file-link" href="#cron-${item.id}">${chronicleEscape(item.title)} ↗</a>`).join(' · ');
  const opponents=story.opponents?`<section class="chronicle-opponents"><div class="eyebrow">DIRETÓRIO DE ANTAGONISTAS / INC-030</div><h2>Contra quem a equipe lutou?</h2><p>${chronicleEscape(story.opponents.objective)}</p><div class="chronicle-opponents-grid">${story.opponents.members.map(member=>`<div><h3>${chronicleEscape(member.name)}</h3><div class="eyebrow">${chronicleEscape(member.role)}</div><p>${chronicleEscape(member.effect)}</p></div>`).join('')}</div><p><a class="file-link" href="#goi-001">DOSSIÊ GOI-001 / CÍRCULO DO APAGÃO ↗</a></p></section>`:'';
@@ -60,12 +65,12 @@ function chroniclePage(route){
  const caption=story.coverCaption||(story.id==='030'?'Reconstituição visual fictícia da Operação Portão de Cinzas.':'Reprodução de referência utilizada na Fundação Resenha.');
  const recoveryNote=story.id==='034'?`<section class="entity-conduct"><h2>Acompanhamento posterior de Camera Man</h2><p>A condição descrita nesta narrativa corresponde ao primeiro contato. A recuperação gradual e o retorno ao trabalho foram documentados posteriormente.</p><a class="file-link" href="#cron-cot-001">Ler O homem que voltou ao monitor ↗</a></section>`:'';
  return `${crumb('CRÔNICAS / '+story.category)}<article class="chronicle-detail"><div class="eyebrow">ARQUIVO NARRATIVO / ${chronicleEscape(story.category)}</div><h1>${chronicleEscape(story.title)}</h1><p class="chronicle-lead">${chronicleEscape(story.subtitle)}</p>
-  <div class="chronicle-meta"><span>${everyday?'HISTÓRICO ASSOCIADO':'RELATO BASE'} · ${reference}</span><span>${story.reading.toUpperCase()}</span><span>${everyday?'CONTO DE COTIDIANO':'RECONSTRUÇÃO NARRATIVA'}</span></div>
+  <div class="chronicle-meta"><span>${referenceLabel} · ${reference||story.archiveReference}</span><span>${story.reading.toUpperCase()}</span><span>${storyLabel}</span></div>
   <figure class="chronicle-hero"><img src="${story.cover}" alt="${chronicleEscape(story.coverAlt)}" style="${imageStyle}"><figcaption>${chronicleEscape(caption)}</figcaption></figure>
   <div class="warning">${chronicleEscape(story.notice)}</div>${recoveryNote}${opponents}
   <nav class="chronicle-toc" aria-label="Capítulos desta crônica"><div class="eyebrow">NESTE CONTO</div>${story.chapters.map((chapter,index)=>`<a href="#cap-${story.id}-${index+1}" data-chronicle-chapter>${String(index+1).padStart(2,'0')} / ${chronicleEscape(chapter.title)}</a>`).join('')}</nav>
   ${chapterList}${story.id==='034'?corruptedCurrentStatus():''}${story.id==='030'?'<p class="mono">A fase final abrange os minutos 16 a 22. A marca de Nex ocupa uma janela de até quinze segundos dentro dessa fase, conforme sua ficha e o INC-030.</p>':''}
-  <div class="chronicle-end"><div class="eyebrow">LEITURAS RELACIONADAS</div>${everyday?'<p>A recuperação deste episódio também está registrada nas fichas de Camera Man e Error.</p><p><a class="file-link" href="#camera-man">Ficha de Camera Man ↗</a> · <a class="file-link" href="#scp-005">Ficha do Error ↗</a></p>':'<p>Consulte o relatório associado para envolvidos, sequência operacional e balanço da ocorrência.</p>'}<a class="file-link" href="#${reference.toLowerCase()}">CONSULTAR ${reference} ↗</a><p><a class="file-link" href="#cronicas">← VOLTAR ÀS CRÔNICAS</a></p><div class="chronicle-next">${other}</div></div>
+  <div class="chronicle-end"><div class="eyebrow">LEITURAS RELACIONADAS</div>${dossierLinks?`<p>${dossierLinks}</p>`:everyday?'<p>A recuperação deste episódio também está registrada nas fichas de Camera Man e Error.</p><p><a class="file-link" href="#camera-man">Ficha de Camera Man ↗</a> · <a class="file-link" href="#scp-005">Ficha do Error ↗</a></p>':'<p>Consulte o relatório associado para envolvidos, sequência operacional e balanço da ocorrência.</p>'}${reportLink}<p><a class="file-link" href="#cronicas">← VOLTAR ÀS CRÔNICAS</a></p><div class="chronicle-next">${other}</div></div>
  </article>`;
 }
 
