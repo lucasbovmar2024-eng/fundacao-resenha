@@ -450,3 +450,60 @@ dialog#image-lightbox::backdrop{background:rgba(1,4,9,.88);backdrop-filter:blur(
 .cult-research{margin:32px 0;padding-top:24px;border-top:1px solid var(--line)}.cult-clue{padding:20px;margin:16px 0;border:1px solid var(--line);background:var(--paper)}.cult-clue h4{font-size:19px;margin-top:0}.cult-traditions>div{padding:14px 0;border-bottom:1px solid var(--line)}.cult-traditions dt{font-weight:bold}.cult-traditions dd{margin:8px 0;line-height:1.7}.cult-interview p{margin:0 0 22px;line-height:1.65}.cult-interview p:last-child{margin-bottom:0}
 
 .chronicle-overview{grid-template-columns:repeat(auto-fit,minmax(130px,1fr))}
+
+/* Linha do tempo da Fundação */
+.timeline-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+  margin: 24px 0 32px;
+}
+
+.timeline-filters label {
+  display: grid;
+  gap: 6px;
+  flex: 1 1 230px;
+  max-width: 320px;
+  font-weight: 600;
+}
+
+.timeline-filters select {
+  width: 100%;
+  padding: 8px 10px;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  font: inherit;
+}
+
+.timeline-thread { margin: 0 0 36px; }
+
+.timeline-events {
+  margin: 20px 0 0 6px;
+  padding: 0 0 0 clamp(16px, 3vw, 30px);
+  border-left: 2px solid var(--line);
+}
+
+.timeline-events li {
+  position: relative;
+  list-style: none;
+  padding: 0 0 26px;
+}
+
+.timeline-events li:last-child { padding-bottom: 0; }
+
+.timeline-events li::before {
+  content: '';
+  position: absolute;
+  top: 4px;
+  left: calc(-1 * clamp(16px, 3vw, 30px) - 6px);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--red);
+}
+
+.timeline-events .eyebrow { margin: 0 0 4px; }
+.timeline-events h3 { margin: 0 0 6px; }
+.timeline-events li > p:not(.eyebrow) { margin: 0 0 8px; max-width: 68ch; }
+.timeline-links { display: flex; flex-wrap: wrap; gap: 4px 16px; }

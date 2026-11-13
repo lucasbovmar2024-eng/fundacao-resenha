@@ -28,7 +28,7 @@ function chronicleDirectory(){
   <div class="chronicle-filters" role="group" aria-label="Filtrar crônicas por tema"><button type="button" data-chronicle-topic="todos" aria-pressed="true">Todos os temas</button>${topics.map(([id,label])=>`<button type="button" data-chronicle-topic="${id}" aria-pressed="false">${label}</button>`).join('')}</div>
   <div class="chronicle-filters" role="group" aria-label="Filtrar crônicas por local"><button type="button" data-chronicle-filter="todos" aria-pressed="true">Todos os locais</button><button type="button" data-chronicle-filter="externo" aria-pressed="false">Fora da instalação</button><button type="button" data-chronicle-filter="interno" aria-pressed="false">Dentro da instalação</button></div>
   <div class="chronicle-list">${chronicleRecords.map(chronicleCard).join('')}</div><p id="chronicle-empty" class="empty" hidden>Nenhuma crônica corresponde a este tema e local.</p>
-  <div class="document-end">FIM DO ÍNDICE / <a href="#incidentes">VER RELATÓRIOS DE OCORRÊNCIAS ↗</a></div>`;
+  <div class="document-end">FIM DO ÍNDICE / <a href="#linha-do-tempo">VER LINHA DO TEMPO ↗</a> · <a href="#incidentes">VER RELATÓRIOS DE OCORRÊNCIAS ↗</a></div>`;
 }
 
 function bindChronicleDirectory(){
