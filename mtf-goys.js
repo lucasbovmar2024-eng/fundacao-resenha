@@ -1,0 +1,103 @@
+const goysOperators = [
+  {
+    name: 'Lampião', position: 'À frente', role: 'Reconhecimento de acessos',
+    staff: 'Fogo / Última Luz', color: 'Cristal vermelho',
+    effect: 'Acende no ar o contorno de uma porta que já existiu no local. A equipe consegue ver até de que lado ficava a maçaneta.',
+    limit: 'O contorno dura alguns segundos. Para voltar a abrir, a porta precisa do Volta a Fita.',
+    habit: 'Desenha uma seta ao lado de cada porta encontrada. Nas portas falsas, desenha outra seta apontando de volta.'
+  },
+  {
+    name: 'Corrente', position: 'À esquerda', role: 'Busca e escuta',
+    staff: 'Vento / Tem Gente Aí', color: 'Cristal âmbar',
+    effect: 'Traz ecos de cômodos que sumiram da planta. Também consegue separar um pedido de socorro do ruído ambiente quando o caminho muda de posição.',
+    limit: 'O eco aponta para um cômodo, mas pode chegar atrasado. A equipe cruza o sinal com a contagem de pessoas antes de encerrar a busca.',
+    habit: 'Pede que a pessoa diga o nome e uma coisa que só ela saberia. Já ouviu como resposta “minha senha do Wi-Fi” e teve que explicar de novo.'
+  },
+  {
+    name: 'Rebobina', position: 'Ao fundo, com óculos na testa', role: 'Leitura de artefatos e rotas',
+    staff: 'Raio / Volta a Fita', color: 'Cristal violeta',
+    effect: 'Faz uma saída revelada pelo Última Luz voltar ao estado em que ainda abria. Às vezes as luzes e letreiros antigos acendem junto.',
+    limit: 'O efeito se restringe ao acesso. Depois que a carga acaba, a passagem volta ao estado em que foi encontrada.',
+    habit: 'Guarda catálogos e plantas em papel. Diz que documento oficial é o que ainda dá pra ler depois que o lugar engole o sinal.'
+  },
+  {
+    name: 'Calço', position: 'À direita', role: 'Estabilização e retirada',
+    staff: 'Gelo / Segura Aí', color: 'Cristal azul',
+    effect: 'Suspende o fechamento de uma passagem anômala pelo tempo necessário para uma travessia curta ou para passar uma maca.',
+    limit: 'A passagem volta a fechar quando o gelo se desfaz. O cajado estabiliza um acesso por vez.',
+    habit: 'É quem fica junto à saída até a última conferência. No rádio, “só mais um minuto” é seguido de uma contagem em voz alta.'
+  }
+];
+
+function goysCard() {
+  return `<a class="file-card" href="#mtf-04">
+    <div class="file-photo"><img src="mtf-goys.webp" alt="Pôster dos quatro operadores dos GOYS em uma escavação" loading="lazy"></div>
+    <div class="card-body"><div class="card-id">FORÇA-TAREFA MÓVEL 04</div><h2>GOYS / Pós-Créditos</h2>
+    <span class="tag">EXPEDIÇÕES ANÔMALAS</span><p>Exploram lugares onde o mapa parou de funcionar. Voltam com quem ficou preso, o que conseguiram recuperar e um relatório que costuma ter um nome a mais.</p>
+    <span class="file-link">ABRIR FICHA DA EQUIPE ↗</span></div>
+  </a>`;
+}
+
+function goysDossier() {
+  return `${crumb('FORÇAS-TAREFA / MTF-04')}<article>
+    <div class="dossier-top"><div><div class="eyebrow">FORÇA-TAREFA MÓVEL / 04</div>
+    <h1>GOYS<br>Pós-Créditos</h1>
+    <span class="tag red">EXPEDIÇÕES ANÔMALAS</span> <span class="tag">QUATRO OPERADORES</span>
+    <p>Enviados a escavações, edifícios e passagens onde ninguém consegue garantir que o caminho de volta ainda esteja lá.</p>
+    <p><a class="file-link" href="#inc-044">INC-044 / A SESSÃO JÁ ACABOU ↗</a></p></div>
+    <figure class="portrait"><img src="mtf-goys.webp" width="1254" height="1254" alt="Arte em estilo de pôster com quatro GOYS e equipamento dourado numa escavação"><figcaption>PÔSTER DA EQUIPE / Paródia visual de Origins, de Call of Duty Zombies. A equipe entregou o próprio pôster como foto de cadastro.</figcaption></figure></div>
+    <h2>01 / Quando chamar os GOYS</h2>
+    <p>A MTF-04 explora espaços cuja geometria, passagem do tempo ou meio de acesso mudou. A missão pode ser mapear um novo trecho, recuperar um artefato ou encontrar uma equipe desaparecida. O relatório começa pelo caminho de saída. Se o caminho sumir, os quatro trabalham juntos para recuperar um acesso antigo.</p>
+    <p>Os <a href="#resenhinhos">Resenhinhos</a> podem assumir o perímetro e receber os resgatados. O <a href="#mtf-10">Décimo</a> cuida de capturas externas e transporte. O <a href="#mtf-13">Pacto</a> entra em confrontos com ameaças de grande porte. A MTF-04 responde pelo trecho que só existe do outro lado.</p>
+    <h2>02 / Operadores e cajados elementais</h2>
+    <p>Os quatro cajados têm corpo dourado e cristais de cores diferentes. Cada um cobre uma parte da expedição, da primeira escuta à última travessia.</p>
+    <div class="cell-notes">${goysOperators.map(operator => `<div>
+      <div class="eyebrow">${operator.position} · ${operator.role}</div>
+      <h3>${operator.name} / ${operator.staff}</h3>
+      <p><b>${operator.color}</b> — ${operator.effect}</p>
+      <p><b>Limite</b> — ${operator.limit}</p>
+      <p>${operator.habit}</p>
+    </div>`).join('')}</div>
+    <h2>03 / Quando sobem os créditos</h2>
+    <p>Corrente localiza as pessoas pelo eco. Lampião revela uma passagem antiga, Rebobina restaura a abertura e Calço a mantém firme. Quando os quatro sincronizam os cajados, os créditos começam a correr na parede mais próxima. A saída permanece aberta até a última linha passar.</p>
+    <p>Em operação, a equipe confere a lista de entrada, as pessoas que atravessaram e as linhas que apareceram na parede. Uma assinatura sem confirmação vira pendência de busca. A origem dos nomes e a relação entre o tamanho da lista e o tempo de abertura seguem em estudo.</p>
+    <blockquote><b>Central</b> — Quatro assinaturas de entrada, quatro de retorno. Pode encerrar.<br><b>Calço</b> — Tem uma quinta no rodapé.<br><b>Central</b> — Qual o nome?<br><b>Calço</b> — Apoio de Cabine. E tá reclamando que ninguém avisou do fim da sessão.</blockquote>
+    <h2>04 / Histórico operacional</h2>
+    <p>No primeiro chamado documentado, a equipe entrou num cinema desativado cuja sessão recomeçava toda vez que alguém tentava sair pela porta principal. Sete visitantes voltaram à rua. Uma oitava linha nos créditos levou a equipe de volta à cabine.</p>
+    <p><a class="file-link" href="#inc-044">LER O RELATÓRIO DA EXPEDIÇÃO ↗</a> · <a class="file-link" href="#linha-do-tempo">LINHA DO TEMPO ↗</a></p>
+    <div class="document-end">FIM DA FICHA / MTF-04 · <a href="#ftms">VOLTAR ÀS FORÇAS-TAREFA ↑</a></div>
+  </article>`;
+}
+
+incidentReports.push({
+  id: 'INC-044',
+  title: 'A sessão já acabou',
+  scope: 'externo',
+  location: 'Cinema Santa Fita, estabelecimento fictício no interior de Minas Gerais',
+  period: 'Primeira expedição documentada da MTF-04',
+  status: 'ENCERRADO / LOCAL INTERDITADO PARA INVESTIGAÇÃO',
+  people: [['GOYS / MTF-04', 'mtf-04'], ['Resenhinhos / perímetro', 'resenhinhos'], ['Camera Man / arquivo de imagens', 'camera-man']],
+  summary: 'Sete visitantes desapareceram num cinema fechado. A porta principal levava de volta à plateia toda vez que o filme recomeçava. A MTF-04 entrou para localizar o grupo e testar se ainda restava uma saída de serviço.',
+  sequence: 'Corrente ouviu os visitantes atrás de uma parede que correspondia à plateia numa planta antiga. Lampião revelou a saída de serviço, emparedada durante uma reforma, e Rebobina restaurou a porta. Calço firmou a passagem e os quatro sincronizaram os cajados para manter a saída aberta. Depois que o sétimo visitante chegou aos Resenhinhos, a equipe conferiu os créditos. A oitava linha dizia “Projecionista”.',
+  rescueStages: [
+    ['Retorno à cabine', 'A equipe voltou pelo corredor lateral. Na cabine, uma pessoa rebobinava uma fita e dizia que só podia sair depois do último quadro. Rebobina segurou o carretel enquanto o projecionista fechava a lata. Os dois chegaram à rua juntos.'],
+    ['Conferência do registro', 'Camera Man comparou a contagem com as imagens do corredor. O projecionista atravessou com a lata. Na revisão posterior do vídeo, a cabine estava vazia mesmo quando o filme recomeçou.']
+  ],
+  dialogue: [
+    ['Central', 'Sete visitantes do lado de fora. Qual é a pendência?'],
+    ['Corrente', 'O senhor da cabine diz que precisa rebobinar.'],
+    ['Calço', 'Fala que a multa por atraso já prescreveu.'],
+    ['Rebobina', 'Tarde. Já me entregou a manivela.']
+  ],
+  outcome: 'Os sete visitantes e o projecionista chegaram ao lado de fora, sem feridos registrados. A identidade do projecionista e a origem da fita ficaram em investigação. O cinema foi interditado. A equipe guardou a gravação da oitava linha como parte do relatório.'
+});
+
+timelineThreads.push({
+  title: 'GOYS e a sessão que recomeçava',
+  people: ['Camera Man'],
+  groups: ['GOYS (MTF-04)', 'Resenhinhos (MTF-R)'],
+  events: [
+    { when: 'Primeira expedição documentada', title: 'Sete visitantes presos na sessão', text: 'A MTF-04 localiza a plateia e recupera uma antiga saída de serviço.', links: [['inc-044', 'Relatório INC-044']] },
+    { when: 'Durante a conferência da saída', title: 'O oitavo nome', text: 'Os créditos listam o projecionista. A equipe volta à cabine e o acompanha até a rua.', links: [['mtf-04', 'Ficha da MTF-04'], ['inc-044', 'Registro do resgate']] }
+  ]
+});
