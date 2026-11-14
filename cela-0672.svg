@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Planta conceitual da unidade SCP-0672</title>
+  <desc id="desc">Alas A e B têm saídas de emergência em lados opostos. A sala de reabertura recebe a dupla por acessos separados. O posto remoto e a enfermaria ficam do lado da Fundação.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#293840"/>
+    </pattern>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0 0L12 6L0 12Z" fill="#c8d5dc"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="800" fill="#111a20"/>
+  <rect x="24" y="24" width="1152" height="752" rx="8" fill="url(#grid)" stroke="#4d6571"/>
+  <g font-family="monospace" fill="#e8edf0">
+    <text x="64" y="86" font-size="32" font-weight="bold">SCP-0672 / UNIDADE DE CONTENÇÃO</text>
+    <text x="65" y="124" font-size="21" fill="#a9bac5">BR-67 · ALAS SEPARADAS · PLANTA SEM ESCALA</text>
+    <g stroke-width="3">
+      <rect x="72" y="240" width="288" height="190" rx="8" fill="#332822" stroke="#dda378"/>
+      <rect x="840" y="240" width="288" height="190" rx="8" fill="#1e313c" stroke="#8ebad0"/>
+      <rect x="437" y="240" width="326" height="190" rx="8" fill="#302728" stroke="#d89996"/>
+      <rect x="437" y="516" width="326" height="114" rx="8" fill="#213238" stroke="#94b4ba"/>
+    </g>
+    <g text-anchor="middle">
+      <text x="216" y="297" font-size="29" fill="#ffd1ab">01 / ALA A</text>
+      <text x="216" y="343" font-size="21">Quarto e convivência</text>
+      <text x="216" y="380" font-size="21">Interfone A</text>
+      <text x="984" y="297" font-size="29" fill="#add8ed">02 / ALA B</text>
+      <text x="984" y="343" font-size="21">Quarto e convivência</text>
+      <text x="984" y="380" font-size="21">Interfone B</text>
+      <text x="600" y="291" font-size="27" fill="#ffc2bf">03 / REABERTURA</text>
+      <text x="600" y="337" font-size="21">Encontro supervisionado</text>
+      <text x="600" y="373" font-size="21">para resgate</text>
+      <text x="600" y="560" font-size="26" fill="#bfe2e7">04 / POSTO REMOTO</text>
+      <text x="600" y="599" font-size="20">Saída para a enfermaria</text>
+      <text x="216" y="530" font-size="22">Saída Oeste</text>
+      <text x="984" y="530" font-size="22">Saída Leste</text>
+    </g>
+    <g fill="none" stroke="#c8d5dc" stroke-width="3" marker-end="url(#arrow)">
+      <path d="M216 432V497"/>
+      <path d="M984 432V497"/>
+      <path d="M600 432V504"/>
+      <path d="M362 333H425" stroke-dasharray="7 6"/>
+      <path d="M838 333H775" stroke-dasharray="7 6"/>
+    </g>
+    <path d="M75 698H145" stroke="#c8d5dc" stroke-width="3" stroke-dasharray="7 6" marker-end="url(#arrow)"/>
+    <text x="167" y="706" font-size="22">Acessos distintos usados na reabertura</text>
+  </g>
+</svg>
