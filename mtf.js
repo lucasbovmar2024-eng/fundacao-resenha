@@ -14,6 +14,6 @@ function mtf(){return `${crumb('PESSOAL / FORÇAS-TAREFA / MTF-10')}<article><di
   <p>As armaduras, âncoras e equipamentos especiais já catalogados permanecem os mesmos e <b>podem saturar, falhar ou sofrer avarias</b>. A Companhia de Apoio deve ser capaz de sustentar a operação mesmo quando a primeira equipe precisa recuar. Nenhuma nova arma ultrapoderosa foi aprovada por este documento.</p>
   <blockquote><b>Comandante do Décimo:</b> O módulo está pronto. A assinatura do alvo foi validada?<br><b>Pesquisa:</b> Ainda não.<br><b>Comandante:</b> Então isto é um caminhão caro, não uma contenção.<br><b>Logística:</b> E o caminhão caro ainda precisa de combustível.</blockquote>
   <p><a class="file-link" href="#fundacao">MANUAL INSTITUCIONAL / LIMITES DE REQUISIÇÃO ↗</a></p>
-</section><div class="document-end">FIM DO DOSSIÊ / MTF-10 · <a href="#ftms">VOLTAR ÀS FORÇAS-TAREFA ↑</a></div></article>`}
+</section>${goysRelatedReports("mtf-10")}<div class="document-end">FIM DO DOSSIÊ / MTF-10 · <a href="#ftms">VOLTAR ÀS FORÇAS-TAREFA ↑</a></div></article>`}
 
 document.addEventListener('click',event=>{const target=event.target.closest('[data-weapon-target]');if(target)document.getElementById(target.dataset.weaponTarget)?.scrollIntoView({behavior:'smooth',block:'start'})});

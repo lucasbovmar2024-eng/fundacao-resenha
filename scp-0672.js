@@ -117,6 +117,7 @@ function scp0672Dossier() {
     <h2>07 / Histórico de ocorrência</h2>
     <p>Na primeira observação, o Dr. Mauro Valença ficou preso por sete dias. Camera Man localizou o pesquisador pela câmera da plataforma e Bovas conseguiu convencê-lo a aceitar o assento. Joana conduziu a entrevista durante a recuperação.</p>
     <p><a class="file-link" href="#inc-043">LER INC-043 / O DOUTOR FICOU PRA SAIDEIRA ↗</a> · <a class="file-link" href="#linha-do-tempo">VER LINHA DO TEMPO ↗</a></p>
+    ${goysRelatedReports("scp-0672")}
   </article>`;
 }
 
