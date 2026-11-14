@@ -54,13 +54,15 @@
     const root = imageRoot(image);
     currentIndex = images.indexOf(root);
     const link = root.closest('a[href]');
-    const nestedScene = link && link.querySelectorAll('img').length > 1
+    const nestedScene = root.closest('[data-lightbox-scene]') || (link && link.querySelectorAll('img').length > 1
       ? link.querySelector('span[style*="position:relative"]')
-      : null;
+      : null);
 
     if (nestedScene) {
       const clone = nestedScene.cloneNode(true);
       clone.classList.add('image-lightbox-composite');
+      const clonedLink = clone.querySelector('a');
+      if (clonedLink) clonedLink.replaceWith(...clonedLink.childNodes);
       const baseImage = clone.querySelector('img');
       if (baseImage) {
         baseImage.style.width = '100%';

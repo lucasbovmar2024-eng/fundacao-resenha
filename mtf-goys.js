@@ -29,6 +29,58 @@ const goysOperators = [
   }
 ];
 
+const goysSuitParts = [
+  ['Capacete com viseira opaca', 'Cobre rosto e pescoço. A viseira reduz clarões repentinos quando o cenário muda e preserva a identidade da equipe.'],
+  ['Colete acolchoado e arnês', 'Distribuem o peso do equipamento e dão à equipe um ponto de apoio para ajudar o operador numa travessia.'],
+  ['Sinalizador de retorno', 'Marca a saída pelo lado da equipe. Se a luz sumir da vista, o operador confirma a rota pelo rádio antes de continuar.'],
+  ['Luvas reforçadas', 'Protegem as mãos ao manusear cajados, artefatos e ferragens. Cada operador confere o próprio cajado pelo formato da empunhadura.'],
+  ['Botas de expedição', 'Dão aderência em escadas, cascalho e pisos que voltam a aparecer molhados.']
+];
+
+function goysSuitIllustration() {
+  const callouts = [
+    [420, 108, 730, 105],
+    [1120, 285, 815, 295],
+    [400, 506, 650, 506],
+    [1130, 540, 974, 514],
+    [420, 890, 655, 904]
+  ];
+  return `<figure class="cell-plate">
+    <div class="goys-traje" data-lightbox-scene>
+      <a href="goys-traje.webp" aria-label="Ampliar imagem do traje"><img src="goys-traje.webp" width="1536" height="1024" alt="Traje oliva com ferragens douradas, viseira opaca e sinalizador laranja." loading="lazy"></a>
+      <svg viewBox="0 0 1536 1024" aria-hidden="true">
+        ${callouts.map(([x, y, endX, endY], index) => {
+          const angle = Math.atan2(endY - y, endX - x) * 180 / Math.PI;
+          return `<g>
+           <path d="M${x} ${y}L${endX} ${endY}" fill="none" stroke="#2a201c" stroke-width="9"/>
+           <path d="M${x} ${y}L${endX} ${endY}" fill="none" stroke="#f5d18b" stroke-width="4"/>
+           <path d="M-19 -9L0 0L-19 9Z" fill="#f5d18b" transform="translate(${endX} ${endY}) rotate(${angle})"/>
+           <circle cx="${x}" cy="${y}" r="28" fill="#211a16" stroke="#f5d18b" stroke-width="4"/>
+           <text x="${x}" y="${y}" fill="#fff3d8" text-anchor="middle" dominant-baseline="central" font-family="monospace" font-size="30">${index + 1}</text>
+        </g>`; }).join('')}
+      </svg>
+    </div>
+    <figcaption>PRANCHA DO TRAJE / Os números correspondem às peças abaixo.</figcaption>
+  </figure>`;
+}
+
+function goysEquipment() {
+  return `<section>
+    <h2 id="goys-traje">02 / Traje de expedição</h2>
+    <p>O uniforme é usado nas incursões da MTF-04. A equipe mantém o rosto coberto em serviço e usa a mesma base oliva com ferragens douradas do pôster de cadastro.</p>
+    ${goysSuitIllustration()}
+    <ol class="goys-pecas">${goysSuitParts.map(([name, effect]) => `<li><b>${name}</b> — ${effect}</li>`).join('')}</ol>
+    <h2>03 / Material de apoio</h2>
+    <figure class="cell-interior"><a href="goys-apoio.webp" aria-label="Ampliar equipamento de apoio"><img src="goys-apoio.webp" width="1536" height="1024" alt="Carretel de cordão no alto à esquerda, sinalizador laranja à direita, pasta de mapas e maca dobrável abaixo." loading="lazy"></a><figcaption>MATERIAL DE APOIO / Acervo da MTF-04.</figcaption></figure>
+    <div class="cell-notes">
+      <div><h3>Cordão de levantamento</h3><p>Marca o caminho percorrido. Se reaparecer do lado errado de uma porta, a equipe registra que o lugar mudou.</p></div>
+      <div><h3>Sinalizador de retorno</h3><p>Fica no ponto de saída ou preso ao arnês. A luz ajuda o último operador a localizar a passagem.</p></div>
+      <div><h3>Pasta de plantas em papel</h3><p>Guarda os desenhos de antes e depois das reformas. Rebobina usa as versões antigas para comparar com os acessos revelados pelo Fogo.</p></div>
+      <div><h3>Maca dobrável</h3><p>Serve para transportar quem precisa sair deitado. Calço mantém a passagem firme durante a travessia.</p></div>
+    </div>
+  </section>`;
+}
+
 function goysCard() {
   return `<a class="file-card" href="#mtf-04">
     <div class="file-photo"><img src="mtf-goys.webp" alt="Pôster dos quatro operadores dos GOYS em uma escavação" loading="lazy"></div>
@@ -49,8 +101,10 @@ function goysDossier() {
     <h2>01 / Quando chamar os GOYS</h2>
     <p>A MTF-04 explora espaços cuja geometria, passagem do tempo ou meio de acesso mudou. A missão pode ser mapear um novo trecho, recuperar um artefato ou encontrar uma equipe desaparecida. O relatório começa pelo caminho de saída. Se o caminho sumir, os quatro trabalham juntos para recuperar um acesso antigo.</p>
     <p>Os <a href="#resenhinhos">Resenhinhos</a> podem assumir o perímetro e receber os resgatados. O <a href="#mtf-10">Décimo</a> cuida de capturas externas e transporte. O <a href="#mtf-13">Pacto</a> entra em confrontos com ameaças de grande porte. A MTF-04 responde pelo trecho que só existe do outro lado.</p>
-    <h2>02 / Operadores e cajados elementais</h2>
+    ${goysEquipment()}
+    <h2>04 / Operadores e cajados elementais</h2>
     <p>Os quatro cajados têm corpo dourado e cristais de cores diferentes. Cada um cobre uma parte da expedição, da primeira escuta à última travessia.</p>
+    <figure class="cell-interior"><a href="goys-cajados.webp" aria-label="Ampliar os quatro cajados"><img src="goys-cajados.webp" width="1536" height="1024" alt="Cajados de latão com cristais vermelho, âmbar, violeta e azul." loading="lazy"></a><figcaption>ARSENAL DA MTF-04 / Da esquerda para a direita, Fogo, Vento, Raio e Gelo.</figcaption></figure>
     <div class="cell-notes">${goysOperators.map(operator => `<div>
       <div class="eyebrow">${operator.position} · ${operator.role}</div>
       <h3>${operator.name} / ${operator.staff}</h3>
@@ -58,11 +112,11 @@ function goysDossier() {
       <p><b>Limite</b> — ${operator.limit}</p>
       <p>${operator.habit}</p>
     </div>`).join('')}</div>
-    <h2>03 / Quando sobem os créditos</h2>
+    <h2>05 / Quando sobem os créditos</h2>
     <p>Corrente localiza as pessoas pelo eco. Lampião revela uma passagem antiga, Rebobina restaura a abertura e Calço a mantém firme. Quando os quatro sincronizam os cajados, os créditos começam a correr na parede mais próxima. A saída permanece aberta até a última linha passar.</p>
     <p>Em operação, a equipe confere a lista de entrada, as pessoas que atravessaram e as linhas que apareceram na parede. Uma assinatura sem confirmação vira pendência de busca. A origem dos nomes e a relação entre o tamanho da lista e o tempo de abertura seguem em estudo.</p>
     <blockquote><b>Central</b> — Quatro assinaturas de entrada, quatro de retorno. Pode encerrar.<br><b>Calço</b> — Tem uma quinta no rodapé.<br><b>Central</b> — Qual o nome?<br><b>Calço</b> — Apoio de Cabine. E tá reclamando que ninguém avisou do fim da sessão.</blockquote>
-    <h2>04 / Histórico operacional</h2>
+    <h2>06 / Histórico operacional</h2>
     <p>No primeiro chamado documentado, a equipe entrou num cinema desativado cuja sessão recomeçava toda vez que alguém tentava sair pela porta principal. Sete visitantes voltaram à rua. Uma oitava linha nos créditos levou a equipe de volta à cabine.</p>
     <p><a class="file-link" href="#inc-044">LER O RELATÓRIO DA EXPEDIÇÃO ↗</a> · <a class="file-link" href="#linha-do-tempo">LINHA DO TEMPO ↗</a></p>
     <div class="document-end">FIM DA FICHA / MTF-04 · <a href="#ftms">VOLTAR ÀS FORÇAS-TAREFA ↑</a></div>

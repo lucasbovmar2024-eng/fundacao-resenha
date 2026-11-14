@@ -1,0 +1,14 @@
+.goys-traje { position: relative; }
+.goys-traje > a { display: block; }
+.goys-traje img, .goys-traje svg { display: block; width: 100%; height: auto; }
+.goys-traje svg { position: absolute; inset: 0; pointer-events: none; }
+.goys-traje.image-lightbox-composite {
+  flex: 0 1 auto;
+  width: min(100%, calc((94dvh - 172px) * 1.5));
+}
+@media (max-width: 700px) {
+  .goys-traje.image-lightbox-composite { width: min(100%, calc((100dvh - 135px) * 1.5)); }
+}
+.goys-pecas { padding-inline-start: 2rem; }
+.goys-pecas li { padding: .45rem 0; }
+.goys-pecas li::marker { color: var(--red); font-weight: 700; }
