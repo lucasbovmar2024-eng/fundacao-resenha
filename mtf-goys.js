@@ -120,6 +120,7 @@ function goysDossier() {
     <p>No primeiro chamado documentado, a equipe entrou num cinema desativado cuja sessão recomeçava toda vez que alguém tentava sair pela porta principal. Sete visitantes voltaram à rua. Uma oitava linha nos créditos levou a equipe de volta à cabine.</p>
     <p><a class="file-link" href="#inc-044">LER O RELATÓRIO DA EXPEDIÇÃO ↗</a> · <a class="file-link" href="#linha-do-tempo">LINHA DO TEMPO ↗</a></p>
     ${goysOperationalHistory()}
+    ${griloCaseLink()}
     ${mtfOperationsSection("mtf-04")}
     <h2>07 / Registro de convivência</h2>
     <p>Depois do INC-046, Joana encontrou um formulário de devolução no almoxarifado com cinco linhas de assinatura. As quatro primeiras estavam preenchidas pelos GOYS. A quinta tinha sido acrescentada à mão.</p>
