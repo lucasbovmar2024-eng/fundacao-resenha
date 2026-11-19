@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">G-400 — garagem e convivência</title>
+  <desc id="desc">Planta conceitual com estacionamento observado por duas câmeras, área de convivência, banheiro, controle e pátio de saída.</desc>
+  <rect width="1200" height="800" fill="#142027"/>
+  <g font-family="monospace" fill="#e7edf0">
+    <text x="55" y="65" font-size="30">G-400 / GARAGEM DE CONTENÇÃO</text>
+    <text x="55" y="104" font-size="20" fill="#a7bec9">SCP-0400 · PLANTA CONCEITUAL SEM ESCALA</text>
+    <g stroke="#93adbb" stroke-width="4">
+      <rect x="60" y="150" width="700" height="470" fill="#23323b"/>
+      <rect x="85" y="180" width="245" height="190" fill="#3c3830"/>
+      <rect x="85" y="405" width="245" height="180" fill="#283e48"/>
+      <rect x="380" y="245" width="330" height="290" fill="#17262f" stroke-dasharray="12 8"/>
+      <rect x="850" y="150" width="290" height="470" fill="#28362c"/>
+      <rect x="380" y="660" width="330" height="80" fill="#3c3830"/>
+    </g>
+    <g text-anchor="middle" font-size="22">
+      <text x="207" y="245">01 / CONVIVÊNCIA</text>
+      <text x="207" y="285" font-size="18">Mesa e assentos</text>
+      <text x="207" y="469">02 / APOIO</text>
+      <text x="207" y="509" font-size="18">Banheiro e armário</text>
+      <text x="545" y="365">03 / MOTO</text>
+      <text x="545" y="405" font-size="18">Conferir os quatro</text>
+      <text x="545" y="445" font-size="18">e o veículo</text>
+      <text x="995" y="340">04 / PÁTIO</text>
+      <text x="995" y="380" font-size="18">Recepção de retorno</text>
+      <text x="545" y="710">05 / CONTROLE</text>
+    </g>
+    <g fill="none" stroke="#ecc992" stroke-width="3">
+      <path d="M760 335H850M760 425H850"/>
+      <path d="M420 185L545 300M720 185L600 300" stroke-dasharray="8 5"/>
+      <path d="M545 620V660"/>
+    </g>
+    <g fill="#ecc992" font-size="18">
+      <text x="382" y="170">CÂMERA 1</text>
+      <text x="620" y="170">CÂMERA 2</text>
+      <text x="63" y="780">Lacres e portão já falharam. O monitoramento orienta a resposta às fugas.</text>
+    </g>
+  </g>
+</svg>
